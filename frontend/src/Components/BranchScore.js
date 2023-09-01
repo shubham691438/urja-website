@@ -5,8 +5,6 @@ import { Columns } from "./Columns";
 
 import "../css/bootstrap/bootstrap.css";
 
-// table style
-
 export const BranchScore = () => {
   const columns = useMemo(() => Columns, []);
   const data = useMemo(() => DATA, []);
