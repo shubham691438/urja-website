@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const medals = require("./database/medals");
 
 const db_connect = async () => {
   try {
@@ -11,5 +12,10 @@ const db_connect = async () => {
     console.log(error.message);
     process.exit();
   }
+  // const insertData = await medals.insertMany([
+  //   { branch: "cse" },
+  //   { branch: "ece" },
+  // ]);
+  // console.log("data inserted");
 };
 module.exports = db_connect;
