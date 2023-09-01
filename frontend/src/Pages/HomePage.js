@@ -1,5 +1,10 @@
 import React from "react";
+import { BranchScore } from "../Components/BranchScore";
 
 export const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <div>
+      <BranchScore />
+    </div>
+  );
 };
