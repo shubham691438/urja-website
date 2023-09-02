@@ -56,7 +56,7 @@ function Sports() {
             justifyContent="center"
             alignItems="center"
           >
-            <Link href="#">
+            <Link to="/sports">
               <Box
                 component="img"
                 sx={{

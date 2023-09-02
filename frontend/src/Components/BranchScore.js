@@ -27,7 +27,9 @@ export const BranchScore = () => {
           {headerGroups.map((headerGroup) => (
             <tr {...headerGroup.getHeaderGroupsProps}>
               {headerGroup.headers.map((column) => (
-                <th {...column.getHeaderProps()}>{column.render("Header")}</th>
+                <th {...column.getHeaderProps()} style={{ fontSize: "1.3rem" }}>
+                  {column.render("Header")}
+                </th>
               ))}
             </tr>
           ))}

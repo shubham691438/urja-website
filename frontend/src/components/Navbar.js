@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
@@ -47,16 +48,16 @@ function Navbar() {
         >
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <Link to="/" class="nav-link">
                 <div style={{ fontSize: "1.75rem" }}>Home</div>{" "}
                 <span class="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/matches">
                 <div style={{ fontSize: "1.75rem" }}>Matches</div>{" "}
                 <span class="sr-only"></span>
-              </a>
+              </Link>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">
@@ -65,10 +66,10 @@ function Navbar() {
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">
-                <div style={{ fontSize: "1.75rem" }}>Contact</div>
+              <Link class="nav-link" to="/leaderBoard">
+                <div style={{ fontSize: "1.75rem" }}>PointsTable</div>
                 <span class="sr-only"></span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
