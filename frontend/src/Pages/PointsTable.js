@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { CustomDiv } from "../styles/CustomDiv";
-import Navbar from "../components/Navbar";
+import Navbar from "../Components/Navbar";
 
 export const PointsTable = () => {
   const [data, setData] = useState([{}]);

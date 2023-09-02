@@ -1,10 +1,11 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import TitleDiv from "../components/TitleDiv";
-import Home_UpcomMatch from "../components/Home_UpcomMatch";
-import Sports from "../components/Sports";
-import Footer from "../components/Footer";
-import { BranchScore } from "../components/BranchScore";
+import Navbar from "../Components/Navbar";
+import TitleDiv from "../Components/TitleDiv";
+import Home_UpcomMatch from "../Components/Home_UpcomMatch";
+import Sports from "../Components/Sports";
+import Footer from "../Components/footer";
+
+import { BranchScore } from "../Components/BranchScore";
 export const HomePage = () => {
   return (
     <div style={{ overflowX: "hidden" }}>
