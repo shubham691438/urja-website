@@ -47,23 +47,27 @@ function Navbar() {
         >
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#"   >
-                Home <span class="sr-only">(current)</span>
+              <a class="nav-link" href="#">
+                <div style={{ fontSize: "1.75rem" }}>Home</div>{" "}
+                <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">
-                Matches <span class="sr-only"></span>
+                <div style={{ fontSize: "1.75rem" }}>Matches</div>{" "}
+                <span class="sr-only"></span>
               </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">
-                Player <span class="sr-only"></span>
+                <div style={{ fontSize: "1.75rem" }}>Player</div>
+                <span class="sr-only"></span>
               </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">
-                Contact <span class="sr-only"></span>
+                <div style={{ fontSize: "1.75rem" }}>Contact</div>
+                <span class="sr-only"></span>
               </a>
             </li>
           </ul>

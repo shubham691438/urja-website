@@ -4,6 +4,7 @@ import DATA from "./DATA.json";
 import { Columns } from "./Columns";
 
 import "../css/bootstrap/bootstrap.css";
+import { CustomDiv } from "../styles/CustomDiv";
 
 export const BranchScore = () => {
   const columns = useMemo(() => Columns, []);
@@ -18,7 +19,7 @@ export const BranchScore = () => {
     tableInstance;
 
   return (
-    <div>
+    <CustomDiv>
       <h1 id="branchScore"> Branch Wise Scores</h1>
 
       <table className="table" {...getTableProps}>
@@ -47,6 +48,6 @@ export const BranchScore = () => {
           })}
         </tbody>
       </table>
-    </div>
+    </CustomDiv>
   );
 };

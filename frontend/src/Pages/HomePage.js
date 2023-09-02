@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import { BranchScore } from "../components/BranchScore";
 export const HomePage = () => {
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <Navbar />
       <TitleDiv />
       <Home_UpcomMatch />
