@@ -29,7 +29,7 @@ function App() {
       <Route path="/matches" element={<Matches></Matches>}></Route>
       <Route path="/leaderBoard" element={<PointsTable></PointsTable>}></Route>
       <Route
-        path="/sportsSection"
+        path="/sports"
         element={<SportsSection></SportsSection>}
       ></Route>
     </Routes>

@@ -18,13 +18,13 @@ export const SportsSection = () => {
     alignItems: "center",
     textAlign: "center",
   };
-  const style2 = {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    textAlign: "center",
-  };
+  // const style2 = {
+  //   display: "flex",
+  //   flexDirection: "row",
+  //   justifyContent: "center",
+  //   alignItems: "center",
+  //   textAlign: "center",
+  // };
   return (
     <div>
       <Navbar />

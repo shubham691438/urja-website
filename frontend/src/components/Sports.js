@@ -2,7 +2,13 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Link from "@mui/material/Link";
-import backgroundImg from "../assets/backgroundLowROpac.jpeg";
+import backgroundImg from "../assets/background.png";
+import football from "../assets/001-football-player.png";
+import cric from "../assets/crick.png";
+import hockey from "../assets/004-hockey.png";
+import basketball from "../assets/003-basketball-player-scoring.png";
+import ath from "../assets/008-sprint.png";
+import badminton from "../assets/badminton-002.png";
 function Sports() {
   return (
     <div
@@ -24,7 +30,7 @@ function Sports() {
         className="heading"
         style={{
           fontSize: "2em",
-          fontFamily: "Black Ops One",
+          fontFamily: "Alfa Slab One",
           color: "transparent",
           backgroundImage: "linear-gradient(orange,yellow)",
           backgroundClip: "text",
@@ -48,233 +54,201 @@ function Sports() {
         <Grid container spacing={2}>
           <Grid
             item
-            xs={12}
+            xs={4}
             md={4}
             display="flex"
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
+            className="splogo"
           >
             <Link to="/sports">
               <Box
                 component="img"
-                sx={{
-                  height: 283,
-                  width: 380,
-                  maxHeight: { xs: 280, md: 200 },
-                  maxWidth: { xs: 380, md: 280 },
-                }}
                 className="sportsImg"
+                maxHeight="auto"
+                maxWidth="auto"
                 alt="The house from the offer."
-                src="https://images.unsplash.com/photo-1595210382051-4d2c31fcc2f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNyaWNrZXQlMjBzcG9ydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                src={cric}
                 // Cricket
               />
+              <div
+                style={{
+                  fontFamily: "Alfa Slab One",
+                  color: "black",
+                  zIndex: "999",
+                  WebkitTextStroke: "1px black",
+                  WebkitTextFillColor: "white",
+                }}
+              >
+                CRICKET
+              </div>
             </Link>
-            <div
-              style={{
-                fontFamily: "Black Ops One",
-                color: "black",
-                fontSize: "2em",
-                position: "relative",
-                zIndex: "999",
-                bottom: "18%",
-                WebkitTextStroke: "1px black",
-                WebkitTextFillColor: "white",
-              }}
-            >
-              CRICKET
-            </div>
           </Grid>
           <Grid
             item
-            xs={12}
+            xs={4}
             md={4}
             display="flex"
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
+            className="splogo"
           >
-            <Link href="#">
+            <Link to="/sports">
               <Box
                 component="img"
-                sx={{
-                  height: 283,
-                  width: 380,
-                  maxHeight: { xs: 280, md: 200 },
-                  maxWidth: { xs: 380, md: 280 },
-                }}
                 className="sportsImg"
+                maxHeight="auto"
+                maxWidth="auto"
                 alt="The house from the offer."
-                src="https://images.unsplash.com/photo-1616514169928-a1e40c6f791c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGZvb3RiYWxsJTIwcGxheWVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
-                //Football
+                src={football}
+                // Cricket
               />
+              <div
+                style={{
+                  fontFamily: "Alfa Slab One",
+                  color: "black",
+                  zIndex: "999",
+                  WebkitTextStroke: "1px black",
+                  WebkitTextFillColor: "white",
+                }}
+              >
+                FOOTBALL
+              </div>
             </Link>
-            <div
-              style={{
-                fontFamily: "Black Ops One",
-                color: "white",
-                fontSize: "2em",
-                position: "relative",
-                zIndex: "999",
-                bottom: "18%",
-                WebkitTextStroke: "1px black",
-                WebkitTextFillColor: "white",
-              }}
-            >
-              FOOTBALL
-            </div>
           </Grid>
           <Grid
             item
-            xs={12}
+            xs={4}
             md={4}
             display="flex"
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
+            className="splogo"
           >
-            <Link href="#">
+            <Link to="/sports">
               <Box
                 component="img"
-                sx={{
-                  height: 283,
-                  width: 380,
-                  maxHeight: { xs: 280, md: 200 },
-                  maxWidth: { xs: 380, md: 280 },
-                }}
                 className="sportsImg"
+                maxHeight="auto"
+                maxWidth="auto"
                 alt="The house from the offer."
-                src="https://plus.unsplash.com/premium_photo-1661930553182-61dacdfb9ce0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmFza2V0YmFsbCUyMGp1bXB8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60"
+                src={basketball}
+                // Cricket
               />
+              <div
+                style={{
+                  fontFamily: "Alfa Slab One",
+                  color: "black",
+                  zIndex: "999",
+                  WebkitTextStroke: "1px black",
+                  WebkitTextFillColor: "white",
+                }}
+              >
+                BASKETBALL
+              </div>
             </Link>
-            <div
-              style={{
-                fontFamily: "Black Ops One",
-                color: "white",
-                fontSize: "2em",
-                position: "relative",
-                zIndex: "999",
-                bottom: "18%",
-                WebkitTextStroke: "1px black",
-                WebkitTextFillColor: "white",
-              }}
-            >
-              BASKETBALL
-            </div>
           </Grid>
           <Grid
             item
-            xs={12}
+            xs={4}
             md={4}
             display="flex"
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
+            className="splogo"
           >
-            <Link href="#">
+            <Link to="/sports">
               <Box
                 component="img"
-                sx={{
-                  height: 283,
-                  width: 380,
-                  maxHeight: { xs: 280, md: 200 },
-                  maxWidth: { xs: 380, md: 280 },
-                }}
                 className="sportsImg"
+                maxHeight="auto"
+                maxWidth="auto"
                 alt="The house from the offer."
-                src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmFkbWludG9ufGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                src={hockey}
+                // Cricket
               />
+              <div
+                style={{
+                  fontFamily: "Alfa Slab One",
+                  color: "black",
+                  zIndex: "999",
+                  WebkitTextStroke: "1px black",
+                  WebkitTextFillColor: "white",
+                }}
+              >
+                HOCKEY
+              </div>
             </Link>
-            <div
-              style={{
-                fontFamily: "Black Ops One",
-                color: "white",
-                fontSize: "2em",
-                position: "relative",
-                zIndex: "999",
-                bottom: "18%",
-                WebkitTextStroke: "1px black",
-                WebkitTextFillColor: "white",
-              }}
-            >
-              TENNIS
-            </div>
           </Grid>
           <Grid
             item
-            xs={12}
+            xs={4}
             md={4}
             display="flex"
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
+            className="splogo"
           >
-            <Link href="#">
+            <Link to="/sports">
               <Box
                 component="img"
-                sx={{
-                  height: 283,
-                  width: 380,
-                  maxHeight: { xs: 280, md: 200 },
-                  maxWidth: { xs: 380, md: 280 },
-                }}
                 className="sportsImg"
+                maxHeight="auto"
+                maxWidth="auto"
                 alt="The house from the offer."
-                src="https://images.unsplash.com/photo-1554539484-e4fab56d4a5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9ja2V5JTIwc3BvcnRzJTIwaW1hZ2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+                src={ath}
+                // Cricket
               />
+              <div
+                style={{
+                  fontFamily: "Alfa Slab One",
+                  color: "black",
+                  zIndex: "999",
+                  WebkitTextStroke: "1px black",
+                  WebkitTextFillColor: "white",
+                }}
+              >
+                ATHLETICS
+              </div>
             </Link>
-            <div
-              style={{
-                fontFamily: "Black Ops One",
-                color: "white",
-                fontSize: "2em",
-                position: "relative",
-                zIndex: "999",
-                bottom: "18%",
-                WebkitTextStroke: "1px black",
-                WebkitTextFillColor: "white",
-              }}
-            >
-              HOCKEY
-            </div>
           </Grid>
           <Grid
             item
-            xs={12}
+            xs={4}
             md={4}
             display="flex"
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
+            className="splogo"
           >
-            <Link href="#">
+            <Link to="/sports">
               <Box
                 component="img"
-                sx={{
-                  height: 283,
-                  width: 380,
-                  maxHeight: { xs: 280, md: 200 },
-                  maxWidth: { xs: 380, md: 280 },
-                }}
                 className="sportsImg"
+                maxHeight="auto"
+                maxWidth="auto"
                 alt="The house from the offer."
-                src="https://images.unsplash.com/photo-1630888500647-870f75f27327?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QXRobGV0aWNzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                src={badminton}
+                // Cricket
               />
+              <div
+                style={{
+                  fontFamily: "Alfa Slab One",
+                  color: "black",
+                  zIndex: "999",
+                  WebkitTextStroke: "1px black",
+                  WebkitTextFillColor: "white",
+                }}
+              >
+                BADMINTON
+              </div>
             </Link>
-            <div
-              style={{
-                fontFamily: "Black Ops One",
-                color: "white",
-                fontSize: "2em",
-                position: "relative",
-                zIndex: "999",
-                bottom: "18%",
-                WebkitTextStroke: "1px black",
-                WebkitTextFillColor: "white",
-              }}
-            >
-              ATHLETICS
-            </div>
           </Grid>
         </Grid>
       </div>

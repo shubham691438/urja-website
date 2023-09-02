@@ -21,7 +21,7 @@ function UpcommingMatch() {
       <div
         style={{
           fontSize: "2em",
-          fontFamily: "Black Ops One",
+          fontFamily: "Alfa Slab One",
           color: "transparent",
           backgroundImage: "linear-gradient(orange,yellow)",
           backgroundClip: "text",
@@ -66,7 +66,7 @@ function UpcommingMatch() {
           <div
             style={{
               fontSize: "2em",
-              fontFamily: "Black Ops One",
+              fontFamily: "Alfa Slab One",
             }}
           >
             TEAM A
@@ -75,7 +75,7 @@ function UpcommingMatch() {
             style={{
               display: "inline-block",
               textAlign: "center",
-              fontFamily: "Black Ops One",
+              fontFamily: "Alfa Slab One",
               fontSize: "2em",
             }}
           >
@@ -102,7 +102,7 @@ function UpcommingMatch() {
           <div
             style={{
               fontSize: "2em",
-              fontFamily: "Black Ops One",
+              fontFamily: "Alfa Slab One",
             }}
           >
             TEAM B
@@ -111,7 +111,7 @@ function UpcommingMatch() {
             style={{
               display: "inline-block",
               textAlign: "center",
-              fontFamily: "Black Ops One",
+              fontFamily: "Alfa Slab One",
               fontSize: "2em",
             }}
           >
@@ -121,7 +121,7 @@ function UpcommingMatch() {
       </div>
       <div
         style={{
-          fontFamily: "Black Ops One",
+          fontFamily: "Alfa Slab One",
           color: "black",
           fontSize: "2em",
           position: "relative",
@@ -135,7 +135,7 @@ function UpcommingMatch() {
       </div>
       <div
         style={{
-          fontFamily: "Black Ops One",
+          fontFamily: "Alfa Slab One",
           color: "black",
           fontSize: "2em",
           position: "relative",
@@ -150,7 +150,7 @@ function UpcommingMatch() {
       </div>
       <div
         style={{
-          fontFamily: "Black Ops One",
+          fontFamily: "Alfa Slab One",
           color: "black",
           fontSize: "2em",
           position: "relative",
