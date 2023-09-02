@@ -1,7 +1,6 @@
 import React from "react";
-import stadium from "../assets/stadium.png";
 
-function Home_UpcomMatch() {
+function UpcommingMatch() {
   return (
     <div
       style={{
@@ -167,4 +166,4 @@ function Home_UpcomMatch() {
   );
 }
 
-export default Home_UpcomMatch;
+export default UpcommingMatch;
