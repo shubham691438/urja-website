@@ -7,6 +7,9 @@ import msdEdit from "../assets/msd-edit.png";
 import msd from "../assets/msd.png";
 import coach from "../assets/coach-edit.png";
 import Navbar from "../components/Navbar";
+import { BranchMedal } from "../components/SportsPage/BranchMedal";
+import Footer from "../components/Footer";
+
 export const SportsSection = () => {
   const style1 = {
     display: "flex",
@@ -183,17 +186,10 @@ export const SportsSection = () => {
           </Grid>
         </Box>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <div>© Urja 2024</div>
-        <div>ALL RIGHTS RESERVED</div>
-      </div>
+
+      <BranchMedal />
+
+      <Footer />
     </div>
   );
 };

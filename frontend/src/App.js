@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { HomePage } from "./Pages/HomePage";
 import { Matches } from "./Pages/Matches";
 import { PointsTable } from "./Pages/PointsTable";
+import { SportsSection } from "./Pages/SportsSection";
 //import "./css/aos.css";
 // import "./css/aos.css";
 // import "./css/bootstrap-datepicker.css"
@@ -27,6 +28,10 @@ function App() {
       <Route path="/" element={<HomePage></HomePage>}></Route>
       <Route path="/matches" element={<Matches></Matches>}></Route>
       <Route path="/leaderBoard" element={<PointsTable></PointsTable>}></Route>
+      <Route
+        path="/sportsSection"
+        element={<SportsSection></SportsSection>}
+      ></Route>
     </Routes>
   );
 }

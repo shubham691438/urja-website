@@ -1771,6 +1771,9 @@ pre code {
 .table tr:hover {
   background-color: #2b2b2b;
 }
+.tableMedal tr:hover {
+  background-color: #2b2b2b;
+}
 
 .table th,
 .table td {
