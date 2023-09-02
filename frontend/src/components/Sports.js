@@ -1,7 +1,6 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import { styled } from "@mui/material/styles";
 import Link from "@mui/material/Link";
 import backgroundImg from "../assets/backgroundLowROpac.jpeg";
 function Sports() {

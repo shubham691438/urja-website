@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           <img
             src={logo}
             alt=""
@@ -13,7 +13,7 @@ function Navbar() {
             style={{ height: "50px", width: "50px" }}
           />
         </a>
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           <div
             style={{
               fontSize: "2em",
@@ -60,7 +60,7 @@ function Navbar() {
               </Link>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/">
                 <div style={{ fontSize: "1.75rem" }}>Player</div>
                 <span class="sr-only"></span>
               </a>
