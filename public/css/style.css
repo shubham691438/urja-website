@@ -16,7 +16,7 @@ body {
 
 ::selection {
   background: #e9d9d9;
-  color: #050303; }
+  color: #e0e0e0; }
 
 a {
   -webkit-transition: .3s all ease;
