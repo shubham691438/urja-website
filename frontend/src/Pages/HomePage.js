@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import TitleDiv from "../components/TitleDiv";
-import Home_UpcomMatch from "../components/Home_UpcomMatch";
+import UpcommingMatch from "../components/UpcommingMatch";
 import Sports from "../components/Sports";
 import Footer from "../components/Footer";
 import { BranchScore } from "../components/BranchScore";
@@ -10,7 +10,7 @@ export const HomePage = () => {
     <div style={{ overflowX: "hidden" }}>
       <Navbar />
       <TitleDiv />
-      <Home_UpcomMatch />
+      <UpcommingMatch />
       <Sports />
       <BranchScore />
       <Footer />
