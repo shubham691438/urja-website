@@ -1,0 +1,86 @@
+[
+    {
+      "img": "/images/1.jpeg",
+      "Name": "Amol sourav",
+      "description": "App head"
+    },
+    {
+      "img": "/images/2.jpg",
+      "Name": "Prashant Raj",
+      "description": "event head"
+    },
+    {
+      "img": "/images/3.jpeg",
+      "Name": "Abhinav Kumar",
+      "description": "pr head"
+    },
+   
+    {
+      "img": "/images/5.jpg",
+      "Name": "nitin kumar",
+      "description": "joint secretary"
+    },
+    {
+      "img": "/images/6.jpg",
+      "Name": "aman kumar",
+      "description": "pr head"
+    },
+    {
+      "img": "/images/7.jpg",
+      "Name": "Sudhanshu bharti",
+      "description": "executive head"
+    }
+    ,{
+        "img": "/images/8.jpeg",
+        "Name": "Satish",
+        "description": "logistic head"
+      },
+      {
+        "img": "/images/9.jpeg",
+        "Name": "Shravya",
+        "description": "event head"
+      },
+     
+      {
+        "img": "/images/11.jpeg",
+        "Name": "Nikita sundi",
+        "description": "logistic head"
+      },
+      {
+        "img": "/images/12.jpeg",
+        "Name": "Biswajit Murmu",
+        "description": "medical head"
+      },
+      {
+        "img": "/images/13.jpeg",
+        "Name": "Kumar abhinav",
+        "description": "medical head"
+      },
+      {
+        "img": "/images/14.jpeg",
+        "Name": "Kuldeep Kumar ",
+        "description": "General secretary"
+      },
+      {
+        "img": "/images/15.jpeg",
+        "Name": "Navya shankar",
+        "description": "Executive head"
+      },
+      {
+        "img": "/images/16.jpeg",
+        "Name": "avantika tiwari",
+        "description": "creative head"
+      },
+      {
+        "img": "/images/17.jpeg",
+        "Name": "Shubham tiwary",
+        "description": "App head"
+      },
+      {
+        "img": "/images/18.jpeg",
+        "Name": "Anurag Mahanty",
+        "description": "CA Head"
+      }
+
+  ]
+  
