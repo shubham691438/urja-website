@@ -2,8 +2,7 @@
 export default function heading() {
   return (
     <>
-      
-
+    
     <div className="hero overlay" style={{ backgroundImage: `url(images/bg_3.jpg)`}}>
           <div class="container">
             <div class="row align-items-center">

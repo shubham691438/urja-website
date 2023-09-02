@@ -8,6 +8,7 @@ function upcomingMatch() {
     </div>
     <div class="col-lg-6 mb-4">
       <div class="bg-light p-4 rounded">
+        
         <div class="widget-body">
             <div class="widget-vs">
               <div class="d-flex align-items-center justify-content-around justify-content-between w-100">

@@ -11,7 +11,9 @@ function NextMatchCard() {
       </div>
       <div class="widget-body mb-3">
         <div class="widget-vs">
-          <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
+          <div class="d-flex align-items-center justify-content-around 
+          
+          justify-content-between w-100">
             <div class="team-1 text-center">
               <img src="images/logo_1.png" alt="Image"></img>
               <h3>Football League</h3>

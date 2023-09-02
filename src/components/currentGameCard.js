@@ -18,6 +18,7 @@ function currentGameCard() {
                 <ul class="list-unstyled">
                   <li>Anja Landry (7)</li>
                   <li>Eadie Salinas (12)</li>
+                  
                   <li>Ashton Allen (10)</li>
                   <li>Baxter Metcalfe (5)</li>
                 </ul>

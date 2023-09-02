@@ -6,6 +6,7 @@ function footer() {
     <><footer class="footer-section">
     <div class="container">
       <div class="row">
+        
         <div class="col-lg-3">
           <div class="widget mb-3">
             <h3>News</h3>
