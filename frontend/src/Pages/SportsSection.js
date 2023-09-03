@@ -7,7 +7,17 @@ import msdEdit from "../assets/msd-edit.png";
 import msd from "../assets/msd.png";
 import coach from "../assets/coach-edit.png";
 import Navbar from "../components/Navbar";
+import { useLocation } from "react-router-dom";
+
 export const SportsSection = () => {
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const sport = searchParams.get("item");
+  console.log(sport);
+
+  const sportDetails = data[sport];
+
+  console.log(sportDetails.image);
   const style1 = {
     display: "flex",
     flexDirection: "column",
@@ -29,7 +39,7 @@ export const SportsSection = () => {
         style={{
           ...style1,
           ...{
-            backgroundImage: `url(${msdEdit})`,
+            backgroundImage: `url(${sportDetails.image})`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundAttachment: "fixed",
@@ -45,7 +55,7 @@ export const SportsSection = () => {
           }}
         >
           <Typography variant="h2a" style={{ fontSize: "4em" }}>
-            {data[4].title}
+            {sportDetails.title}
           </Typography>{" "}
         </div>
         {/* -------------------HEADING SECTION ENDS-------------- */}
@@ -60,7 +70,7 @@ export const SportsSection = () => {
         >
           <Grid xs={12} md={6}>
             <img
-              src={msd}
+              src={sportDetails.image}
               // src={require(`${data[4].image}`)}
               alt=""
               srcset=""
@@ -87,10 +97,10 @@ export const SportsSection = () => {
             }}
           >
             <div style={{ color: "black", fontFamily: "Black Ops One" }}>
-              {data[4].description1}
+              {sportDetails.description1}
             </div>
             <div style={{ color: "black", fontFamily: "Black Ops One" }}>
-              {data[4].description2}
+              {sportDetails.description2}
             </div>
           </Grid>
         </Grid>

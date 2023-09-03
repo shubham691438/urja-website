@@ -56,7 +56,7 @@ function Sports() {
             justifyContent="center"
             alignItems="center"
           >
-            <Link to="/sports">
+            <Link to={{ pathname: "/sports", search: `?item=cricket` }}>
               <Box
                 component="img"
                 sx={{
@@ -71,6 +71,7 @@ function Sports() {
                 // Cricket
               />
             </Link>
+
             <div
               style={{
                 fontFamily: "Black Ops One",
@@ -86,6 +87,7 @@ function Sports() {
               CRICKET
             </div>
           </Grid>
+
           <Grid
             item
             xs={12}
@@ -95,7 +97,7 @@ function Sports() {
             justifyContent="center"
             alignItems="center"
           >
-            <Link href="#">
+            <Link to={{ pathname: "/sports", search: `?item=football` }}>
               <Box
                 component="img"
                 sx={{
@@ -134,7 +136,7 @@ function Sports() {
             justifyContent="center"
             alignItems="center"
           >
-            <Link href="#">
+            <Link to={{ pathname: "/sports", search: `?item=basketball` }}>
               <Box
                 component="img"
                 sx={{
@@ -172,7 +174,7 @@ function Sports() {
             justifyContent="center"
             alignItems="center"
           >
-            <Link href="#">
+            <Link to={{ pathname: "/sports", search: `?item=tennis` }}>
               <Box
                 component="img"
                 sx={{
@@ -210,7 +212,7 @@ function Sports() {
             justifyContent="center"
             alignItems="center"
           >
-            <Link href="#">
+            <Link to={{ pathname: "/sports", search: `?item=hockey` }}>
               <Box
                 component="img"
                 sx={{
@@ -248,7 +250,7 @@ function Sports() {
             justifyContent="center"
             alignItems="center"
           >
-            <Link href="#">
+            <Link to={{ pathname: "/sports", search: `?item=athletics` }}>
               <Box
                 component="img"
                 sx={{

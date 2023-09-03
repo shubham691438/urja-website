@@ -20,6 +20,7 @@ import { PointsTable } from "./Pages/PointsTable";
 import "./fonts/icomoon/style.css";
 import "./css/bootstrap/bootstrap.css";
 import "./css/style.css";
+import { SportsSection } from "./Pages/SportsSection";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route path="/" element={<HomePage></HomePage>}></Route>
       <Route path="/matches" element={<Matches></Matches>}></Route>
       <Route path="/leaderBoard" element={<PointsTable></PointsTable>}></Route>
+      <Route path="/sports" element={<SportsSection></SportsSection>}></Route>
     </Routes>
   );
 }
