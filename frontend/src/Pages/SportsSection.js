@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Typography } from "@mui/material";
 import data from "../data/data.json";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import msdEdit from "../assets/msd-edit.png";
 import msd from "../assets/msd.png";
+import tennis from "../assets/lawnTennis.png";
+import basketball from "../assets/basketball.png";
 import coach from "../assets/coach-edit.png";
 import Navbar from "../components/Navbar";
 import { useLocation } from "react-router-dom";
@@ -12,14 +13,20 @@ import { BranchMedal } from "../components/SportsPage/BranchMedal";
 import Footer from "../components/Footer";
 
 export const SportsSection = () => {
+  const [sportDetails, setSportDetails] = useState({});
+  const [image, setImage] = useState("");
   const location = useLocation();
-  const searchParams = new URLSearchParams(location.search);
-  const sport = searchParams.get("item");
-  console.log(sport);
+  useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const sport = searchParams.get("item");
+    //console.log(sport);
+    const sp = data[sport];
+    console.log(sp.image);
+    const images = { cricket: msd, tennis: tennis, basketball };
+    setSportDetails(sp);
+    setImage(images[sport]);
+  }, []);
 
-  const sportDetails = data[sport];
-
-  console.log(sportDetails.image);
   const style1 = {
     display: "flex",
     flexDirection: "column",
@@ -41,10 +48,11 @@ export const SportsSection = () => {
         style={{
           ...style1,
           ...{
-            backgroundImage: `url(${sportDetails.image})`,
+            backgroundImage: `url(${image})`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundAttachment: "fixed",
+            backgroundPosition: "center",
             marginBottom: "2em",
           },
         }}
@@ -70,12 +78,12 @@ export const SportsSection = () => {
             alignItems: "center",
           }}
         >
-          <Grid xs={12} md={6}>
+          <Grid item xs={12} md={6}>
             <img
               src={sportDetails.image}
               // src={require(`${data[4].image}`)}
               alt=""
-              srcset=""
+              srcSet=""
               style={{
                 maxHeight: "100%",
                 maxWidth: "80%",
@@ -86,6 +94,7 @@ export const SportsSection = () => {
             />
           </Grid>
           <Grid
+            item
             xs={12}
             md={6}
             style={{
@@ -113,6 +122,7 @@ export const SportsSection = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
+          backgroundPosition: "center",
         }}
       >
         <div
@@ -182,7 +192,7 @@ export const SportsSection = () => {
               <img
                 src="https://th.bing.com/th/id/OIP.4iOYDKQR69GckNETbgLU_wHaE8?w=244&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                 alt=""
-                srcset=""
+                srcSet=""
                 style={{
                   maxHeight: "100%",
                   maxWidth: "90%",
@@ -198,7 +208,7 @@ export const SportsSection = () => {
 
       <BranchMedal />
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import Link from "@mui/material/Link";
 import backgroundImg from "../assets/background.png";
 import football from "../assets/001-football-player.png";
 import cric from "../assets/crick.png";
@@ -9,6 +8,8 @@ import hockey from "../assets/004-hockey.png";
 import basketball from "../assets/003-basketball-player-scoring.png";
 import ath from "../assets/008-sprint.png";
 import badminton from "../assets/badminton-002.png";
+import { Link } from "react-router-dom";
+
 function Sports() {
   return (
     <div
