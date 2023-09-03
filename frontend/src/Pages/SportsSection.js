@@ -120,6 +120,8 @@ export const SportsSection = () => {
               display: "flex",
               flexDirection: "column",
               flexWrap: "wrap",
+              fontFamily: "Alfa Slab One",
+              color: "#ef6c57",
             }}
           >
             SPORTS COORDINATOR

@@ -36,7 +36,8 @@ export const ScheduleTable = () => {
           <div
             style={{
               fontSize: "2em",
-              fontFamily: "Black Ops One",
+
+              //   fontFamily: "Black Ops One",
             }}
           >
             TEAM A
@@ -45,8 +46,8 @@ export const ScheduleTable = () => {
             style={{
               display: "inline-block",
               textAlign: "center",
-              fontFamily: "Black Ops One",
-              fontSize: "2em",
+              //   fontFamily: "Black Ops One",
+              fontSize: "1.5em",
             }}
           >
             <div>CSE</div>
@@ -72,7 +73,7 @@ export const ScheduleTable = () => {
           <div
             style={{
               fontSize: "2em",
-              fontFamily: "Black Ops One",
+              //   fontFamily: "Black Ops One",
             }}
           >
             TEAM B
@@ -81,8 +82,8 @@ export const ScheduleTable = () => {
             style={{
               display: "inline-block",
               textAlign: "center",
-              fontFamily: "Black Ops One",
-              fontSize: "2em",
+              //   fontFamily: "Black Ops One",
+              fontSize: "1.5em",
             }}
           >
             <div>ECE</div>

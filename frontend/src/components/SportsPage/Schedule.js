@@ -61,7 +61,8 @@ function Schedule() {
               xs={12}
               sm={4}
               md={4}
-              style={{ minHeight: "300px" }}
+              sx={{ p: 2 }}
+              style={{ backgroundColor: "#343a40" }}
               rowSpacing={3}
               columnSpacing={{ xs: 1, sm: 2, md: 3 }}
               spacing={{ xs: 2, md: 3 }}
@@ -89,7 +90,8 @@ function Schedule() {
               xs={12}
               sm={4}
               md={4}
-              style={{ minHeight: "300px" }}
+              sx={{ p: 2 }}
+              style={{ backgroundColor: "#343a40" }}
               rowSpacing={3}
               columnSpacing={{ xs: 1, sm: 2, md: 3 }}
               spacing={{ xs: 2, md: 3 }}
@@ -116,7 +118,8 @@ function Schedule() {
               xs={12}
               sm={4}
               md={4}
-              style={{ minHeight: "300px" }}
+              sx={{ p: 2 }}
+              style={{ backgroundColor: "#343a40" }}
               rowSpacing={3}
               columnSpacing={{ xs: 1, sm: 2, md: 3 }}
               spacing={{ xs: 2, md: 3 }}
