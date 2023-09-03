@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { HomePage } from "./Pages/HomePage";
 import { Matches } from "./Pages/Matches";
 import { PointsTable } from "./Pages/PointsTable";
+import { SportsSection } from "./Pages/SportsSection";
 //import "./css/aos.css";
 // import "./css/aos.css";
 // import "./css/bootstrap-datepicker.css"
@@ -20,7 +21,6 @@ import { PointsTable } from "./Pages/PointsTable";
 import "./fonts/icomoon/style.css";
 import "./css/bootstrap/bootstrap.css";
 import "./css/style.css";
-import { SportsSection } from "./Pages/SportsSection";
 
 function App() {
   return (

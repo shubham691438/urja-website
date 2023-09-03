@@ -8,6 +8,8 @@ import msd from "../assets/msd.png";
 import coach from "../assets/coach-edit.png";
 import Navbar from "../components/Navbar";
 import { useLocation } from "react-router-dom";
+import { BranchMedal } from "../components/SportsPage/BranchMedal";
+import Footer from "../components/Footer";
 
 export const SportsSection = () => {
   const location = useLocation();
@@ -25,13 +27,13 @@ export const SportsSection = () => {
     alignItems: "center",
     textAlign: "center",
   };
-  const style2 = {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    textAlign: "center",
-  };
+  // const style2 = {
+  //   display: "flex",
+  //   flexDirection: "row",
+  //   justifyContent: "center",
+  //   alignItems: "center",
+  //   textAlign: "center",
+  // };
   return (
     <div>
       <Navbar />
@@ -193,17 +195,10 @@ export const SportsSection = () => {
           </Grid>
         </Box>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <div>© Urja 2024</div>
-        <div>ALL RIGHTS RESERVED</div>
-      </div>
+
+      <BranchMedal />
+
+      <Footer />
     </div>
   );
 };

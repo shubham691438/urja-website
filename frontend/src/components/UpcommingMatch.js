@@ -1,7 +1,6 @@
 import React from "react";
-import stadium from "../assets/stadium.png";
 
-function Home_UpcomMatch() {
+function UpcommingMatch() {
   return (
     <div
       style={{
@@ -22,7 +21,7 @@ function Home_UpcomMatch() {
       <div
         style={{
           fontSize: "2em",
-          fontFamily: "Black Ops One",
+          fontFamily: "Alfa Slab One",
           color: "transparent",
           backgroundImage: "linear-gradient(orange,yellow)",
           backgroundClip: "text",
@@ -67,7 +66,7 @@ function Home_UpcomMatch() {
           <div
             style={{
               fontSize: "2em",
-              fontFamily: "Black Ops One",
+              fontFamily: "Alfa Slab One",
             }}
           >
             TEAM A
@@ -76,7 +75,7 @@ function Home_UpcomMatch() {
             style={{
               display: "inline-block",
               textAlign: "center",
-              fontFamily: "Black Ops One",
+              fontFamily: "Alfa Slab One",
               fontSize: "2em",
             }}
           >
@@ -103,7 +102,7 @@ function Home_UpcomMatch() {
           <div
             style={{
               fontSize: "2em",
-              fontFamily: "Black Ops One",
+              fontFamily: "Alfa Slab One",
             }}
           >
             TEAM B
@@ -112,7 +111,7 @@ function Home_UpcomMatch() {
             style={{
               display: "inline-block",
               textAlign: "center",
-              fontFamily: "Black Ops One",
+              fontFamily: "Alfa Slab One",
               fontSize: "2em",
             }}
           >
@@ -122,7 +121,7 @@ function Home_UpcomMatch() {
       </div>
       <div
         style={{
-          fontFamily: "Black Ops One",
+          fontFamily: "Alfa Slab One",
           color: "black",
           fontSize: "2em",
           position: "relative",
@@ -136,7 +135,7 @@ function Home_UpcomMatch() {
       </div>
       <div
         style={{
-          fontFamily: "Black Ops One",
+          fontFamily: "Alfa Slab One",
           color: "black",
           fontSize: "2em",
           position: "relative",
@@ -151,7 +150,7 @@ function Home_UpcomMatch() {
       </div>
       <div
         style={{
-          fontFamily: "Black Ops One",
+          fontFamily: "Alfa Slab One",
           color: "black",
           fontSize: "2em",
           position: "relative",
@@ -167,4 +166,4 @@ function Home_UpcomMatch() {
   );
 }
 
-export default Home_UpcomMatch;
+export default UpcommingMatch;
