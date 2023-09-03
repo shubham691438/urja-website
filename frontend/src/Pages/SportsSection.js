@@ -9,6 +9,7 @@ import coach from "../assets/coach-edit.png";
 import Navbar from "../components/Navbar";
 import { BranchMedal } from "../components/SportsPage/BranchMedal";
 import Footer from "../components/Footer";
+import Schedule from "../components/SportsPage/Schedule";
 
 export const SportsSection = () => {
   const style1 = {
@@ -187,9 +188,28 @@ export const SportsSection = () => {
         </Box>
       </div>
 
-      <BranchMedal />
+      <div>
+        <Grid>
+          {" "}
+          <box sx={{ m: 0.5 }}>
+            {/* {" "} */}
+            <BranchMedal />
+          </box>
+        </Grid>
+      </div>
 
-      <Footer />
+      <div>
+        <Grid>
+          <box>
+            {" "}
+            <Schedule />
+          </box>
+        </Grid>
+      </div>
+      <div>
+        {" "}
+        <Footer />
+      </div>
     </div>
   );
 };
