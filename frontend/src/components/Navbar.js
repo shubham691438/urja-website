@@ -59,12 +59,12 @@ function Navbar() {
                 <span class="sr-only"></span>
               </Link>
             </li>
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <a class="nav-link" href="/">
                 <div style={{ fontSize: "1.75rem" }}>Player</div>
                 <span class="sr-only"></span>
               </a>
-            </li>
+            </li> */}
             <li class="nav-item active">
               <Link class="nav-link" to="/leaderBoard">
                 <div style={{ fontSize: "1.75rem" }}>PointsTable</div>

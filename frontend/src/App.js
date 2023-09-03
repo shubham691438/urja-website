@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { HomePage } from "./Pages/HomePage";
-import { Matches } from "./Pages/Matches";
+import Matches from "./Pages/Matches";
 import { PointsTable } from "./Pages/PointsTable";
 import { SportsSection } from "./Pages/SportsSection";
 //import "./css/aos.css";
