@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { CustomDiv } from "../styles/CustomDiv";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export const PointsTable = () => {
   const [data, setData] = useState([{}]);
@@ -19,7 +20,7 @@ export const PointsTable = () => {
   }, []);
 
   return (
-    <div style={{ height: "100vh" }}>
+    <div>
       <Navbar></Navbar>
       <CustomDiv
         sx={{
@@ -54,6 +55,7 @@ export const PointsTable = () => {
           </tbody>
         </table>
       </CustomDiv>
+      <Footer></Footer>
     </div>
   );
 };

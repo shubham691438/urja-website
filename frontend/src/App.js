@@ -3,6 +3,7 @@ import { HomePage } from "./Pages/HomePage";
 import Matches from "./Pages/Matches";
 import { PointsTable } from "./Pages/PointsTable";
 import { SportsSection } from "./Pages/SportsSection";
+import { Results } from "./Pages/Results";
 //import "./css/aos.css";
 // import "./css/aos.css";
 // import "./css/bootstrap-datepicker.css"
@@ -29,6 +30,7 @@ function App() {
       <Route path="/matches" element={<Matches></Matches>}></Route>
       <Route path="/leaderBoard" element={<PointsTable></PointsTable>}></Route>
       <Route path="/sports" element={<SportsSection></SportsSection>}></Route>
+      <Route path="/results" element={<Results></Results>}></Route>
     </Routes>
   );
 }

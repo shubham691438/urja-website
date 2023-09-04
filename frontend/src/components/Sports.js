@@ -10,7 +10,8 @@ import ath from "../assets/008-sprint.png";
 import badminton from "../assets/badminton-002.png";
 import { Link } from "react-router-dom";
 
-function Sports() {
+function Sports(props) {
+  const route = props.path;
   return (
     <div
       style={{
@@ -63,7 +64,7 @@ function Sports() {
             alignItems="center"
             className="splogo"
           >
-            <Link to={{ pathname: "/sports", search: `?item=cricket` }}>
+            <Link to={{ pathname: `/${route}`, search: `?item=cricket` }}>
               <Box
                 component="img"
                 className="sportsImg"
@@ -97,7 +98,7 @@ function Sports() {
             alignItems="center"
             className="splogo"
           >
-            <Link to={{ pathname: "/sports", search: `?item=football` }}>
+            <Link to={{ pathname: `/${route}`, search: `?item=football` }}>
               <Box
                 component="img"
                 className="sportsImg"
@@ -130,7 +131,7 @@ function Sports() {
             alignItems="center"
             className="splogo"
           >
-            <Link to={{ pathname: "/sports", search: `?item=basketball` }}>
+            <Link to={{ pathname: `/${route}`, search: `?item=basketball` }}>
               <Box
                 component="img"
                 className="sportsImg"
@@ -163,7 +164,7 @@ function Sports() {
             alignItems="center"
             className="splogo"
           >
-            <Link to={{ pathname: "/sports", search: `?item=tennis` }}>
+            <Link to={{ pathname: `/${route}`, search: `?item=tennis` }}>
               <Box
                 component="img"
                 className="sportsImg"
@@ -196,7 +197,7 @@ function Sports() {
             alignItems="center"
             className="splogo"
           >
-            <Link to={{ pathname: "/sports", search: `?item=hockey` }}>
+            <Link to={{ pathname: `/${route}`, search: `?item=hockey` }}>
               <Box
                 component="img"
                 className="sportsImg"
@@ -229,7 +230,7 @@ function Sports() {
             alignItems="center"
             className="splogo"
           >
-            <Link to={{ pathname: "/sports", search: `?item=athletics` }}>
+            <Link to={{ pathname: `/${route}`, search: `?item=athletics` }}>
               <Box
                 component="img"
                 className="sportsImg"

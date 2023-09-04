@@ -1,6 +1,6 @@
 import React from "react";
 
-function footer() {
+function Footer() {
   return (
     <div
       style={{
@@ -28,4 +28,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;
