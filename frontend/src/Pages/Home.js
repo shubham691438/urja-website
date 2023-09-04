@@ -43,7 +43,7 @@ const Home = () => {
           </div>
           <div className="col-lg-6">
             
-            <div className="widget-next-match">
+            <div className="widget-next-match" style={{backgroundColor:"red"}}>
               <table className="table custom-table">
                 <thead>
                   <tr>

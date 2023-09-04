@@ -35,7 +35,7 @@ const Header = () => {
               </ul>
             </nav>
 
-            <a href="#" className="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white"><span
+            <a href="/" className="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white"><span
                 className="icon-menu h3 text-white"></span></a>
           </div>
         </div>
@@ -51,8 +51,8 @@ const Header = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, molestias repudiandae pariatur.</p>
             <div id="date-countdown"></div>
             <p>
-              <a href="#" className="btn btn-primary py-3 px-4 mr-3">Book Ticket</a>
-              <a href="#" className="more light">Learn More</a>
+              <a href="/" className="btn btn-primary py-3 px-4 mr-3">Book Ticket</a>
+              <a href="/" className="more light">Learn More</a>
             </p>  
           </div>
         </div>
