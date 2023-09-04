@@ -163,7 +163,9 @@ h5,
 }
 
 .bg-light_p-4 {
-  background: rgba(255, 255, 255, 0.08) !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  padding: 2rem;
+  border: solid #343a40 1px;
 }
 
 .form-control {

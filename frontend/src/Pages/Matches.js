@@ -63,7 +63,7 @@ const Matches = () => {
                     <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
                       <div className="team-1 text-center">
                         <img src={logo1} alt="Image" />
-                        <h3>Football League</h3>
+                        <h3>PIE</h3>
                       </div>
                       <div>
                         <span className="vs">
@@ -72,18 +72,18 @@ const Matches = () => {
                       </div>
                       <div className="team-2 text-center">
                         <img src={logo2} alt="Image" />
-                        <h3>Soccer</h3>
+                        <h3>ECM</h3>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <div className="text-center widget-vs-contents mb-4">
-                  <h4>World Cup League</h4>
+                  <h4>Basket Ball League</h4>
                   <p className="mb-5">
-                    <span className="d-block">December 20th, 2020</span>
-                    <span className="d-block">9:30 AM GMT+0</span>
-                    <strong className="text-primary">New Euro Arena</strong>
+                    <span className="d-block">Setember 10th, 2023</span>
+                    <span className="d-block">6:00 PM</span>
+                    <strong className="text-primary">Ups Ground</strong>
                   </p>
                 </div>
               </div>
@@ -95,7 +95,7 @@ const Matches = () => {
                     <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
                       <div className="team-1 text-center">
                         <img src={logo3} alt="Image" />
-                        <h3>Football League</h3>
+                        <h3>CIVIL</h3>
                       </div>
                       <div>
                         <span className="vs">
@@ -104,23 +104,26 @@ const Matches = () => {
                       </div>
                       <div className="team-2 text-center">
                         <img src={logo4} alt="Image" />
-                        <h3>Soccer</h3>
+                        <h3>CSE</h3>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <div className="text-center widget-vs-contents mb-4">
-                  <h4>World Cup League</h4>
+                  <h4>Basket Ball League</h4>
                   <p className="mb-5">
-                    <span className="d-block">December 20th, 2020</span>
-                    <span className="d-block">9:30 AM GMT+0</span>
-                    <strong className="text-primary">New Euro Arena</strong>
+                    <span className="d-block">Setember 10th, 2023</span>
+                    <span className="d-block">6:00 PM</span>
+                    <strong className="text-primary">Ups Ground</strong>
                   </p>
                 </div>
               </div>
             </div>
 
+            <div className="col-12 title-section">
+              <h2 className="heading">Past Match</h2>
+            </div>
             <div className="col-lg-6 mb-4">
               <div className="bg-light_p-4">
                 <div className="widget-body">
@@ -128,7 +131,7 @@ const Matches = () => {
                     <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
                       <div className="team-1 text-center">
                         <img src={logo1} alt="Image" />
-                        <h3>Football League</h3>
+                        <h3>METALLURGY</h3>
                       </div>
                       <div>
                         <span className="vs">
@@ -137,18 +140,18 @@ const Matches = () => {
                       </div>
                       <div className="team-2 text-center">
                         <img src={logo2} alt="Image" />
-                        <h3>Soccer</h3>
+                        <h3>CIVIL</h3>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <div className="text-center widget-vs-contents mb-4">
-                  <h4>World Cup League</h4>
+                  <h4>Basket Ball League</h4>
                   <p className="mb-5">
-                    <span className="d-block">December 20th, 2020</span>
-                    <span className="d-block">9:30 AM GMT+0</span>
-                    <strong className="text-primary">New Euro Arena</strong>
+                    <span className="d-block">Setember 10th, 2023</span>
+                    <span className="d-block">6:00 PM</span>
+                    <strong className="text-primary">Ups Ground</strong>
                   </p>
                 </div>
               </div>
@@ -160,7 +163,7 @@ const Matches = () => {
                     <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
                       <div className="team-1 text-center">
                         <img src={logo3} alt="Image" />
-                        <h3>Football League</h3>
+                        <h3>EE</h3>
                       </div>
                       <div>
                         <span className="vs">
@@ -169,18 +172,18 @@ const Matches = () => {
                       </div>
                       <div className="team-2 text-center">
                         <img src={logo4} alt="Image" />
-                        <h3>Soccer</h3>
+                        <h3>PIE</h3>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <div className="text-center widget-vs-contents mb-4">
-                  <h4>World Cup League</h4>
+                  <h4>Basket Ball League</h4>
                   <p className="mb-5">
-                    <span className="d-block">December 20th, 2020</span>
-                    <span className="d-block">9:30 AM GMT+0</span>
-                    <strong className="text-primary">New Euro Arena</strong>
+                    <span className="d-block">Setember 10th, 2023</span>
+                    <span className="d-block">6:00 PM</span>
+                    <strong className="text-primary">Ups Ground</strong>
                   </p>
                 </div>
               </div>
