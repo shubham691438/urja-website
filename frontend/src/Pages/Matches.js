@@ -1,192 +1,195 @@
-import React from 'react'
-import logo1 from '../assets/images/logo_1.png'
-import logo2 from '../assets/images/logo_2.png'
-import logo3 from '../assets/images/logo_3.png'
-import logo4 from '../assets/images/logo_4.png'
+import React from "react";
+import logo1 from "../assets/images/logo_1.png";
+import logo2 from "../assets/images/logo_2.png";
+import logo3 from "../assets/images/logo_3.png";
+import logo4 from "../assets/images/logo_4.png";
+// import Layout from "../components/Layout";
 
 const Matches = () => {
   return (
     <>
-         <div class="site-section bg-dark">
-      <div class="container">
-        
-        <div class="row mb-5">
-          <div class="col-lg-12">
-            <div class="widget-next-match">
-              <div class="widget-title">
-                <h3>Next Match</h3>
+      {/* <Layout /> */}
+
+      <div className="site-section bg-dark">
+        <div className="container">
+          <div className="row mb-5">
+            <div className="col-lg-12">
+              <div className="widget-next-match">
+                <div className="widget-title">
+                  <h3>Next Match</h3>
+                </div>
+                <div className="widget-body mb-3">
+                  <div className="widget-vs">
+                    <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
+                      <div className="team-1 text-center">
+                        <img src={logo1} alt="Image" />
+                        <h3>CSE</h3>
+                      </div>
+                      <div>
+                        <span className="vs">
+                          <span>VS</span>
+                        </span>
+                      </div>
+                      <div className="team-2 text-center">
+                        <img src={logo2} alt="Image" />
+                        <h3>ECE</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-center widget-vs-contents mb-4">
+                  <h4>Cricket</h4>
+                  <p className="mb-5">
+                    <span className="d-block">September 20th, 2023</span>
+                    <span className="d-block">9:30 AM </span>
+                    <strong className="text-primary">Down's Ground</strong>
+                  </p>
+
+                  <div id="date-countdown2" className="pb-1"></div>
+                </div>
               </div>
-              <div class="widget-body mb-3">
-                <div class="widget-vs">
-                  <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                    <div class="team-1 text-center">
-                      <img src={logo1} alt="Image"/>
-                      <h3>Football League</h3>
-                    </div>
-                    <div>
-                      <span class="vs"><span>VS</span></span>
-                    </div>
-                    <div class="team-2 text-center">
-                      <img src={logo2} alt="Image"/>
-                      <h3>Soccer</h3>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-12 title-section">
+              <h2 className="heading">Upcoming Match</h2>
+            </div>
+            <div className="col-lg-6 mb-4">
+              <div className="bg-light_p-4">
+                <div className="widget-body">
+                  <div className="widget-vs">
+                    <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
+                      <div className="team-1 text-center">
+                        <img src={logo1} alt="Image" />
+                        <h3>Football League</h3>
+                      </div>
+                      <div>
+                        <span className="vs">
+                          <span>VS</span>
+                        </span>
+                      </div>
+                      <div className="team-2 text-center">
+                        <img src={logo2} alt="Image" />
+                        <h3>Soccer</h3>
+                      </div>
                     </div>
                   </div>
+                </div>
+
+                <div className="text-center widget-vs-contents mb-4">
+                  <h4>World Cup League</h4>
+                  <p className="mb-5">
+                    <span className="d-block">December 20th, 2020</span>
+                    <span className="d-block">9:30 AM GMT+0</span>
+                    <strong className="text-primary">New Euro Arena</strong>
+                  </p>
                 </div>
               </div>
+            </div>
+            <div className="col-lg-6 mb-4">
+              <div className="bg-light_p-4">
+                <div className="widget-body">
+                  <div className="widget-vs">
+                    <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
+                      <div className="team-1 text-center">
+                        <img src={logo3} alt="Image" />
+                        <h3>Football League</h3>
+                      </div>
+                      <div>
+                        <span className="vs">
+                          <span>VS</span>
+                        </span>
+                      </div>
+                      <div className="team-2 text-center">
+                        <img src={logo4} alt="Image" />
+                        <h3>Soccer</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-              <div class="text-center widget-vs-contents mb-4">
-                <h4>World Cup League</h4>
-                <p class="mb-5">
-                  <span class="d-block">December 20th, 2020</span>
-                  <span class="d-block">9:30 AM GMT+0</span>
-                  <strong class="text-primary">New Euro Arena</strong>
-                </p>
+                <div className="text-center widget-vs-contents mb-4">
+                  <h4>World Cup League</h4>
+                  <p className="mb-5">
+                    <span className="d-block">December 20th, 2020</span>
+                    <span className="d-block">9:30 AM GMT+0</span>
+                    <strong className="text-primary">New Euro Arena</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
 
-                <div id="date-countdown2" class="pb-1"></div>
+            <div className="col-lg-6 mb-4">
+              <div className="bg-light_p-4">
+                <div className="widget-body">
+                  <div className="widget-vs">
+                    <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
+                      <div className="team-1 text-center">
+                        <img src={logo1} alt="Image" />
+                        <h3>Football League</h3>
+                      </div>
+                      <div>
+                        <span className="vs">
+                          <span>VS</span>
+                        </span>
+                      </div>
+                      <div className="team-2 text-center">
+                        <img src={logo2} alt="Image" />
+                        <h3>Soccer</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-center widget-vs-contents mb-4">
+                  <h4>World Cup League</h4>
+                  <p className="mb-5">
+                    <span className="d-block">December 20th, 2020</span>
+                    <span className="d-block">9:30 AM GMT+0</span>
+                    <strong className="text-primary">New Euro Arena</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 mb-4">
+              <div className="bg-light_p-4">
+                <div className="widget-body">
+                  <div className="widget-vs">
+                    <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
+                      <div className="team-1 text-center">
+                        <img src={logo3} alt="Image" />
+                        <h3>Football League</h3>
+                      </div>
+                      <div>
+                        <span className="vs">
+                          <span>VS</span>
+                        </span>
+                      </div>
+                      <div className="team-2 text-center">
+                        <img src={logo4} alt="Image" />
+                        <h3>Soccer</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-center widget-vs-contents mb-4">
+                  <h4>World Cup League</h4>
+                  <p className="mb-5">
+                    <span className="d-block">December 20th, 2020</span>
+                    <span className="d-block">9:30 AM GMT+0</span>
+                    <strong className="text-primary">New Euro Arena</strong>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12 title-section">
-            <h2 class="heading">Upcoming Match</h2>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="bg-light p-4 rounded">
-              <div class="widget-body">
-                  <div class="widget-vs">
-                    <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                      <div class="team-1 text-center">
-                        <img src={logo1} alt="Image"/>
-                        <h3>Football League</h3>
-                      </div>
-                      <div>
-                        <span class="vs"><span>VS</span></span>
-                      </div>
-                      <div class="team-2 text-center">
-                        <img src={logo2} alt="Image"/>
-                        <h3>Soccer</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center widget-vs-contents mb-4">
-                  <h4>World Cup League</h4>
-                  <p class="mb-5">
-                    <span class="d-block">December 20th, 2020</span>
-                    <span class="d-block">9:30 AM GMT+0</span>
-                    <strong class="text-primary">New Euro Arena</strong>
-                  </p>
-
-                </div>
-              
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="bg-light p-4 rounded">
-              <div class="widget-body">
-                  <div class="widget-vs">
-                    <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                      <div class="team-1 text-center">
-                        <img src={logo3} alt="Image"/>
-                        <h3>Football League</h3>
-                      </div>
-                      <div>
-                        <span class="vs"><span>VS</span></span>
-                      </div>
-                      <div class="team-2 text-center">
-                        <img src={logo4} alt="Image"/>
-                        <h3>Soccer</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center widget-vs-contents mb-4">
-                  <h4>World Cup League</h4>
-                  <p class="mb-5">
-                    <span class="d-block">December 20th, 2020</span>
-                    <span class="d-block">9:30 AM GMT+0</span>
-                    <strong class="text-primary">New Euro Arena</strong>
-                  </p>
-
-                </div>
-              
-            </div>
-          </div>
-
-          <div class="col-lg-6 mb-4">
-            <div class="bg-light p-4 rounded">
-              <div class="widget-body">
-                  <div class="widget-vs">
-                    <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                      <div class="team-1 text-center">
-                        <img src={logo1} alt="Image"/>
-                        <h3>Football League</h3>
-                      </div>
-                      <div>
-                        <span class="vs"><span>VS</span></span>
-                      </div>
-                      <div class="team-2 text-center">
-                        <img src={logo2} alt="Image"/>
-                        <h3>Soccer</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center widget-vs-contents mb-4">
-                  <h4>World Cup League</h4>
-                  <p class="mb-5">
-                    <span class="d-block">December 20th, 2020</span>
-                    <span class="d-block">9:30 AM GMT+0</span>
-                    <strong class="text-primary">New Euro Arena</strong>
-                  </p>
-
-                </div>
-              
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="bg-light p-4 rounded">
-              <div class="widget-body">
-                  <div class="widget-vs">
-                    <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                      <div class="team-1 text-center">
-                        <img src={logo3} alt="Image"/>
-                        <h3>Football League</h3>
-                      </div>
-                      <div>
-                        <span class="vs"><span>VS</span></span>
-                      </div>
-                      <div class="team-2 text-center">
-                        <img src={logo4} alt="Image"/>
-                        <h3>Soccer</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center widget-vs-contents mb-4">
-                  <h4>World Cup League</h4>
-                  <p class="mb-5">
-                    <span class="d-block">December 20th, 2020</span>
-                    <span class="d-block">9:30 AM GMT+0</span>
-                    <strong class="text-primary">New Euro Arena</strong>
-                  </p>
-
-                </div>
-              
-            </div>
-          </div>
-          
         </div>
       </div>
-    </div>
     </>
-  )
-}
+  );
+};
 
-export default Matches
+export default Matches;
