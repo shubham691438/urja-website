@@ -32,11 +32,11 @@ const Header = () => {
           <div className="ml-auto">
             <nav className="site-navigation position-relative text-right" role="navigation">
               <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li className="active"><a href="index.html" className="nav-link">Home</a></li>
+                <li className="active"><Link to='/'>Home</Link></li>
                 <li><Link to='/matches'>Matches</Link></li>
-                <li><a href="players.html" className="nav-link">Players</a></li>
-                <li><a href="blog.html" className="nav-link">Blog</a></li>
-                <li><a href="contact.html" className="nav-link">Contact</a></li>
+                <li><a href="/" className="nav-link">Players</a></li>
+                <li><a href="/" className="nav-link">Blog</a></li>
+                <li><a href="/" className="nav-link">Contact</a></li>
               </ul>
             </nav>
 
