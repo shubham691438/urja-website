@@ -1,11 +1,13 @@
 import React from 'react'
+import HomePointsTable from '../components/HomePointsTable'
 
 const Home = () => {
   return (
     <>
     <div className="site-section bg-dark">
       <div className="container">
-        <div className="row">
+        <HomePointsTable/>
+        {/* <div className="row">
           <div className="col-lg-6">
             <div className="widget-next-match">
               <div className="widget-title">
@@ -15,14 +17,14 @@ const Home = () => {
                 <div className="widget-vs">
                   <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
                     <div className="team-1 text-center">
-                      {/* <img src="images/logo_1.png" alt="Image"> */}
+                      <img src="images/logo_1.png" alt="Image"/>
                       <h3>Football League</h3>
                     </div>
                     <div>
                       <span className="vs"><span>VS</span></span>
                     </div>
                     <div className="team-2 text-center">
-                      {/* <img src="images/logo_2.png" alt="Image"> */}
+                      <img src="images/logo_2.png" alt="Image"/>
                       <h3>Soccer</h3>
                     </div>
                   </div>
@@ -41,91 +43,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
-            
-            <div className="widget-next-match" style={{backgroundColor:"red"}}>
-              <table className="table custom-table">
-                <thead>
-                  <tr>
-                    <th>P</th>
-                    <th>Team</th>
-                    <th>W</th>
-                    <th>D</th>
-                    <th>L</th>
-                    <th>PTS</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td><strong className="text-white">Football League</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td><strong className="text-white">Soccer</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td><strong className="text-white">Juvendo</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td><strong className="text-white">French Football League</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td><strong className="text-white">Legia Abante</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>6</td>
-                    <td><strong className="text-white">Gliwice League</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td><strong className="text-white">Cornika</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>8</td>
-                    <td><strong className="text-white">Gravity Smash</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-          </div>
-        </div>
+        </div> */}
       </div>
     </div>
     </>

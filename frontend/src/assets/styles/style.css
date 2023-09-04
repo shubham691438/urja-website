@@ -914,6 +914,8 @@ h1, h2, h3, h4, h5,
     color: #fff;
     border: none; }
   .custom-table tbody tr td {
+    background-color: inherit;
+    color: white;
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
     .custom-table tbody tr td strong {

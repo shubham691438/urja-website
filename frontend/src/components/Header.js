@@ -25,9 +25,9 @@ const Header = () => {
       <div className="container">
         <div className="d-flex align-items-center">
           <div className="site-logo">
-            <a href="index.html">
+            <Link to="/">
               <img src={logo} alt="Logo" />
-            </a>
+            </Link>
           </div>
           <div className="ml-auto">
             <nav className="site-navigation position-relative text-right" role="navigation">
