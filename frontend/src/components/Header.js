@@ -1,6 +1,11 @@
 import React from 'react'
 import backgroundImage from '../assets/images/bg.jpg'
 import logo from '../assets/images/logo.png'
+import logo1 from '../assets/images/logo_1.png'
+import logo2 from '../assets/images/logo_2.png'
+import logo3 from '../assets/images/logo_3.png'
+import logo4 from '../assets/images/logo_4.png'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -28,7 +33,7 @@ const Header = () => {
             <nav className="site-navigation position-relative text-right" role="navigation">
               <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li className="active"><a href="index.html" className="nav-link">Home</a></li>
-                <li><a href="matches.html" className="nav-link">Matches</a></li>
+                <li><Link to='/matches'>Matches</Link></li>
                 <li><a href="players.html" className="nav-link">Players</a></li>
                 <li><a href="blog.html" className="nav-link">Blog</a></li>
                 <li><a href="contact.html" className="nav-link">Contact</a></li>
