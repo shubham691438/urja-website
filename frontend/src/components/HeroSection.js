@@ -2,8 +2,8 @@ import React from "react";
 import urja_home_img2 from "../assets/images/urja_home_img2.jpg";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
-import logo3 from "../assets/images/logo_3.png";
-import logo4 from "../assets/images/logo_4.png";
+// import logo3 from "../assets/images/logo_3.png";
+// import logo4 from "../assets/images/logo_4.png";
 import { Link } from "react-router-dom";
 export const HeroSection = () => {
   return (
