@@ -21,13 +21,13 @@ const Footer = () => {
                 <li>
                   <a href="/">Video</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/">RSS</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
-          <div className="col-lg-3">
+          {/* <div className="col-lg-3">
             <div className="widget mb-3">
               <h3>Tickets</h3>
               <ul className="list-unstyled links">
@@ -48,7 +48,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-3">
             <div className="widget mb-3">
               <h3>Matches</h3>
@@ -95,11 +95,7 @@ const Footer = () => {
             <div className=" pt-5">
               <p>
                 {/* {document.write(new Date().getFullYear())} */}
-                All rights reserved | This template is made with{" "}
-                <i className="icon-heart" aria-hidden="true"></i> by{" "}
-                <a href="https://colorlib.com" target="_blank">
-                  Colorlib
-                </a>
+                All rights reserved | Web Team | NIT JAMSHEDPUR
               </p>
             </div>
           </div>

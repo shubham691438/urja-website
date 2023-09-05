@@ -1,13 +1,13 @@
 import React from "react";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
-import logo3 from "../assets/images/logo_3.png";
-import logo4 from "../assets/images/logo_4.png";
+// import logo3 from "../assets/images/logo_3.png";
+// import logo4 from "../assets/images/logo_4.png";
 
 const Matches = () => {
   return (
     <>
-      <div class="site-section "  style={{backgroundColor:"#222831"}} >
+      <div class="site-section " style={{ backgroundColor: "#222831" }}>
         <div class="container">
           <div class="row mb-5">
             <div class="col-lg-12">
@@ -19,7 +19,7 @@ const Matches = () => {
                   <div class="widget-vs">
                     <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
                       <div class="team-1 text-center">
-                        <img src={logo1} alt="Image" />
+                        <img src={logo1} alt="Football " />
                         <h3>Football League</h3>
                       </div>
                       <div>
@@ -44,7 +44,7 @@ const Matches = () => {
                     <span class="d-block" style={{ color: "grey" }}>
                       9:30 AM GMT+0
                     </span>
-                    <strong class="text-primary">New Euro Arena</strong>
+                    <strong class="text-primary1">New Euro Arena</strong>
                   </p>
 
                   <div id="date-countdown2" class="pb-1"></div>
