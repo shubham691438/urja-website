@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
-// import styles from "../assets/styles/bootstrap.css";
+
 const Navbar = () => {
   return (
     <>
@@ -18,8 +18,11 @@ const Navbar = () => {
         <div className="container">
           <div className="d-flex align-items-center">
             <div className="site-logo">
-              <Link to="/">
-                <img src={logo} alt="Logo" />
+              <Link to="/" className="text-decoration-none">
+                <div className="d-flex">
+                <img src={logo} alt="Logo" style={{width:"70px",height:"70px"}}/>
+                <h1 >Urja-2023</h1>
+                </div>
               </Link>
             </div>
             <div className="ml-auto">
