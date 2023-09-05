@@ -1,5 +1,5 @@
-import Home from "../src/Pages/Home";
-import Matches from "../src/Pages/Matches";
+import Home from "../src/pages/Home";
+import Matches from "../src/pages/Matches";
 import Layout from "./components/Layout";
 
 const Routes = [
