@@ -22,7 +22,6 @@ export const HeroSection = () => {
                 <Link
                   to="/matches"
                   className="btn btn-danger py-3 px-4 mr-3 "
-                  backgroundColor="#ee1e46"
                 >
                   Matches
                 </Link>
