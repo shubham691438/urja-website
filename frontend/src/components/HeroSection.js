@@ -15,7 +15,15 @@ export const HeroSection = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 ml-auto">
-              <h1 className="text-white">URJA 2K24</h1>
+              <h1
+                className="text-white"
+                style={{
+                  color: "blue",
+                  textShadow: "6px 2px 4px rgba(0, 0, 0, 0.5)",
+                }}
+              >
+                URJA 2K24
+              </h1>
               <p>WELCOME TO URJA 2K24</p>
               <div id="date-countdown"></div>
               <p>
@@ -29,6 +37,12 @@ export const HeroSection = () => {
                 <a href="/" className="more light">
                   About
                 </a>
+              </p>
+              <p>
+                "Fuel Your Fire, Chase Your Dreams – Embrace the Thrill of the
+                Game! Unleash Your Inner Champion! Join Us in the Pursuit of
+                Greatness of <b>URJA'24</b> !" & "Get Ready to Play Hard, Win
+                Big, and Live the Sports Dream!"
               </p>
             </div>
           </div>

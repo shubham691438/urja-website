@@ -41,7 +41,9 @@ h5,
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: #fff;
 }
-
+.h1 .text-white {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 .d-block {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
@@ -1223,7 +1225,7 @@ h5,
 }
 .custom-table tbody tr td {
   background-color: inherit;
-  color:white;
+  color: white;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1485,4 +1487,3 @@ h5,
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-
