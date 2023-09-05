@@ -1216,6 +1216,7 @@ h5,
 .custom-table {
   margin-bottom: 0;
 }
+
 .custom-table thead tr th {
   background: #ee1e46;
   color: #fff;
@@ -1224,6 +1225,8 @@ h5,
 .custom-table tbody tr td {
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: #1a1e25;
+  color: grey;
 }
 .custom-table tbody tr td strong {
   font-weight: 400;
