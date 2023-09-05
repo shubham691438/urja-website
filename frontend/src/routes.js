@@ -1,4 +1,4 @@
-import Home from "../src/Pages/Home";
+import Home from "./Pages/Home";
 import Matches from "./Pages/Matches";
 import Layout from "./components/Layout";
 import Sports from "./Pages/Sports";
