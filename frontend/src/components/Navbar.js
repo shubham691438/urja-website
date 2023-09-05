@@ -39,11 +39,11 @@ const Navbar = () => {
                       Players
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="/" className="nav-link">
                       Blog
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="/" className="nav-link">
                       Contact
