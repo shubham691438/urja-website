@@ -8,8 +8,8 @@ function sportsCoordinator() {
       data-aos="zoom-in"
       data-aos-delay="200"
     >
-      <div className="icon-box2 w-100 ">
-        <div className="coordinator">
+      <div className=" icon-box2 team-member w-100 ">
+        <div className="member-img">
           <img
             src={coordinator1}
             style={{
@@ -19,16 +19,9 @@ function sportsCoordinator() {
             alt="Cricket"
           ></img>
         </div>
-        <div
-          style={{
-            color: "white",
-            display: "flex",
-            justifyContent: "center",
-            padding: "16px 20px",
-            backgroundColor: "#ee1e46",
-          }}
-        >
-          COORDINATOR 1
+        <div className="member-info">
+          <h4 style={{ color: "white" }}>Shubham Tiwari</h4>
+          <span style={{ color: "white" }}>Web Head</span>
         </div>
       </div>
     </div>
