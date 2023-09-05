@@ -4,12 +4,16 @@ import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
 import logo3 from "../assets/images/logo_3.png";
 import logo4 from "../assets/images/logo_4.png";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 export const HeroSection = () => {
+
   return (
+
     <>
-        <div
+
+      <div
         className="hero overlay"
+
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="container">
@@ -19,15 +23,15 @@ export const HeroSection = () => {
               <p>WELCOME TO URJA 2K24</p>
               <div id="date-countdown"></div>
               <p>
-                <Link to="/matches" 
-                className="btn btn-danger py-3 px-4 mr-3 "
+                <Link to="/matches"
+                  className="btn btn-danger py-3 px-4 mr-3 "
                   backgroundColor="#ee1e46"
-                  >
+                >
 
                   Matches
                 </Link>
                 <a href="/" className="more light">
-                 About
+                  About
                 </a>
               </p>
             </div>

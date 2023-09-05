@@ -2,6 +2,7 @@ import Home from "./pages/Home";
 import Matches from "./pages/Matches";
 import Layout from "./components/Layout";
 import Sports from "./pages/Sports";
+import CoreTeam from "./pages/CoreTeam";
 const Routes = [
   {
     path: "/",
@@ -19,6 +20,10 @@ const Routes = [
         path: "/sports",
         element: <Sports />,
       },
+      {
+        path:"/CoreTeam",
+        element: <CoreTeam/>,
+      }
     ],
   },
 ];
