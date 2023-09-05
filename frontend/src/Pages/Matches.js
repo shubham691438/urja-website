@@ -28,7 +28,7 @@ const Matches = () => {
                         </span>
                       </div>
                       <div className="team-2 text-center">
-                        <img src={logo2} alt="Image" />
+                        <img src={logo2} alt="Match" />
                         <h3>ECE</h3>
                       </div>
                     </div>
@@ -63,7 +63,7 @@ const Matches = () => {
                   <div className="widget-vs">
                     <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
                       <div className="team-1 text-center">
-                        <img src={logo1} alt="Image" />
+                        <img src={logo1} alt="Match" />
                         <h3>PIE</h3>
                       </div>
                       <div>
@@ -72,7 +72,7 @@ const Matches = () => {
                         </span>
                       </div>
                       <div className="team-2 text-center">
-                        <img src={logo2} alt="Image" />
+                        <img src={logo2} alt="Match" />
                         <h3>ECM</h3>
                       </div>
                     </div>
@@ -95,7 +95,7 @@ const Matches = () => {
                   <div className="widget-vs">
                     <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
                       <div className="team-1 text-center">
-                        <img src={logo3} alt="Image" />
+                        <img src={logo3} alt="Match" />
                         <h3>CIVIL</h3>
                       </div>
                       <div>
@@ -104,7 +104,7 @@ const Matches = () => {
                         </span>
                       </div>
                       <div className="team-2 text-center">
-                        <img src={logo4} alt="Image" />
+                        <img src={logo4} alt="Match" />
                         <h3>CSE</h3>
                       </div>
                     </div>
@@ -131,7 +131,7 @@ const Matches = () => {
                   <div className="widget-vs">
                     <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
                       <div className="team-1 text-center">
-                        <img src={logo1} alt="Image" />
+                        <img src={logo1} alt="Match" />
                         <h3>METALLURGY</h3>
                       </div>
                       <div>
@@ -140,7 +140,7 @@ const Matches = () => {
                         </span>
                       </div>
                       <div className="team-2 text-center">
-                        <img src={logo2} alt="Image" />
+                        <img src={logo2} alt="Match" />
                         <h3>CIVIL</h3>
                       </div>
                     </div>
@@ -163,7 +163,7 @@ const Matches = () => {
                   <div className="widget-vs">
                     <div className="d-flex align-items-center justify-content-around justify-content-between w-100">
                       <div className="team-1 text-center">
-                        <img src={logo3} alt="Image" />
+                        <img src={logo3} alt="Match" />
                         <h3>EE</h3>
                       </div>
                       <div>
@@ -172,7 +172,7 @@ const Matches = () => {
                         </span>
                       </div>
                       <div className="team-2 text-center">
-                        <img src={logo4} alt="Image" />
+                        <img src={logo4} alt="Match" />
                         <h3>PIE</h3>
                       </div>
                     </div>
