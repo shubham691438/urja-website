@@ -7,14 +7,15 @@ import logo4 from "../assets/images/logo_4.png";
 const Matches = () => {
   return (
     <>
-      {/* <Layout /> */}
 
+      
       <div className="site-section bg-dark">
         <div className="container">
           <div className="row mb-5">
             <div className="col-lg-12">
               <div className="widget-next-match">
                 <div className="widget-title">
+
                   <h3>Next Match</h3>
                 </div>
                 <div className="widget-body mb-3">
