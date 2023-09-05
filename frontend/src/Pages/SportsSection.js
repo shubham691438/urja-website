@@ -11,6 +11,7 @@ import Navbar from "../components/Navbar";
 import { useLocation } from "react-router-dom";
 import { BranchMedal } from "../components/SportsPage/BranchMedal";
 import Footer from "../components/Footer";
+import classes from "./sportsSection.module.css";
 
 export const SportsSection = () => {
   const [sportDetails, setSportDetails] = useState({});
@@ -19,9 +20,7 @@ export const SportsSection = () => {
   useEffect(() => {
     const searchParams = new URLSearchParams(location.search);
     const sport = searchParams.get("item");
-    //console.log(sport);
     const sp = data[sport];
-    console.log(sp.image);
     const images = { cricket: msd, tennis: tennis, basketball };
     setSportDetails(sp);
     setImage(images[sport]);
@@ -34,41 +33,13 @@ export const SportsSection = () => {
     alignItems: "center",
     textAlign: "center",
   };
-  // const style2 = {
-  //   display: "flex",
-  //   flexDirection: "row",
-  //   justifyContent: "center",
-  //   alignItems: "center",
-  //   textAlign: "center",
-  // };
   return (
     <div>
       <Navbar />
-      <div
-        style={{
-          ...style1,
-          ...{
-            backgroundImage: `url(${image})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundAttachment: "fixed",
-            backgroundPosition: "center",
-            marginBottom: "2em",
-          },
-        }}
-      >
-        {/* HEADING SECTION   */}
-        <div
-          style={{
-            ...style1,
-            ...{ borderBottom: "1px solid yellow", marginBottom: "3em" },
-          }}
-        >
-          <Typography variant="h2a" style={{ fontSize: "4em" }}>
-            {sportDetails.title}
-          </Typography>{" "}
+      <div>
+        <div className={classes["text-center"]}>
+          <Typography variant="h2a">{sportDetails.title}</Typography>{" "}
         </div>
-        {/* -------------------HEADING SECTION ENDS-------------- */}
         <Grid
           container
           style={{
@@ -78,21 +49,6 @@ export const SportsSection = () => {
             alignItems: "center",
           }}
         >
-          <Grid item xs={12} md={6}>
-            <img
-              src={sportDetails.image}
-              // src={require(`${data[4].image}`)}
-              alt=""
-              srcSet=""
-              style={{
-                maxHeight: "100%",
-                maxWidth: "80%",
-                borderRadius: "5% solid rgba(0,0,0,0.03)",
-                boxShadow:
-                  "0px 3px 6px 3px rgba(0,0,0,0.12),0px 6px 10px 3px rgba(0,0,0,0.22),   0px 9px 14px 3px rgba(0,0,0,0.2),  0px 18px 16px 6px rgba(0,0,0,0.28)",
-              }}
-            />
-          </Grid>
           <Grid
             item
             xs={12}
@@ -116,32 +72,9 @@ export const SportsSection = () => {
           </Grid>
         </Grid>
       </div>
-      <div
-        style={{
-          backgroundImage: `url(${coach})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
-        }}
-      >
-        <div
-          style={{
-            ...style1,
-            ...{ marginBottom: "3em" },
-          }}
-        >
-          <Typography
-            variant="h2a"
-            style={{
-              fontSize: "3em",
-              display: "flex",
-              flexDirection: "column",
-              flexWrap: "wrap",
-            }}
-          >
-            SPORTS COORDINATOR
-          </Typography>{" "}
+      <div className={classes["rules-container"]}>
+        <div>
+          <Typography variant="h2a">Rules:</Typography>{" "}
         </div>
 
         <Box

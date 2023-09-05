@@ -20,22 +20,16 @@ const theme = createTheme({
     h1: {
       fontSize: "6vw",
       fontFamily: "Alfa Slab One",
-      backgroundImage: `url("https://th.bing.com/th/id/OIP.5b2qb062nDASDVh_HD8d-AHaEK?w=309&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundClip: "text",
       WebkitBackgroundClip: "text",
-      color: "transparent",
     },
     h2a: {
-      fontSize: "2em",
+      fontSize: "3rem",
       fontFamily: "Black Ops One",
-      color: "transparent",
-      backgroundImage: "linear-gradient(orange,yellow)",
-      backgroundClip: "text",
-      WebkitBackgroundClip: "text",
-      backgroundPosition: "right bottom",
-      WebkitTextStroke: "1.2px black",
+      color: "orange",
+      fontWeight: 700,
     },
     h2b: {
       fontFamily: "Black Ops One",
@@ -62,7 +56,6 @@ const theme = createTheme({
       fontWeight: 500,
     },
   },
-  
 });
 
 export default theme;

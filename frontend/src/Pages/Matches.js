@@ -9,17 +9,6 @@ import Sports from "../components/Sports";
 export default function Matches() {
   return (
     <div>
-      {/* <Navbar />
-      <Header />
-      <CurrentGameCard />
-
-      <div class="site-section">
-        <div class="container">
-          <NextMatchCard />
-          <UpcomingMatch />
-        </div>
-      </div> */}
-
       <Navbar></Navbar>
 
       <h1 id="branchScore">Matches</h1>
