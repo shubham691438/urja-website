@@ -1,7 +1,7 @@
 import Home from "./pages/Home";
 import Matches from "./pages/Matches";
 import Layout from "./components/Layout";
-
+import Sports from "./pages/Sports";
 const Routes = [
   {
     path: "/",
@@ -14,6 +14,10 @@ const Routes = [
       {
         path: "/matches",
         element: <Matches />,
+      },
+      {
+        path: "/sports",
+        element: <Sports />,
       },
     ],
   },
