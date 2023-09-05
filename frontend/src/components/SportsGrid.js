@@ -23,7 +23,7 @@ const SportsGrid = () => {
           >
             <div className="icon-box w-100 px-5">
               <div className="icon">
-                <img src={CricketImage}  alt="Cricket"></img>
+                <img src={CricketImage} alt="Cricket"></img>
               </div>
               <h4>Cricket</h4>
             </div>

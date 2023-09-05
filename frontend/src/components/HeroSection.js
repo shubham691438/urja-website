@@ -2,9 +2,9 @@ import React from 'react'
 import backgroundImage from "../assets/images/bg.jpg";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
-// import logo3 from "../assets/images/logo_3.png";
-// import logo4 from "../assets/images/logo_4.png";
-
+import logo3 from "../assets/images/logo_3.png";
+import logo4 from "../assets/images/logo_4.png";
+import {Link} from "react-router-dom"
 export const HeroSection = () => {
   return (
     <>
@@ -19,13 +19,13 @@ export const HeroSection = () => {
               <p>WELCOME TO URJA 2K24</p>
               <div id="date-countdown"></div>
               <p>
-                <a
-                  href="/matches"
-                  className="btn btn-primary py-3 px-4 mr-3 "
+                <Link to="/matches" 
+                className="btn btn-danger py-3 px-4 mr-3 "
                   backgroundColor="#ee1e46"
-                >
+                  >
+
                   Matches
-                </a>
+                </Link>
                 <a href="/" className="more light">
                  About
                 </a>
@@ -43,7 +43,7 @@ export const HeroSection = () => {
                 <span className="score">4-1</span>
                 <div className="team-1 w-50">
                   <div className="team-details w-100 text-center">
-                    <img src={logo1} alt="TEAM  A" className="img-fluid" />
+                    <img src={logo1} alt="Image" className="img-fluid" />
                     <h3>TEAM A</h3>
                     <ul className="list-unstyled">
                       <li>CSE</li>
@@ -55,7 +55,7 @@ export const HeroSection = () => {
                 </div>
                 <div className="team-2 w-50">
                   <div className="team-details w-100 text-center">
-                    <img src={logo2} alt="TEAM B" className="img-fluid" />
+                    <img src={logo2} alt="Image" className="img-fluid" />
                     <h3>TEAM B</h3>
                     <ul className="list-unstyled">
                       <li>CIVIL</li>
