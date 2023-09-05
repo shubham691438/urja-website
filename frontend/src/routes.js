@@ -1,7 +1,7 @@
-import Home from "./pages/Home";
-import Matches from "./pages/Matches";
+import Home from "../src/Pages/Home";
+import Matches from "./Pages/Matches";
 import Layout from "./components/Layout";
-import Sports from "./pages/Sports";
+import Sports from "./Pages/Sports";
 const Routes = [
   {
     path: "/",
