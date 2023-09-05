@@ -43,7 +43,7 @@ export const HeroSection = () => {
                 <span className="score">4-1</span>
                 <div className="team-1 w-50">
                   <div className="team-details w-100 text-center">
-                    <img src={logo1} alt="Image" className="img-fluid" />
+                    <img src={logo1} alt="Image2" className="img-fluid" />
                     <h3>TEAM A</h3>
                     <ul className="list-unstyled">
                       <li>CSE</li>
@@ -55,7 +55,7 @@ export const HeroSection = () => {
                 </div>
                 <div className="team-2 w-50">
                   <div className="team-details w-100 text-center">
-                    <img src={logo2} alt="Image" className="img-fluid" />
+                    <img src={logo2} alt="Image1" className="img-fluid" />
                     <h3>TEAM B</h3>
                     <ul className="list-unstyled">
                       <li>CIVIL</li>
