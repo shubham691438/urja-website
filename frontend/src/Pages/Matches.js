@@ -7,7 +7,7 @@ import logo4 from "../assets/images/logo_4.png";
 const Matches = () => {
   return (
     <>
-      <div class="site-section "  style={{backgroundColor:"#222831"}} >
+      <div class="site-section " style={{ backgroundColor: "#222831" }}>
         <div class="container">
           <div class="row mb-5">
             <div class="col-lg-12">
