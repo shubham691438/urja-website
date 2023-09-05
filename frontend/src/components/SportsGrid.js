@@ -14,7 +14,7 @@ const SportsGrid = () => {
         <div className="row">
           <div className="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div className="icon-box">
-              <div className="icon"><i className="bx bxl-dribbble"></i></div>
+              <div className="icon"><i class="fas fa-futbol"></i></div>
               <h4><a href="">Lorem Ipsum</a></h4>
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>

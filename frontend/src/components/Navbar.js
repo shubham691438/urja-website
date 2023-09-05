@@ -1,9 +1,5 @@
 import React from "react";
 import logo from "../assets/images/logo.png";
-import logo1 from "../assets/images/logo_1.png";
-import logo2 from "../assets/images/logo_2.png";
-import logo3 from "../assets/images/logo_3.png";
-import logo4 from "../assets/images/logo_4.png";
 import { Link } from "react-router-dom";
 import styles from "../assets/styles/bootstrap.css";
 const Navbar = () => {
