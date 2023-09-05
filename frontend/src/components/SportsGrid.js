@@ -38,7 +38,7 @@ const SportsGrid = () => {
             data-aos="zoom-in"
             data-aos-delay="200"
           >
-            <Link to="/sports/cricket" className="w-100 text-decoration-none">
+            <Link to="/sports/football" className="w-100 text-decoration-none">
               <div className="icon-box ">
                 <div className="icon">
                   <img src={FootballImage} alt="Football"></img>
@@ -53,7 +53,7 @@ const SportsGrid = () => {
             data-aos="zoom-in"
             data-aos-delay="300"
           >
-            <Link to="/sports/cricket" className="w-100 text-decoration-none">
+            <Link to="/sports/badminton" className="w-100 text-decoration-none">
             <div className="icon-box ">
               <div className="icon">
                 <img src={BadmintonImage} alt="Badminton"></img>
@@ -68,7 +68,7 @@ const SportsGrid = () => {
             data-aos="zoom-in"
             data-aos-delay="400"
           >
-            <Link to="/sports/cricket" className="w-100 text-decoration-none">
+            <Link to="/sports/basketball" className="w-100 text-decoration-none">
             <div className="icon-box w-100">
               <div className="icon">
                 <img src={BasketballImage} alt="Basketball"></img>
@@ -85,7 +85,7 @@ const SportsGrid = () => {
             data-aos="zoom-in"
             data-aos-delay="100"
           >
-            <Link to="/sports/cricket" className="w-100 text-decoration-none">
+            <Link to="/sports/hockey" className="w-100 text-decoration-none">
             <div className="icon-box w-100 px-5">
               <div className="icon">
                 <img src={HockeyLogo} alt="Hockey"></img>
@@ -100,7 +100,7 @@ const SportsGrid = () => {
             data-aos="zoom-in"
             data-aos-delay="200"
           >
-            <Link to="/sports/cricket" className="w-100 text-decoration-none">
+            <Link to="/sports/athlete" className="w-100 text-decoration-none">
             <div className="icon-box w-100">
               <div className="icon">
                 <img src={Athlete} alt="Athletics"></img>
@@ -115,7 +115,7 @@ const SportsGrid = () => {
             data-aos="zoom-in"
             data-aos-delay="300"
           >
-            <Link to="/sports/cricket" className="w-100 text-decoration-none">
+            <Link to="/sports/tennis" className="w-100 text-decoration-none">
             <div className="icon-box w-100">
               <div className="icon">
                 <img src={Tennis} alt="Tennis"></img>
