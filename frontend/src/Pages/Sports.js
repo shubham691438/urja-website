@@ -69,24 +69,7 @@ const Sports = () => {
             </div>
           </div>
 
-          <div
-            style={{
-              padding: "16px 20px",
-              color: "#fff",
-              backgroundColor: "#ee1e46",
-            }}
-          >
-            <h4
-              style={{
-                margin: "0px",
-                padding: "0px",
-                fontWeight: "700",
-                color: "#fff",
-              }}
-            >
-              Matches Scheduled
-            </h4>
-          </div>
+          
         </div>
         <section className="services section-bg mt-5">
           <div className="container " data-aos="fade-up">
@@ -112,6 +95,26 @@ const Sports = () => {
             <div className="row mt-3 justify-content-evenly">
               <SportsCoordinator />
               <SportsCoordinator />
+            </div>
+
+              <div
+                style={{
+                  marginTop:"50px",
+                  padding: "16px 20px",
+                  color: "#fff",
+                  backgroundColor: "#ee1e46",
+                }}
+              >
+                <h4
+                  style={{
+                    margin: "0px",
+                    padding: "0px",
+                    fontWeight: "700",
+                    color: "#fff",
+                  }}
+                >
+                Schedule of Matches
+              </h4>
             </div>
           </div>
         </section>
