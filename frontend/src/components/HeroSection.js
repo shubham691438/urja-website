@@ -1,6 +1,6 @@
 import React from "react";
 // import backgroundImage from "../assets/images/bg.jpg";
-import urja_home_img from "../assets/images/urja_home_img.jpg";
+import urja_home_img2 from "../assets/images/urja_home_img2.jpg";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
 import logo3 from "../assets/images/logo_3.png";
@@ -11,7 +11,7 @@ export const HeroSection = () => {
     <>
       <div
         className="hero overlay"
-        style={{ backgroundImage: `url(${urja_home_img})` }}
+        style={{ backgroundImage: `url(${urja_home_img2})` }}
       >
         <div className="container">
           <div className="row align-items-center">
