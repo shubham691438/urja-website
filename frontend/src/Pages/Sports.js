@@ -4,6 +4,7 @@ import React from "react";
 import coordinator1 from "../assets/images/team-1.jpg";
 import coordinator2 from "../assets/images/team-2.jpg";
 import SportStyles from "./Sports.module.css";
+import SportsHeader from "../components/SportsHeader";
 
 const Sports = () => {
   return (
@@ -11,7 +12,6 @@ const Sports = () => {
       
       <div class="site-section " style={{ backgroundColor: "#222831" }}>
 
-        
         <div class="container" style={{ marginTop: "2em" }}>
        
           <SportsHeader />
