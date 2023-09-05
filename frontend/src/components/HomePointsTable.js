@@ -1,92 +1,97 @@
-import React from 'react'
+import React from "react";
 
 const HomePointsTable = () => {
   return (
     <div className="col-lg-12">
-            
-            <div className="widget-next-match" >
-              <table className="table custom-table">
-                <thead>
-                  <tr>
-                    <th>P</th>
-                    <th>Team</th>
-                    <th>W</th>
-                    <th>D</th>
-                    <th>L</th>
-                    <th>PTS</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td><strong className="text-white">Football League</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td><strong className="text-white">Soccer</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td><strong className="text-white">Juvendo</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td><strong className="text-white">French Football League</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td><strong className="text-white">Legia Abante</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>6</td>
-                    <td><strong className="text-white">Gliwice League</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td><strong className="text-white">Cornika</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>8</td>
-                    <td><strong className="text-white">Gravity Smash</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+      <div className="widget-next-match">
+        <table className="table custom-table">
+          <thead>
+            <tr>
+              <th>Sr. No.</th>
+              <th>Branch</th>
 
-          </div>
-  )
-}
+              <th>POINTS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>
+                <strong className="text-white">
+                  Computer Science And Engineering
+                </strong>
+              </td>
 
-export default HomePointsTable
+              <td>140</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <strong className="text-white">
+                  Electronics and Communication Engineering
+                </strong>
+              </td>
+
+              <td>140</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>
+                <strong className="text-white">Electrical Engineering</strong>
+              </td>
+
+              <td>140</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>
+                <strong className="text-white">Civil Engineering</strong>
+              </td>
+
+              <td>140</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>
+                <strong className="text-white">Mechanical Engineering</strong>
+              </td>
+
+              <td>140</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>
+                <strong className="text-white">
+                  Metallurgical and Materials Engineering
+                </strong>
+              </td>
+
+              <td>140</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>
+                <strong className="text-white">
+                  Production and Industrial Engineering + Engineering and
+                  Computational Mechanics
+                </strong>
+              </td>
+
+              <td>140</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>
+                <strong className="text-white">M. Tech + M.SC + MCA</strong>
+              </td>
+
+              <td>140</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+};
+
+export default HomePointsTable;
