@@ -3,20 +3,17 @@ import { Zoom } from "react-reveal";
 import urja_home_img2 from "../assets/images/urja_home_img2.jpg";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
-// import AnimatedHeading from "../components/AnimatedHeading"
-
-
-import { Link } from "react-router-dom";
-// import ResultCard from "./ResultCard";
-
+import logo3 from "../assets/images/logo_3.png";
+import logo4 from "../assets/images/logo_4.png";
+import backgroundImage from "../assets/images/bg.jpg";
+import { Link } from "react-router-dom"
 export const HeroSection = () => {
   return (
     <>
       <div
         className="hero overlay"
-        style={{
-          backgroundImage: `url(${urja_home_img2})`,
-        }}
+
+        style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="container">
           <div className="row align-items-center">
@@ -25,7 +22,11 @@ export const HeroSection = () => {
               <p>WELCOME TO URJA 2K24</p>
               <div id="date-countdown"></div>
               <p>
-                <Link to="/matches" className="btn btn-danger py-3 px-4 mr-3 ">
+                <Link to="/matches"
+                  className="btn btn-danger py-3 px-4 mr-3 "
+                  backgroundColor="#ee1e46"
+                >
+
                   Matches
                 </Link>
                 {/* <a href="/" className="more light">
