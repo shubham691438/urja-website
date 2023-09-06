@@ -38,9 +38,7 @@ const Navbar = () => {
                     <Link to="/matches">Matches</Link>
                   </li>
                   <li>
-                    <a href="/" className="nav-link">
-                      Players
-                    </a>
+                  <Link to="/results">Results</Link>
                   </li>
                   {/* <li>
                     <a href="/" className="nav-link">
@@ -48,9 +46,9 @@ const Navbar = () => {
                     </a>
                   </li> */}
                   <li>
-                    <a href="/our-team" className="nav-link">
+                    <Link to="/our-team" >
                       Our Team
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </nav>
