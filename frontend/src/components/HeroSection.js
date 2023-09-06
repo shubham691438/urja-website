@@ -6,6 +6,7 @@ import logo2 from "../assets/images/logo_2.png";
 
 
 import { Link } from "react-router-dom";
+import ResultCard from "./ResultCard";
 
 
 export const HeroSection = () => {
@@ -40,40 +41,40 @@ export const HeroSection = () => {
       </div>
 
       <div
-        style={{
-          backgroundColor: "#222831",
-        }}
-      >
-        <Zoom>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="d-flex team-vs">
-                  <span className="score">4-1</span>
-                  <div className="team-1 w-50">
-                    <div className="team-details w-100 text-center">
-                      <img src={logo1} alt="Image2" className="img-fluid" />
-                      <h3>TEAM A</h3>
-                      <ul className="list-unstyled">
-                        <li>CSE</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="team-2 w-50">
-                    <div className="team-details w-100 text-center">
-                      <img src={logo2} alt="Image1" className="img-fluid" />
-                      <h3>TEAM B</h3>
-                      <ul className="list-unstyled">
-                        <li>CIVIL</li>
-                      </ul>
-                    </div>
-                  </div>
+    style={{
+      backgroundColor: "#222831",
+    }}
+  >
+    <Zoom>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12 ">
+            <div className="d-flex team-vs ">
+              <span className="score">4-1</span>
+              <div className="team-1 w-50">
+                <div className="team-details w-100 text-center">
+                  <img src={logo1} alt="Image2" className="img-fluid" />
+                  <h3>TEAM A</h3>
+                  <ul className="list-unstyled">
+                    <li>CSE</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="team-2 w-50">
+                <div className="team-details w-100 text-center">
+                  <img src={logo2} alt="Image1" className="img-fluid" />
+                  <h3>TEAM B</h3>
+                  <ul className="list-unstyled">
+                    <li>CIVIL</li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-        </Zoom>
+        </div>
       </div>
+    </Zoom>
+  </div>
     </>
   );
 };

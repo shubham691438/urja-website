@@ -9,6 +9,8 @@ import HockeyLogo from "../assets/images/hockeyLogo.png";
 import Athlete from "../assets/images/Athlete.png";
 import Tennis from "../assets/images/TennisPlayer.png";
 import { Link } from "react-router-dom";
+
+
 const ResultsSportsGrid = () => {
   return (
     <section id="services" className="services section-bg mt-5">
@@ -18,7 +20,7 @@ const ResultsSportsGrid = () => {
         <div className="row mt-3">
           <Slide>
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch">
-              <Link to="/sports/cricket" className="w-100 text-decoration-none">
+              <Link to="/results/cricket" className="w-100 text-decoration-none">
                 <div className="icon-box px-5">
                   <div className="icon">
                     <img src={CricketImage} alt="Cricket"></img>
@@ -32,7 +34,7 @@ const ResultsSportsGrid = () => {
           <Slide>
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
               <Link
-                to="/sports/football"
+                to="/results/football"
                 className="w-100 text-decoration-none"
               >
                 <div className="icon-box ">
@@ -48,7 +50,7 @@ const ResultsSportsGrid = () => {
           <Slide>
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
               <Link
-                to="/sports/badminton"
+                to="/results/badminton"
                 className="w-100 text-decoration-none"
               >
                 <div className="icon-box ">
@@ -64,7 +66,7 @@ const ResultsSportsGrid = () => {
           <Slide>
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
               <Link
-                to="/sports/basketball"
+                to="/results/basketball"
                 className="w-100 text-decoration-none"
               >
                 <div className="icon-box w-100">
@@ -85,7 +87,7 @@ const ResultsSportsGrid = () => {
               data-aos="zoom-in"
               data-aos-delay="100"
             >
-              <Link to="/sports/hockey" className="w-100 text-decoration-none">
+              <Link to="/results/hockey" className="w-100 text-decoration-none">
                 <div className="icon-box w-100 px-5">
                   <div className="icon">
                     <img src={HockeyLogo} alt="Hockey"></img>
@@ -102,7 +104,7 @@ const ResultsSportsGrid = () => {
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <Link to="/sports/athlete" className="w-100 text-decoration-none">
+              <Link to="/results/athlete" className="w-100 text-decoration-none">
                 <div className="icon-box w-100">
                   <div className="icon">
                     <img src={Athlete} alt="Athletics"></img>
@@ -118,7 +120,7 @@ const ResultsSportsGrid = () => {
               data-aos="zoom-in"
               data-aos-delay="300"
             >
-              <Link to="/sports/tennis" className="w-100 text-decoration-none">
+              <Link to="/results/tennis" className="w-100 text-decoration-none">
                 <div className="icon-box w-100">
                   <div className="icon">
                     <img src={Tennis} alt="Tennis"></img>
