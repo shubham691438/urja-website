@@ -21,7 +21,7 @@ const Routes = [
         element: <Sports />,
       },
       {
-        path:"/CoreTeam",
+        path:"/our-team",
         element: <CoreTeam/>,
       }
     ],
