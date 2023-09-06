@@ -7,18 +7,19 @@ import AnimatedHeading from "../components/AnimatedHeading"
 
 
 import { Link } from "react-router-dom";
-
+// import ResultCard from "./ResultCard";
 
 export const HeroSection = () => {
-
   return (
-
     <>
-
       <div
         className="hero overlay"
-        style={{ backgroundImage: `url(${urja_home_img2})` }}
-
+        style={{
+          backgroundImage: `url(${urja_home_img2})`,
+          "@media (max-width: 600px)": {
+            height: "80%",
+          },
+        }}
       >
         <div className="container">
           <div className="row align-items-center">
@@ -27,13 +28,12 @@ export const HeroSection = () => {
               <p>WELCOME TO URJA 2K24</p>
               <div id="date-countdown"></div>
               <p>
-
                 <Link to="/matches" className="btn btn-danger py-3 px-4 mr-3 ">
                   Matches
                 </Link>
-                <a href="/" className="more light">
+                {/* <a href="/" className="more light">
                   About
-                </a>
+                </a> */}
               </p>
             </div>
           </div>

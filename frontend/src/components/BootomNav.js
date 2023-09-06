@@ -5,14 +5,23 @@ import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import LeaderboardIcon from "@mui/icons-material/Leaderboard";
 import HomeIcon from "@mui/icons-material/Home";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
-
+  const location = useLocation();
   return (
-    <Box sx={{ width: "100%" }}>
+    <Box
+      sx={{
+        width: "100%",
+        "@media (max-width: 600px)": {
+          position: "fixed",
+          bottom: 1,
+          left: 0,
+          right: 0,
+        },
+      }}
+    >
       <BottomNavigation
         showLabels
         value={value}
@@ -29,12 +38,16 @@ export default function SimpleBottomNavigation() {
           icon={
             <HomeIcon
               style={{
-                color: value === 0 ? "white" : "#ee1e46",
+                color:
+                  value === 0 || location.pathname === "/"
+                    ? "white"
+                    : "#ee1e46",
               }}
             />
           }
           style={{
-            color: value === 0 ? "white" : "#ee1e46",
+            color:
+              value === 0 || location.pathname === "/" ? "white" : "#ee1e46",
             textDecoration: "none",
           }}
         />
@@ -46,12 +59,18 @@ export default function SimpleBottomNavigation() {
           icon={
             <EmojiEventsIcon
               style={{
-                color: value === 1 ? "white" : "#ee1e46",
+                color:
+                  value === 1 || location.pathname === "/Matches"
+                    ? "white"
+                    : "#ee1e46",
               }}
             />
           }
           style={{
-            color: value === 1 ? "white" : "#ee1e46",
+            color:
+              value === 1 || location.pathname === "/Matches"
+                ? "white"
+                : "#ee1e46",
             textDecoration: "none",
           }}
         />
@@ -62,13 +81,19 @@ export default function SimpleBottomNavigation() {
           icon={
             <LeaderboardIcon
               style={{
-                color: value === 2 ? "white" : "#ee1e46",
+                color:
+                  value === 2 || location.pathname === "/Results"
+                    ? "white"
+                    : "#ee1e46",
               }}
             />
           }
           onMouseEnter={() => setValue(2)}
           style={{
-            color: value === 2 ? "white" : "#ee1e46",
+            color:
+              value === 2 || location.pathname === "/Results"
+                ? "white"
+                : "#ee1e46",
             textDecoration: "none",
           }}
         />
@@ -80,12 +105,18 @@ export default function SimpleBottomNavigation() {
           icon={
             <HomeIcon
               style={{
-                color: value === 3 ? "white" : "#ee1e46",
+                color:
+                  value === 3 || location.pathname === "/our-team"
+                    ? "white"
+                    : "#ee1e46",
               }}
             />
           }
           style={{
-            color: value === 3 ? "white" : "#ee1e46",
+            color:
+              value === 3 || location.pathname === "/our-team"
+                ? "white"
+                : "#ee1e46",
             textDecoration: "none",
           }}
         />
