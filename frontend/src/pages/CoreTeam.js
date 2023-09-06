@@ -20,7 +20,8 @@ import _16 from "../assets/images/16.jpeg"
 import _17 from "../assets/images/17.jpeg"
 import _18 from "../assets/images/18.jpeg"
 import logo from "../assets/images/logo.png";
-import CoreTeamHeader from '../components/CoreTeamHeader';
+import AnimatedHeading from '../components/AnimatedHeading'
+
 function CoreTeam() {
 
   return (
@@ -39,7 +40,7 @@ function CoreTeam() {
               paddingTop:"100px"
 
             }}>
-              <CoreTeamHeader/>
+              <AnimatedHeading heading="OUR-TEAM"/>
               <Cards
                 img={_1}
                 Name="Amol sourav"
