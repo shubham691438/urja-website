@@ -1,21 +1,37 @@
 import React from "react";
-// import FootballImage from "../assets/images/football.png";
-// import CricketImage from "../assets/images/cricketLogo.png";
-// import coordinator1 from "../assets/images/team-1.jpg";
-// import coordinator2 from "../assets/images/team-2.jpg";
-// import SportStyles from "./Sports.module.css";
-import SportsHeader from "../components/SportsHeader";
 import SportsCoordinator from "../components/SportsCoordinator";
+import AnimatedHeading from "../components/AnimatedHeading"
+
 const Sports = () => {
   return (
     <>
-      <div class="site-section " style={{ backgroundColor: "#222831" }}>
-        <div class="container" style={{ marginTop: "2em" }}>
-          <SportsHeader />
+      <div className="site-section " style={{ backgroundColor: "#222831" }}>
+        <div className="container" style={{ marginTop: "2em" }}>
+          
+          <AnimatedHeading heading="CRICKET"/>
 
-          <div class="row mb-5">
-            <div class="col-lg-12">
-              <div class="widget-next-match">
+          <div className="row mb-5 pt-5">
+            <div className="col-lg-12 d-flex flex-column justify-content-center" 
+            style={{
+                      padding: "16px 20px",
+                      color: "#fff",
+                    }}>
+              <h5 
+              style={{
+                  color:"#ee1e46",
+                  marginBottom:"20px",
+                  fontWeight:"bold"
+                  
+
+              }}
+              > "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid</h5>
+              <p>Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.</p>
+            </div>
+          </div>
+
+          <div className="row mb-5">
+            <div className="col-lg-12">
+              <div className="widget-next-match">
                 <div
                   style={{
                     padding: "16px 20px",
@@ -34,10 +50,10 @@ const Sports = () => {
                     Rules
                   </h4>
                 </div>
-                <div class="widget-body mb-3">
-                  <div class="widget-vs">
+                <div className="widget-body mb-3">
+                  <div className="widget-vs">
                     <div
-                      class="d-flex align-items-left justify-content-around justify-content-between w-100"
+                      className="d-flex align-items-left justify-content-around justify-content-between w-100"
                       style={{ color: "white", flexDirection: "column" }}
                     >
                       <ul>
@@ -69,24 +85,7 @@ const Sports = () => {
             </div>
           </div>
 
-          <div
-            style={{
-              padding: "16px 20px",
-              color: "#fff",
-              backgroundColor: "#ee1e46",
-            }}
-          >
-            <h4
-              style={{
-                margin: "0px",
-                padding: "0px",
-                fontWeight: "700",
-                color: "#fff",
-              }}
-            >
-              Matches Scheduled
-            </h4>
-          </div>
+          
         </div>
         <section className="services section-bg mt-5">
           <div className="container " data-aos="fade-up">
@@ -112,6 +111,26 @@ const Sports = () => {
             <div className="row mt-3 justify-content-evenly">
               <SportsCoordinator />
               <SportsCoordinator />
+            </div>
+
+              <div
+                style={{
+                  marginTop:"50px",
+                  padding: "16px 20px",
+                  color: "#fff",
+                  backgroundColor: "#ee1e46",
+                }}
+              >
+                <h4
+                  style={{
+                    margin: "0px",
+                    padding: "0px",
+                    fontWeight: "700",
+                    color: "#fff",
+                  }}
+                >
+                Schedule of Matches
+              </h4>
             </div>
           </div>
         </section>

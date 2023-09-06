@@ -16,7 +16,6 @@ body {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Darker shadow */
 }
 
-
 ::selection {
   background: #000;
   color: #fff;
@@ -1228,7 +1227,7 @@ h5,
 }
 .custom-table tbody tr td {
   background-color: inherit;
-  color:white;
+  color: white;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1490,4 +1489,3 @@ h5,
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-

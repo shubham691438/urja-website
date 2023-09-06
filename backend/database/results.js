@@ -8,8 +8,7 @@ const schema = new mongoose.Schema(
     team1: String,
     team2: String,
     score: String,
-    result1: String,
-    result2: String,
+    result: String,
   },
   { collection: "results" }
 );

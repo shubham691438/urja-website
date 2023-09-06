@@ -20,47 +20,27 @@ import _16 from "../assets/images/16.jpeg"
 import _17 from "../assets/images/17.jpeg"
 import _18 from "../assets/images/18.jpeg"
 import logo from "../assets/images/logo.png";
+import AnimatedHeading from '../components/AnimatedHeading'
+
 function CoreTeam() {
 
   return (
 
-    <div style={{
-      backgroundImage: 'url(https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80)',
-    }}>
+    <div >
+      
       <section id="team" class="team" >
-        
-
-          <div
-            className="hero overlay "
-
-
-
-          >
-            <div className="container">
-              <div className="row align-items-center">
-
-                <div className="col-lg-5 ml-auto">
-                  <h1 className="text-white">Our Core Team Members</h1>
-
-
-
-                </div>
-              </div>
-            </div>
-          </div>
           <div >
-            <div class="row gy-5" style={{
+            <div class="row gy-5 " style={{
               margin: "auto",
               display: 'flex',
               flexWrap: 'wrap',
               justifyContent: 'space-evenly',
-              alignContent: 'center',
-             
-                backgroundColor: 'white',
-            
-
+              alignContent: 'center',      
+              backgroundColor:"rgb(34, 40, 49)",
+              paddingTop:"100px"
 
             }}>
+              <AnimatedHeading heading="OUR-TEAM"/>
               <Cards
                 img={_1}
                 Name="Amol sourav"
