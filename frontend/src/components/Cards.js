@@ -38,6 +38,8 @@ function Cards(props) {
                 position: 'relative',
                 borderRadius: '8px',
                 transition: 'transform 0.3s, box-shadow 0.3s',
+                color:"white",
+                fontWeight:"bold"
               }}>
                 {/* <div class="social" style={{
                   
