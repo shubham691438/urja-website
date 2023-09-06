@@ -16,9 +16,6 @@ export const HeroSection = () => {
         className="hero overlay"
         style={{
           backgroundImage: `url(${urja_home_img2})`,
-          "@media (max-width: 600px)": {
-            height: "80%",
-          },
         }}
       >
         <div className="container">
