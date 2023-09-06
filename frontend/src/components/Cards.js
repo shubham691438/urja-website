@@ -18,9 +18,9 @@ function Cards(props) {
                 <img src={props.img} class="img-fluid" alt="" style={{
                    
                    position: 'relative',
-                  height:'30rem',
+                  height:'20rem',
                   margin:'auto',
-                  width:'20rem',
+                  width:'16rem',
                   overflow:'hidden',
                   objectFit: 'cover',
                   borderRadius:'1rem',
@@ -32,14 +32,14 @@ function Cards(props) {
                 
                 padding: '30px 15px',
                 textAlign: 'center',
-                boxShadow: '0px 2px 15px rgba(0,0,0, 0.1)',
-                background: 'white',
+                 boxShadow: '0px 2px 15px rgba(0,0,0, 0.1)',
+                
                 margin: '-50px 20px 0 20px',
                 position: 'relative',
                 borderRadius: '8px',
                 transition: 'transform 0.3s, box-shadow 0.3s',
               }}>
-                <div class="social" style={{
+                {/* <div class="social" style={{
                   
                  
                    boxSizing: 'border-box',
@@ -68,7 +68,7 @@ function Cards(props) {
                   <a href=""><img src={icon2} alt="" /></a>
                   <a href=""><img src={icon3} alt="" /></a>
                   <a href=""><img src={icon4} alt="" /></a>
-                </div>
+                </div> */}
                 <h4>{props.Name}</h4>
                 <span>{props.description}</span>
               </div>
