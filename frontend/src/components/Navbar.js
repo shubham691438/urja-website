@@ -26,7 +26,7 @@ const Navbar = () => {
                     alt="Logo"
                     style={{ width: "70px", height: "70px" }}
                   />
-                  <h1>Urja 2K23-24</h1>
+                  <h1>Urja</h1>
                 </div>
               </Link>
             </div>
