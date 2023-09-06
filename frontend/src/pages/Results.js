@@ -1,6 +1,7 @@
 import React from 'react'
 import ResultsSportsGrid from '../components/ResultsSportsGrid'
 import AnimatedHeading from '../components/AnimatedHeading'
+import { Outlet } from "react-router-dom"
 
 const Results = () => {
   return (
