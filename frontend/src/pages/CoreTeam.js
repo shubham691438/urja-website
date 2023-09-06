@@ -24,15 +24,40 @@ function CoreTeam() {
 
   return (
 
-    <div >
+    <div style={{
+      backgroundImage: 'url(https://images.unsplash.com/photo-1549896869-ca27eeffe4fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80)',
+    }}>
       <section id="team" class="team" >
+        
+
+          <div
+            className="hero overlay "
+
+
+
+          >
+            <div className="container">
+              <div className="row align-items-center">
+
+                <div className="col-lg-5 ml-auto">
+                  <h1 className="text-white">Our Core Team Members</h1>
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
           <div >
             <div class="row gy-5" style={{
               margin: "auto",
               display: 'flex',
               flexWrap: 'wrap',
               justifyContent: 'space-evenly',
-              alignContent: 'center',      
+              alignContent: 'center',
+             
+                backgroundColor: 'white',
+            
 
 
             }}>
