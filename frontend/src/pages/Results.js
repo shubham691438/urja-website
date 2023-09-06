@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom"
 
 const Results = () => {
   return (
-    <div className="site-section " style={{ backgroundColor: "#222831" }}>
+    <div className="site-section" style={{ backgroundColor: "#222831" ,paddingTop:"100px"}}>
         <div className="container" style={{ marginTop: "2em" }}>
           <AnimatedHeading heading="MATCH-RESULTS"/>
 
