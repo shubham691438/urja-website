@@ -4,7 +4,8 @@ import AnimatedHeading from "../components/AnimatedHeading";
 // import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import data from "../sports.json";
-
+import BoysSampleImg from "../assets/images/BoysSample.jpeg";
+import GirlsSampleImg from "../assets/images/girlsSample.jpeg";
 // **** In data.json image Url needs to be updated for the sports coordinator one sample will be done **** //
 
 const Sports = () => {
@@ -132,10 +133,12 @@ const Sports = () => {
               <SportsCoordinator
                 name={jsonData.coordinator_Name1}
                 position={jsonData.position1}
+                image={jsonData.imgUrl3}
               />
               <SportsCoordinator
                 name={jsonData.coordinator_Name2}
                 position={jsonData.position2}
+                image={jsonData.imgUrl2}
               />
             </div>
 
@@ -157,6 +160,62 @@ const Sports = () => {
               >
                 Schedule of Matches
               </h4>
+            </div>
+            <div>
+              <div>
+                <h4
+                  style={{
+                    margin: "0px",
+
+                    fontWeight: "700",
+                    color: "#fff",
+                    marginTop: "50px",
+                    padding: "16px 20px",
+                    backgroundColor: "#ee1e46",
+                    display: "inline-flex",
+                  }}
+                >
+                  BOYS
+                </h4>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  flexDirection: "column",
+                  padding: "4%",
+                }}
+              >
+                <img src={BoysSampleImg} alt="" srcset="" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <h4
+                  style={{
+                    margin: "0px",
+
+                    fontWeight: "700",
+                    color: "#fff",
+                    marginTop: "50px",
+                    padding: "16px 20px",
+                    backgroundColor: "#ee1e46",
+                    display: "inline-flex",
+                  }}
+                >
+                  GIRLS
+                </h4>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  flexDirection: "column",
+                  padding: "4%",
+                }}
+              >
+                <img src={GirlsSampleImg} alt="" srcset="" />
+              </div>
             </div>
           </div>
         </section>

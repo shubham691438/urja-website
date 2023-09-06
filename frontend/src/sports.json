@@ -13,8 +13,10 @@
     "coordinator_Name1": "Coordinator",
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
+
     "position2": "Vice-Captain",
-    "imgUrl": ""
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
   },
   "football": {
     "title": "FOOTBALL",
@@ -31,7 +33,8 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
     "position2": "Vice-Captain",
-    "imgUrl": ""
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
   },
   "badminton": {
     "title": "BADMINTON",
@@ -48,7 +51,8 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
     "position2": "Vice-Captain",
-    "imgUrl": ""
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
   },
   "basketball": {
     "title": "BASKETBALL",
@@ -65,7 +69,8 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator2",
     "position2": "Vice-Captain",
-    "imgUrl": ""
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
   },
   "hockey": {
     "title": "HOCKEY",
@@ -82,7 +87,8 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
     "position2": "Vice-Captain",
-    "imgUrl": ""
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
   },
   "athlete": {
     "title": "ATHLETE",
@@ -99,7 +105,8 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
     "position2": "Vice-Captain",
-    "imgUrl": ""
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
   },
   "tennis": {
     "title": "TENNIS",
@@ -116,6 +123,7 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator2",
     "position2": "Vice-Captain",
-    "imgUrl": ""
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
   }
 }
