@@ -3,6 +3,8 @@ import { Zoom } from "react-reveal";
 import urja_home_img2 from "../assets/images/urja_home_img2.jpg";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
+import AnimatedHeading from "../components/AnimatedHeading"
+
 
 import { Link } from "react-router-dom";
 // import ResultCard from "./ResultCard";
@@ -22,8 +24,8 @@ export const HeroSection = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 ml-auto">
-              <h1 className="text-white">URJA 2K23-24</h1>
-              <p>WELCOME TO URJA 2K23-24</p>
+              <h1 className="text-white">URJA 2K24</h1>
+              <p>WELCOME TO URJA 2K24</p>
               <div id="date-countdown"></div>
               <p>
                 <Link to="/matches" className="btn btn-danger py-3 px-4 mr-3 ">
@@ -46,8 +48,8 @@ export const HeroSection = () => {
         <Zoom>
           <div className="container">
             <div className="row">
-              <div className="col-lg-12 ">
-                <div className="d-flex team-vs ">
+              <div className="col-lg-12">
+                <div className="d-flex team-vs">
                   <span className="score">4-1</span>
                   <div className="team-1 w-50">
                     <div className="team-details w-100 text-center">
