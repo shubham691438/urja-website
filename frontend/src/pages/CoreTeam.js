@@ -20,22 +20,26 @@ import _16 from "../assets/images/16.jpeg"
 import _17 from "../assets/images/17.jpeg"
 import _18 from "../assets/images/18.jpeg"
 import logo from "../assets/images/logo.png";
+import CoreTeamHeader from '../components/CoreTeamHeader';
 function CoreTeam() {
 
   return (
 
     <div >
+      
       <section id="team" class="team" >
           <div >
-            <div class="row gy-5" style={{
+            <div class="row gy-5 " style={{
               margin: "auto",
               display: 'flex',
               flexWrap: 'wrap',
               justifyContent: 'space-evenly',
               alignContent: 'center',      
-
+              backgroundColor:"rgb(34, 40, 49)",
+              paddingTop:"100px"
 
             }}>
+              <CoreTeamHeader/>
               <Cards
                 img={_1}
                 Name="Amol sourav"
