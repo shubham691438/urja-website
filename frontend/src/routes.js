@@ -3,7 +3,7 @@ import Matches from "./pages/Matches";
 import Layout from "./components/Layout";
 import Sports from "./pages/Sports";
 import CoreTeam from "./pages/CoreTeam";
-import Results from "./pages/Results"
+import Results from "./pages/Results";
 import SportsResult from "./components/SportResult";
 const Routes = [
   {
@@ -19,26 +19,26 @@ const Routes = [
         element: <Matches />,
       },
       {
-        path: "/sports/:id",
+        path: "/sports/:key",
         element: <Sports />,
       },
       {
-        path:"/our-team",
-        element: <CoreTeam/>,
+        path: "/our-team",
+        element: <CoreTeam />,
       },
       {
-        path:"/results",
-        children:[
+        path: "/results",
+        children: [
           {
-            index:true,
-            element:<Results/>
+            index: true,
+            element: <Results />,
           },
           {
-            path:"/results/:id",
-            element:<SportsResult/>
-          }
-        ]
-      }
+            path: "/results/:id",
+            element: <SportsResult />,
+          },
+        ],
+      },
     ],
   },
 ];
