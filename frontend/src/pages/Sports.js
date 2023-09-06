@@ -1,21 +1,16 @@
 import React from "react";
-// import FootballImage from "../assets/images/football.png";
-// import CricketImage from "../assets/images/cricketLogo.png";
-// import coordinator1 from "../assets/images/team-1.jpg";
-// import coordinator2 from "../assets/images/team-2.jpg";
-// import SportStyles from "./Sports.module.css";
 import SportsHeader from "../components/SportsHeader";
 import SportsCoordinator from "../components/SportsCoordinator";
 const Sports = () => {
   return (
     <>
-      <div class="site-section " style={{ backgroundColor: "#222831" }}>
-        <div class="container" style={{ marginTop: "2em" }}>
+      <div className="site-section " style={{ backgroundColor: "#222831" }}>
+        <div className="container" style={{ marginTop: "2em" }}>
           <SportsHeader />
 
-          <div class="row mb-5">
-            <div class="col-lg-12">
-              <div class="widget-next-match">
+          <div className="row mb-5">
+            <div className="col-lg-12">
+              <div className="widget-next-match">
                 <div
                   style={{
                     padding: "16px 20px",
@@ -34,10 +29,10 @@ const Sports = () => {
                     Rules
                   </h4>
                 </div>
-                <div class="widget-body mb-3">
-                  <div class="widget-vs">
+                <div className="widget-body mb-3">
+                  <div className="widget-vs">
                     <div
-                      class="d-flex align-items-left justify-content-around justify-content-between w-100"
+                      className="d-flex align-items-left justify-content-around justify-content-between w-100"
                       style={{ color: "white", flexDirection: "column" }}
                     >
                       <ul>
