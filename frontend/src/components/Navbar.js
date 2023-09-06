@@ -2,26 +2,31 @@ import React from "react";
 import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
   return (
     <>
-      <div className="site-mobile-menu site-navbar-target">
+      {/* <div className="site-mobile-menu site-navbar-target">
         <div className="site-mobile-menu-header">
           <div className="site-mobile-menu-close">
             <span className="icon-close2 js-menu-toggle"></span>
           </div>
         </div>
         <div className="site-mobile-menu-body"></div>
-      </div>
-
+      </div> */}
+   
       <header className="site-navbar py-4" role="banner">
         <div className="container">
           <div className="d-flex align-items-center">
             <div className="site-logo">
               <Link to="/" className="text-decoration-none">
                 <div className="d-flex">
-                <img src={logo} alt="Logo" style={{width:"70px",height:"70px"}}/>
-                <h1 >Urja-2023</h1>
+                  <img
+                    src={logo}
+                    alt="Logo"
+                    style={{ width: "70px", height: "70px" }}
+                  />
+                  <h1>Urja 2K23-24</h1>
                 </div>
               </Link>
             </div>
@@ -38,7 +43,7 @@ const Navbar = () => {
                     <Link to="/matches">Matches</Link>
                   </li>
                   <li>
-                  <Link to="/results">Results</Link>
+                    <Link to="/results">Results</Link>
                   </li>
                   {/* <li>
                     <a href="/" className="nav-link">
@@ -46,9 +51,7 @@ const Navbar = () => {
                     </a>
                   </li> */}
                   <li>
-                    <Link to="/our-team" >
-                      Our Team
-                    </Link>
+                    <Link to="/our-team">Our Team</Link>
                   </li>
                 </ul>
               </nav>
