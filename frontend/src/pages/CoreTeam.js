@@ -43,91 +43,91 @@ function CoreTeam() {
               <AnimatedHeading heading="OUR-TEAM"/>
               <Cards
                 img={_1}
-                Name="Amol sourav"
-                description="App head" />
+                Name="Amol Sourav"
+                description="App Head" />
 
 
               <Cards
                 img={_2}
-                Name="prashant raj"
-                description="event head" />
+                Name="Prashant Raj"
+                description="Event Head" />
 
               <Cards
                 img={_3}
                 Name="Abhinav Kumar"
-                description="pr head" />
+                description="PR Head" />
               <Cards
                 img={_4}
                 Name="Anubhav"
-                description="joint sports secretary" />
+                description="Joint Sports Secretary" />
               <Cards
                 img={_5}
                 Name="nitin kumar"
-                description="joint secretary"
+                description="Joint Secretary"
               />
               <Cards
                 img={_6}
-                Name="aman kumar"
-                description="pr head"
+                Name="Aman Kumar"
+                description="PR Head"
               />
               <Cards
                 img={_7}
-                Name="Sudhanshu bharti"
-                description="executive head"
+                Name="Sudhanshu Bharti"
+                description="Executive Head"
               />
 
               <Cards
                 img={_8}
                 Name="Satish"
-                description="logistic head" />
+                description="Logistic Head" />
 
 
               <Cards
                 img={_9}
                 Name="Shravya"
-                description="event head" />
+                description="Event Head" />
 
               <Cards
                 img={_10}
                 Name="Ravindra Raj"
-                description="sports secretary" />
+                description="Sports Secretary" />
               <Cards
                 img={_11}
-                Name="Nikita sundi"
-                description="logistic head" />
+                Name="Nikita Sundi"
+                description="Logistic Head" />
               <Cards
                 img={_12}
                 Name="Biswajit Murmu"
-                description="medical head"
+                description="Medical Head"
               />
               <Cards
                 img={_13}
-                Name="Kumar abhinav"
-                description="medical head"
+                Name="Kumar Abhinav"
+                description="Medical Head"
               />
               <Cards
                 img={_14}
                 Name="Kuldeep Kumar "
-                description="General secretary"
+                description="General Secretary"
               />
               <Cards
                 img={_15}
-                Name="Navya shankar"
-                description="Executive head" />
+                Name="Navya Shankar"
+                description="Executive Head" />
               <Cards
                 img={_16}
-                Name="avantika tiwari"
-                description="creative head"
+                Name="Avantika Tiwari"
+                description="Creative Head"
               />
               <Cards
                 img={_17}
-                Name="Shubham tiwary"
-                description="App head"
+                Name="Shubham Tiwary"
+                description="App Head"
               />
               <Cards
                 img={_18}
                 Name="Anurag Mahanty"
-                description="CA head"
+                description="CA Head"
               />
 
 
