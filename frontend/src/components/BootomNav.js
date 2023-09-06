@@ -6,17 +6,10 @@ import LeaderboardIcon from "@mui/icons-material/Leaderboard";
 import HomeIcon from "@mui/icons-material/Home";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
-  const labelStyle = {
-    color: value === 0 ? "red" : "blue", // Default color
-    transition: "color 0.3s", // Smooth transition
-  };
-
-  const hoverStyle = {
-    color: "white", // Color on hover
-  };
 
   return (
     <Box sx={{ width: "100%" }}>
@@ -34,9 +27,16 @@ export default function SimpleBottomNavigation() {
           label="Home"
           onMouseEnter={() => setValue(0)}
           icon={
-            <HomeIcon style={{ color: value === 0 ? "white" : "#ee1e46" }} />
+            <HomeIcon
+              style={{
+                color: value === 0 ? "white" : "#ee1e46",
+              }}
+            />
           }
-          style={{ color: value === 0 ? "white" : "#ee1e46" }}
+          style={{
+            color: value === 0 ? "white" : "#ee1e46",
+            textDecoration: "none",
+          }}
         />
         <BottomNavigationAction
           component={Link}
@@ -45,22 +45,32 @@ export default function SimpleBottomNavigation() {
           onMouseEnter={() => setValue(1)}
           icon={
             <EmojiEventsIcon
-              style={{ color: value === 1 ? "white" : "#ee1e46" }}
+              style={{
+                color: value === 1 ? "white" : "#ee1e46",
+              }}
             />
           }
-          style={{ color: value === 1 ? "white" : "#ee1e46" }}
+          style={{
+            color: value === 1 ? "white" : "#ee1e46",
+            textDecoration: "none",
+          }}
         />
         <BottomNavigationAction
           component={Link}
           to="/Results"
           label="Results"
-          onMouseEnter={() => setValue(2)}
           icon={
             <LeaderboardIcon
-              style={{ color: value === 2 ? "white" : "#ee1e46" }}
+              style={{
+                color: value === 2 ? "white" : "#ee1e46",
+              }}
             />
           }
-          style={{ color: value === 2 ? "white" : "#ee1e46" }}
+          onMouseEnter={() => setValue(2)}
+          style={{
+            color: value === 2 ? "white" : "#ee1e46",
+            textDecoration: "none",
+          }}
         />
         <BottomNavigationAction
           component={Link}
@@ -68,9 +78,16 @@ export default function SimpleBottomNavigation() {
           label="Our Team"
           onMouseEnter={() => setValue(3)}
           icon={
-            <HomeIcon style={{ color: value === 3 ? "white" : "#ee1e46" }} />
+            <HomeIcon
+              style={{
+                color: value === 3 ? "white" : "#ee1e46",
+              }}
+            />
           }
-          style={{ color: value === 3 ? "white" : "#ee1e46" }}
+          style={{
+            color: value === 3 ? "white" : "#ee1e46",
+            textDecoration: "none",
+          }}
         />
       </BottomNavigation>
     </Box>
