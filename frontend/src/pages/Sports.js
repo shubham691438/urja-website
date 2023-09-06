@@ -133,12 +133,12 @@ const Sports = () => {
               <SportsCoordinator
                 name={jsonData.coordinator_Name1}
                 position={jsonData.position1}
-                image={jsonData.imgUrl3}
+                image={jsonData.coordinator1_image}
               />
               <SportsCoordinator
                 name={jsonData.coordinator_Name2}
                 position={jsonData.position2}
-                image={jsonData.imgUrl2}
+                image={jsonData.coordinator2_image}
               />
             </div>
 
@@ -183,10 +183,10 @@ const Sports = () => {
                   display: "flex",
                   justifyContent: "center",
                   flexDirection: "column",
-                  padding: "4%",
+                  paddingTop: "4%",
                 }}
               >
-                <img src={BoysSampleImg} alt="" srcset="" />
+                <img src={jsonData.boysMatchSchedule?jsonData.boysMatchSchedule:"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"} alt="" srcset="" />
               </div>
             </div>
             <div>
@@ -211,10 +211,10 @@ const Sports = () => {
                   display: "flex",
                   justifyContent: "center",
                   flexDirection: "column",
-                  padding: "4%",
+                  paddingTop: "4%",
                 }}
               >
-                <img src={GirlsSampleImg} alt="" srcset="" />
+                <img src={jsonData.girlsMatchSchedule?jsonData.girlsMatchSchedule:"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"} alt="" srcset="" />
               </div>
             </div>
           </div>

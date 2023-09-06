@@ -15,8 +15,10 @@
     "coordinator_Name2": "Coordinator",
 
     "position2": "Vice-Captain",
-    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "football": {
     "title": "FOOTBALL",
@@ -33,8 +35,10 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
     "position2": "Vice-Captain",
-    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "badminton": {
     "title": "BADMINTON",
@@ -51,8 +55,10 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
     "position2": "Vice-Captain",
-    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "basketball": {
     "title": "BASKETBALL",
@@ -69,8 +75,10 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator2",
     "position2": "Vice-Captain",
-    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "hockey": {
     "title": "HOCKEY",
@@ -87,8 +95,10 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
     "position2": "Vice-Captain",
-    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "athlete": {
     "title": "ATHLETE",
@@ -105,8 +115,10 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
     "position2": "Vice-Captain",
-    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "tennis": {
     "title": "TENNIS",
@@ -123,7 +135,9 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator2",
     "position2": "Vice-Captain",
-    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   }
 }
