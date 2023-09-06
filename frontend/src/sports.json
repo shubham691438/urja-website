@@ -1,0 +1,129 @@
+{
+  "cricket": {
+    "title": "CRICKET",
+    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
+    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
+    "rules": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    ],
+    "coordinator_Name1": "Coordinator",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator",
+
+    "position2": "Vice-Captain",
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+  },
+  "football": {
+    "title": "FOOTBALL",
+    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
+    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
+    "rules": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    ],
+    "coordinator_Name1": "Coordinator",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator",
+    "position2": "Vice-Captain",
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+  },
+  "badminton": {
+    "title": "BADMINTON",
+    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
+    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
+    "rules": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    ],
+    "coordinator_Name1": "Coordinator",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator",
+    "position2": "Vice-Captain",
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+  },
+  "basketball": {
+    "title": "BASKETBALL",
+    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
+    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
+    "rules": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    ],
+    "coordinator_Name1": "Coordinator1",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator2",
+    "position2": "Vice-Captain",
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+  },
+  "hockey": {
+    "title": "HOCKEY",
+    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
+    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
+    "rules": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    ],
+    "coordinator_Name1": "Coordinator",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator",
+    "position2": "Vice-Captain",
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+  },
+  "athlete": {
+    "title": "ATHLETE",
+    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
+    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
+    "rules": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    ],
+    "coordinator_Name1": "Coordinator",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator",
+    "position2": "Vice-Captain",
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+  },
+  "tennis": {
+    "title": "TENNIS",
+    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
+    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
+    "rules": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    ],
+    "coordinator_Name1": "Coordinator1",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator2",
+    "position2": "Vice-Captain",
+    "imgUrl3": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "imgUrl2": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+  }
+}
