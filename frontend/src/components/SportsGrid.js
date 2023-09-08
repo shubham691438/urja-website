@@ -114,6 +114,7 @@ const SportsGrid = () => {
               </Link>
             </div>
           </Slide>
+
           <Slide>
             <div
               className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
@@ -125,7 +126,46 @@ const SportsGrid = () => {
                   <div className="icon">
                     <img src={Tennis} alt="Tennis"></img>
                   </div>
-                  <h4>Tennis</h4>
+                  <h4>Table Tennis</h4>
+                </div>
+              </Link>
+            </div>
+          </Slide>
+
+          <Slide>
+            <div
+              className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <Link
+                to="/sports/lawnTennis"
+                className="w-100 text-decoration-none"
+              >
+                <div className="icon-box w-100">
+                  <div className="icon">
+                    <img src={Tennis} alt="Tennis"></img>
+                  </div>
+                  <h4>Lawn Tennis</h4>
+                </div>
+              </Link>
+            </div>
+          </Slide>
+        </div>
+
+        <div className="row mt-3">
+          <Slide>
+            <div
+              className="col-xl-3 col-md-6 d-flex align-items-stretch"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <Link to="/sports/chess" className="w-100 text-decoration-none">
+                <div className="icon-box w-100 px-5">
+                  <div className="icon">
+                    <img src={HockeyLogo} alt="Hockey"></img>
+                  </div>
+                  <h4>Chess</h4>
                 </div>
               </Link>
             </div>

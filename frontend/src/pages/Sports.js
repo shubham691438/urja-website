@@ -80,27 +80,18 @@ const Sports = () => {
                       style={{ color: "white", flexDirection: "column" }}
                     >
                       <ul>
-                        <li>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit.
-                        </li>
-                        <li>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
-                        </li>
-                        <li>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
-                        </li>
-                        <li>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
-                        </li>
-                        <li>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
-                        </li>
+                        {jsonData.rules.map((rules) => (
+                          <li key={rules}>{` ${rules}`}</li>
+                        ))}
                       </ul>
+
+                      {/* <ul>
+                        <li>{jsonData.rules[0]}</li>
+                        <li>{jsonData.rules[1]}</li>
+                        <li>{jsonData.rules[2]}</li>
+                        <li>{jsonData.rules[3]}</li>
+                        <li>{jsonData.rules[4]}</li>
+                      </ul> */}
                     </div>
                   </div>
                 </div>
@@ -186,7 +177,15 @@ const Sports = () => {
                   paddingTop: "4%",
                 }}
               >
-                <img src={jsonData.boysMatchSchedule?jsonData.boysMatchSchedule:"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"} alt="" srcset="" />
+                <img
+                  src={
+                    jsonData.boysMatchSchedule
+                      ? jsonData.boysMatchSchedule
+                      : "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+                  }
+                  alt=""
+                  srcset=""
+                />
               </div>
             </div>
             <div>
@@ -214,7 +213,15 @@ const Sports = () => {
                   paddingTop: "4%",
                 }}
               >
-                <img src={jsonData.girlsMatchSchedule?jsonData.girlsMatchSchedule:"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"} alt="" srcset="" />
+                <img
+                  src={
+                    jsonData.girlsMatchSchedule
+                      ? jsonData.girlsMatchSchedule
+                      : "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+                  }
+                  alt=""
+                  srcset=""
+                />
               </div>
             </div>
           </div>
