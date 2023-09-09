@@ -4,8 +4,6 @@ import AnimatedHeading from "../components/AnimatedHeading";
 // import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import data from "../sports.json";
-import BoysSampleImg from "../assets/images/BoysSample.jpeg";
-import GirlsSampleImg from "../assets/images/girlsSample.jpeg";
 // **** In data.json image Url needs to be updated for the sports coordinator one sample will be done **** //
 
 const Sports = () => {
