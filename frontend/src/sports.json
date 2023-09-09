@@ -1,143 +1,362 @@
 {
   "cricket": {
     "title": "CRICKET",
-    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
-    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
+
     "rules": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      "League Format:",
+      "1. Urja '24 cricket will be a tennis ball tournament.",
+      "2. The Tournament will consist of group stage followed by semis and finals.",
+      "3. The group stage consists of 2 groups from which 2 teams from each group will be qualified for semis.",
+
+      "Point System:",
+      "1. 2 Points will be awarded to the winning team.",
+      "2. 0 Point will be awarded to the losing team.",
+      "3. 1 Point will be awarded to both teams if the match could not take place due to unavoidable circumstances.",
+      "4. In case of a tie in points, the team with a higher Net Run Rate will be placed higher.",
+
+      "Rules And Format of Matches:",
+      "1. Every match will have a maximum of 14 Overs.",
+      "2. There will be field restrictions (powerplay) for the first 5 overs of each innings of the match where only 2 fielders will be allowed outside the inner circle.",
+      "3. Only 4 bowlers are allowed to bowl a spell of a maximum of 3 overs.",
+      "4. If a wicket falls through caught, the new batsman will be taking the strike irrespective of whether the non-striker has crossed the halfway mark.",
+      "5. Mankading will be considered legal and will be counted as runout.",
+      "6. Any kind of no-ball will result in a free hit (batsman can only be dismissed via runout) to the batting team on the next ball.",
+      "7. LBW dismissal will not be considered.",
+      "8. No runs will be counted through Leg byes.",
+      "9. Runs will be counted through wides, no balls, byes, and will be considered as extras.",
+      "10. If the match ends up in a tie, then the result of the match will be decided on SUPER OVER (6 balls each team), the team batting second will bat first in the super over.",
+      "11. If Super Over ends in a tie, then the result will be decided on another Super Over and it will continue until there is an outcome of the match.",
+      "12. The final decisions on the field will be taken by the umpires and no objections will be entertained.",
+
+      "Discipline And Regulations:",
+      "1. Players and team officials must at all times accept the umpire’s decision. Players must not show dissent at the umpire’s decision or react in a provocative or disapproving manner towards another player or a spectator.",
+      "2. The captains are responsible at all times for ensuring that their team has reached the ground before the scheduled time.",
+      "3. Any player violating any disciplinary regulations will face serious consequences."
     ],
+    "coordinator_Name1": "Amol",
+    "position1": "Captain",
+    "coordinator_Name2": "Divyanshu Kumar Singh",
+
+    "position2": "Vice-Captain",
+    "coordinator1_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "coordinator2_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+  },
+  "football": {
+    "title": "FOOTBALL",
+    "quote": "Football teaches you to WIN or to look over your MISTAKES, you are never DEFEATED.",
+
+    "rules": [
+      "Rule Book will be provided to you. Point distribution is as follows",
+      "1st : 10 Points",
+      "2nd : 7 Points",
+      "3rd : 5 Point"
+    ],
+    "coordinator_Name1": "Mohit Ranjan Singh",
+    "position1": "Captain",
+    "coordinator_Name2": "Abhinav",
+    "position2": "Vice-Captain",
+    "coordinator1_image": "https://i.ibb.co/FBNxVH3/Football-1-Mohit-Ranjan-Singh-1.jpg",
+    "coordinator2_image": "https://i.ibb.co/qWQM83J/Football-2.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+  },
+  "badminton": {
+    "title": "BADMINTON",
+    "quote": "Keep calm and Smash hard ",
+
+    "rules": [
+      "RULES FOR MEN’S TEAM EVENT:",
+      "Each team needs to have a minimum of 6 players with an upper bound of 7 players per team.",
+      "Every tie consists of 5 matches in a tie (explained below) and every match shall be best of 3 games of 15 points each (with deuce and advantage concept till 21-21. If the score reaches 21-21, the first person to score 22nd point wins that game). The sequence of a tie would be:",
+      "- 1st Singles",
+      "- 2nd Singles",
+      "- 1st Doubles",
+      "- 3rd Singles",
+      "- 2nd Doubles",
+      "Only one player is allowed to repeat, that is, he shall be allowed to play both singles as well as doubles match for the team.",
+      "Every match won will contribute +1 to the overall tie score of the team and every match lost will contribute +0 to the overall tie score of the team.",
+      "The team with more points at the end of the 5 matches wins the tie and will proceed to the next round.",
+      "Semi-finals and finals matches will consist of 3 games of 21 points each (with deuce and advantage concept till 30-30. If the score reaches 30-30, the first person to score 31st point wins that game).",
+      "RULES FOR WOMEN’S TEAM EVENT:",
+      "Each team needs to have a minimum of 3 players with an upper bound of 5 players per team.",
+      "Every match shall be best of 3 games of 21 points each (with deuce and advantage concept till 30-30. If the score reaches 30-30, the first person to score the 31st point wins that game).",
+      "Only one player is allowed to repeat, that is, she shall be allowed to play both singles as well as doubles match for the team.",
+      "Every match won will contribute +1 to the overall score of the team and every match lost will contribute +0 to the overall score of the team.",
+      "The sequence of the matches will be:",
+      "- 1st Singles",
+      "- 1st Doubles",
+      "- 2nd Singles",
+      "The team with more points at the end of the 3 matches wins. (i.e., if it wins 2 out of 3 matches).",
+      "RULES FOR THE TOURNAMENT",
+      "Each team has to report at least 20 minutes before the match timing, failing to do so will result in a walkover.",
+      "Decisions taken by the umpires and the sports head during the tournament/match will be final and won’t be changed under any circumstances.",
+      "A list of all the players of each team must be submitted before the match in the order of the match they will play. The team order given by the respective team captains will not be changed later on.",
+      " Point distribution is as follows",
+      "1st : 10 Points",
+      "2nd : 7 Points",
+      "3rd : 5 Point"
+    ],
+    "coordinator_Name1": "Chaitanya Kumar ",
+    "position1": "Boy's Captain",
+    "coordinator_Name2": "Shravya",
+    "position2": "Girl's Captain",
+    "coordinator1_image": "https://i.ibb.co/pzjRDn3/badminton-1.jpg",
+    "coordinator2_image": "https://i.ibb.co/CPbxrXf/badminton-2.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+  },
+  "basketball": {
+    "title": "BASKETBALL",
+
+    "description": [
+      "EVENTS FOR BASKETBALL:         ",
+      "1. Men’s team event          ",
+      "2. Women’s team event"
+    ],
+
+    "rules": [
+      "RULES FOR MEN’S TEAM EVENT:",
+      "Each team begins with 5 players on the court.",
+      "Each game consists of four 8-minute quarters. 1 minute between each quarter and up to a 5 minutes half time.",
+      "5 personal fouls will result in a player fouling out of the game.",
+      "In case of Tie, Game can be extended up to 4 minutes.",
+      "Top two teams in each group will be qualified for semifinals.",
+      "Each quarter of Finals and Semifinals will be of 10 minutes.",
+
+      "RULES FOR WOMEN’S TEAM EVENT:",
+      "Each team begins with 5 players on the court.",
+      "Each game consists of four 6-minute quarters. 1 minute between each quarter and up to a 5 minutes half time.",
+      "5 personal fouls will result in a player fouling out of the game.",
+      "In case of Tie, Game can be extended up to 3 minutes.",
+      "Top two teams will be qualified for Finals.",
+
+      "RULES FOR THE TOURNAMENT:",
+      "Each team has to report at least 30 minutes before the match timing, failing to do so will result in a walkover.",
+      "No player is allowed to argue a foul with a referee. Decisions taken by the referee and the sports head during the tournament/match will be final and won’t be changed under any circumstances.",
+      "A list of all the players of each team must be submitted before the match in the order of the match they will play. The team order given by the respective team captains will not be changed later on.",
+      "In case of rain, the Game will be rescheduled to available slots.",
+
+      "POINTS DISTRIBUTION",
+      "1st - 10 Points",
+      "2nd - 7 Points",
+      "3rd - 5 Points"
+    ],
+    "coordinator_Name1": "Coordinator1",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator2",
+    "position2": "Vice-Captain",
+    "coordinator1_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "coordinator2_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+  },
+  "hockey": {
+    "title": "HOCKEY",
+    "quote": "We need to have the strength and power of a football player, the stamina of a marathon runner, and the concentration of a brain surgeon.",
+    "description": "Field hockey is a team sport played on grass or artificial turf, where players use curved sticks to hit a ball into the opponent's goal. ",
+    "rules": [
+      "1. Use of Stick: Players must use the flat side of their field hockey sticks to control, pass, and shoot the ball. Using the rounded side is a foul.",
+      "2. No Body Contact: Field hockey is a non-contact sport, so players are not allowed to use their bodies to obstruct or tackle opponents. Doing so results in a foul.",
+      "3. Obstruction: Players are not allowed to obstruct opponents from reaching the ball. This includes using their body or stick to block an opponent's path.",
+      "4. Dangers Play: Any action that is deemed dangerous, such as a high stick or a reckless swing, is a foul. Safety is a top priority in field hockey.",
+      "5. Penalty Corners: When a foul occurs within the striking circle, the attacking team is awarded a penalty corner. This is a set piece where the ball is placed at the circle's edge, and the attacking team has the opportunity to take a shot on goal."
+    ],
+    "coordinator_Name1": "Adarsh Kumar Nayak",
+    "position1": "Captain",
+    "coordinator_Name2": "Mohit",
+    "position2": "Vice-Captain",
+    "coordinator1_image": "https://i.ibb.co/nRcHmMV/Hockey-1.jpg",
+    "coordinator2_image": "https://i.ibb.co/h13XX4B/Hockey-2.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+  },
+  "athlete": {
+    "title": "ATHLETE",
+
+    "rules": [
+      "TRACK EVENTS:",
+      "100 Meters Race (B/G)",
+      " 200 Meters Race (B/G)",
+      " 400 Meters Race (B/G)",
+      " 800 Meters Race (B/G)",
+      " 1500 Meters Race (B/G)",
+      " 3000 Meters Race (B/G)",
+      " 4x100 Relay (B/G)",
+      " 4x400 Relay (B)",
+      " Medley Race",
+      " Mixed Race",
+      " Cross-Country (B/G)",
+
+      "FIELD EVENTS:",
+      " Long Jump (B/G)",
+      " High Jump (B)",
+      " Triple Jump (B/G)",
+      " Javelin Throw (B/G)",
+      " Discus Throw (B/G)",
+      " Shotput (B/G)",
+      " Tug of War (B/G)",
+      "RULES FOR 100/200/400 METER RACES:",
+      "➔ A Branch can have a maximum of 4 participants for the event.",
+      "➔ Heats will be conducted before the finals, and the top 2 qualifiers per heat will enter into the final race.",
+      "➔ Players can bring their own starting blocks if needed.",
+      "➔ Lane change during the event is strictly prohibited, which will lead to disqualification of the athlete.",
+      "➔ False start will lead to disqualification.",
+
+      "RULES FOR 800/1500/3000 METER RACES:",
+      "➔ For the long races, straight Finals will be held.",
+      "➔ A Branch can have a maximum of 4 participants for the event.",
+      "➔ Lane change is allowed after the start of the race.",
+      "➔ False start will lead to disqualification.",
+
+      "RULES FOR RELAY RACES (4x100, 4x400M):",
+      "➔ During the Race, if Baton is dropped, it shall be recovered by the athlete without lessening the distance to be covered.",
+      "➔ Baton shall be passed within the takeover zone.",
+      "➔ Passing of the Baton outside the takeover zone will lead to disqualification.",
+      "➔ Lane change is not allowed in 4x100m, whereas in 4x400m race, lane can be changed only after the first lap.",
+
+      "RULES FOR MIXED RELAY:",
+      "➔ 2 Boys and 2 girls will participate in the event.",
+      "➔ The first 100m will be covered by a male athlete followed by a female athlete for another 100m and so on for the remaining of the distance.",
+      "➔ Lane change is not allowed at all.",
+      "➔ Baton shall be passed within the takeover zone.",
+      "➔ Passing of Baton outside the takeover zone will lead to disqualification.",
+
+      "RULES FOR MEDLEY RACE:",
+      "➔ 2 male and 2 female athletes will participate in the event.",
+      "➔ The first 400m will be covered by the male athlete, and lane must not be changed, then the next 100m will be covered by the female athlete, and from now on, the lane change is allowed for the rest of the event.",
+      "➔ During the Race, if Baton is dropped, it shall be recovered by the athlete without lessening the distance to be covered.",
+
+      "RULES FOR CROSS-COUNTRY RACE:",
+      "➔ A marathon of 5 kms will be held where any number of athletes from a branch can participate.",
+      "➔ The token must be collected by the athletes during the race to ensure that they covered the given distance and no malpractice is involved.",
+
+      "RULES FOR THROWING EVENTS:",
+      "➔ A maximum of 4 participants per branch is allowed per event.",
+      "➔ Shotput/Discus/Javelin should fall under the stipulated region for the throw to be valid.",
+      "➔ Safety should be maintained during the throw.",
+      "➔ Subsequent false throws will lead to disqualification.",
+      "➔ The instrument must be released within the circular region without the athlete moving out of the throwing zone.",
+
+      "RULES FOR JUMP EVENTS:",
+      "➔ A maximum of 4 participants per branch is allowed per event.",
+      "➔ The athlete shall initiate all attempts from behind the designated foul line.",
+      "➔ Initially qualifying rounds will be held after which the bars will be raised in high jump event till we obtain a winner.",
+      "➔ All other rules will be communicated by the referee on the ground.",
+
+      "Note:",
+      " An athlete can participate in 3 individual events only (excluding cross country, relays).",
+      " If any event has less than 7 participants, the event will be scrapped.",
+      " Participation of the athlete will be canceled if not reached on time.",
+      " All the participants should carry their ID Card (especially during tug of war).",
+      "In the case of 100m, 200m, Final results will be decided based on the video recordings.",
+
+      "POINTS",
+      "Individual Events- Gold (5 points)",
+      "Silver (3 points)",
+      "Bronze (1 point)",
+      "Relay Events- Gold (7 points)",
+      "Silver (5 points)",
+      "Bronze (3 points)",
+      "Cross country - Gold (5 points)",
+      "Silver (4 points)",
+      "Bronze (3 points)",
+      "4th position (2 points)",
+      "5th position (1 point)"
+    ],
+
     "coordinator_Name1": "Coordinator",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator",
+    "position2": "Vice-Captain",
+    "coordinator1_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "coordinator2_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+  },
+  "tennis": {
+    "title": "TABLE  TENNIS",
+
+    "description": [
+      "EVENTS FOR TABLE TENNIS:           ",
+      "1. Men’s team event          ",
+      "2. Women’s team event"
+    ],
+
+    "rules": [
+      "Men's Team Event Rules",
+      "Team Composition: Each team must consist of 3 boy players and 1 extra player.",
+      "Doubles Match: 1 double match. In the doubles match, each team selects 2 players to participate.",
+      "Singles Matches: There will be 4 singles matches in total. Each player can play a maximum of 2 matches.",
+      "Order of Play: The order of play for singles matches can be determined by each team before the tournament begins. These rules ensure a fair and balanced table tennis tournament. There will be 5 matches in total. 3 players per team and a limit of 2 matches per player.",
+
+      "Points Distribution (Men's Team Event): 1st - 10 Points, 2nd - 7 Points, 3rd - 5 Points.",
+      " Each team has to report at least 20 minutes before the match timing, failing to do so will result in a walkover.",
+
+      "Women's Team Event Rules",
+      "Team Composition: Each team must consist of 2 players and 1 extra player.",
+      "Doubles Match: 1 double match. In the doubles match, each team selects 2 players to participate.",
+      "Singles Matches: There will be 2 singles matches in total. Each player can play a maximum of 2 matches.",
+      "Order of Play: The order of play for singles matches can be determined by each team before the tournament begins. These rules ensure a fair and balanced table tennis tournament. There will be 3 matches in total. 2 or 3 players per team and a limit of 2 matches per player.",
+
+      "Points Distribution (Women's Team Event): 1st - 10 Points, 2nd - 7 Points, 3rd - 5 Points. ",
+      "Each team has to report at least 20 minutes before the match timing, failing to do so will result in a walkover."
+    ],
+    "coordinator_Name1": "Coordinator1",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator2",
+    "position2": "Vice-Captain",
+    "coordinator1_image": "https://i.ibb.co/s9J76th/TAble-tennis-1.jpg",
+    "coordinator2_image": "https://i.ibb.co/fqtGXkY/Table-Tennis-2.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+  },
+
+  "lawnTennis": {
+    "title": "LAWN TENNIS",
+    "quote": "Talk with your racquet, play with your heart.",
+    "description": "Game in which two opposing players (singles) or pairs of players (doubles) use tautly strung rackets to hit a ball of specified size, weight, and bounce over a net on a rectangular court.",
+
+    "coordinator_Name1": "Aayush Kumar Gupta",
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
 
     "position2": "Vice-Captain",
-    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
-    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+    "coordinator1_image": "https://i.ibb.co/hmVvBRq/Lawn-Tennis.jpg",
+    "coordinator2_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
-  "football": {
-    "title": "FOOTBALL",
-    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
-    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
+
+  "chess": {
+    "title": "CHESS",
+    "quote": "Move in silence only speak when it's time to say Checkmate!",
+    "description": "Chess is a board game for two players, called White and Black, each controlling an army of chess pieces in their color, with the objective to checkmate the opponent's king.",
     "rules": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      "Both the teams would have 5 main players.",
+      "The matches will be played in a limited time format.",
+      "Each team will play 3 league matches.",
+      "The aim is to checkmate the king or make the opponent resign.",
+      "Points Offered:",
+      "- Win: 1 point",
+      "- Draw: 1/2 point",
+      "- Loss: 0 points",
+      "All the standard rules of stalemate, en passant, and threefold repetition will be followed.",
+      "All the official FIDE rules regarding points, legal & illegal moves, and in times of appeal will be followed.",
+      "Points Distribution:",
+      "1st - 10 Points",
+      "2nd - 7 Points",
+      "3rd - 5 Points"
     ],
-    "coordinator_Name1": "Coordinator",
-    "position1": "Captain",
-    "coordinator_Name2": "Coordinator",
-    "position2": "Vice-Captain",
-    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
-    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
-  },
-  "badminton": {
-    "title": "BADMINTON",
-    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
-    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
-    "rules": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    ],
-    "coordinator_Name1": "Coordinator",
-    "position1": "Captain",
-    "coordinator_Name2": "Coordinator",
-    "position2": "Vice-Captain",
-    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
-    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
-  },
-  "basketball": {
-    "title": "BASKETBALL",
-    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
-    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
-    "rules": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    ],
-    "coordinator_Name1": "Coordinator1",
-    "position1": "Captain",
-    "coordinator_Name2": "Coordinator2",
-    "position2": "Vice-Captain",
-    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
-    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
-  },
-  "hockey": {
-    "title": "HOCKEY",
-    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
-    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
-    "rules": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    ],
-    "coordinator_Name1": "Coordinator",
-    "position1": "Captain",
-    "coordinator_Name2": "Coordinator",
-    "position2": "Vice-Captain",
-    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
-    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
-  },
-  "athlete": {
-    "title": "ATHLETE",
-    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
-    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
-    "rules": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    ],
-    "coordinator_Name1": "Coordinator",
-    "position1": "Captain",
-    "coordinator_Name2": "Coordinator",
-    "position2": "Vice-Captain",
-    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
-    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
-  },
-  "tennis": {
-    "title": "TENNIS",
-    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.” – Rahul Dravid",
-    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
-    "rules": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    ],
-    "coordinator_Name1": "Coordinator1",
-    "position1": "Captain",
-    "coordinator_Name2": "Coordinator2",
-    "position2": "Vice-Captain",
-    "coordinator1_image": "https://th.bing.com/th/id/OIP.YoNFdGPAWm5_nOrlPgl4mgHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "coordinator2_image": "https://th.bing.com/th/id/OIP.f9Q21mJ8J7B-18ZCehYNxgHaMr?w=191&h=327&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    "boysMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
-    "girlsMatchSchedule":"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+    "coordinator_Name1": "Prashant Raj",
+    "position1": "Boy's Captain",
+    "coordinator_Name2": "Prerna Pan",
+
+    "position2": "Girl's Captain",
+    "coordinator1_image": "https://i.ibb.co/rQVTr7L/Prashant-Raj-chess-1.jpg",
+    "coordinator2_image": "https://i.ibb.co/ZmmNBy8/chess-2-Prerna-Pan.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   }
 }
