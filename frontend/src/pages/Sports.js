@@ -40,7 +40,7 @@ const Sports = () => {
                 {/* "You don’t win or lose the games because of the 11 you select.
                 You win or lose with that those 11 do on the field.” – Rahul
                 Dravid */}
-                {jsonData.quote?jsonData.quote:""}
+                "{jsonData.quote?jsonData.quote:""}"
               </h5>
               <p>
                 {/* Cricket is a super popular sport played with a bat and ball.
