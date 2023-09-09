@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SportsCoordinator from "../components/SportsCoordinator";
 import AnimatedHeading from "../components/AnimatedHeading";
 // import { useEffect, useState } from "react";
@@ -9,6 +9,11 @@ import GirlsSampleImg from "../assets/images/girlsSample.jpeg";
 // **** In data.json image Url needs to be updated for the sports coordinator one sample will be done **** //
 
 const Sports = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { key } = useParams();
   const jsonData = data[key];
 
