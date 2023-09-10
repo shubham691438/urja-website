@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SportsCoordinator from "../components/SportsCoordinator";
 import AnimatedHeading from "../components/AnimatedHeading";
 // import { useEffect, useState } from "react";
@@ -10,6 +10,10 @@ import ResultCard from "../components/ResultCard";
 // **** In data.json image Url needs to be updated for the sports coordinator one sample will be done **** //
 
 const Sports = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { key } = useParams();
   console.log();
   const jsonData = data[key];
@@ -36,7 +40,7 @@ const Sports = () => {
     <>
       <div className="site-section " style={{ backgroundColor: "#222831" }}>
         <div className="container" style={{ marginTop: "2em" }}>
-          <AnimatedHeading heading={jsonData.title} />
+          <AnimatedHeading heading={jsonData.title ? jsonData.title : ""} />
 
           <div className="row mb-5 pt-5">
             <div
@@ -57,7 +61,7 @@ const Sports = () => {
                 {/* "You don’t win or lose the games because of the 11 you select.
                 You win or lose with that those 11 do on the field.” – Rahul
                 Dravid */}
-                {jsonData.quote}
+                "{jsonData.quote ? jsonData.quote : ""}"
               </h5>
               <p>
                 {/* Cricket is a super popular sport played with a bat and ball.
@@ -67,7 +71,7 @@ const Sports = () => {
                 There are different formats like Test matches and One Day
                 Internationals. It's a game full of excitement, strategy, and
                 amazing moments. */}
-                {jsonData.description}
+                {jsonData.description ? jsonData.description : ""}
               </p>
             </div>
           </div>
@@ -100,27 +104,20 @@ const Sports = () => {
                       style={{ color: "white", flexDirection: "column" }}
                     >
                       <ul>
-                        <li>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit.
-                        </li>
-                        <li>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
-                        </li>
-                        <li>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
-                        </li>
-                        <li>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
-                        </li>
-                        <li>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
-                        </li>
+                        {jsonData.rules
+                          ? jsonData.rules.map((rules) => (
+                              <li key={rules}>{` ${rules}`}</li>
+                            ))
+                          : "Will be Updated Soon"}
                       </ul>
+
+                      {/* <ul>
+                        <li>{jsonData.rules[0]}</li>
+                        <li>{jsonData.rules[1]}</li>
+                        <li>{jsonData.rules[2]}</li>
+                        <li>{jsonData.rules[3]}</li>
+                        <li>{jsonData.rules[4]}</li>
+                      </ul> */}
                     </div>
                   </div>
                 </div>
@@ -151,14 +148,22 @@ const Sports = () => {
 
             <div className="row mt-3 justify-content-evenly">
               <SportsCoordinator
-                name={jsonData.coordinator_Name1}
-                position={jsonData.position1}
-                image={jsonData.coordinator1_image}
+                name={
+                  jsonData.coordinator_Name1 ? jsonData.coordinator_Name1 : ""
+                }
+                position={jsonData.position1 ? jsonData.position1 : ""}
+                image={
+                  jsonData.coordinator1_image ? jsonData.coordinator1_image : ""
+                }
               />
               <SportsCoordinator
-                name={jsonData.coordinator_Name2}
-                position={jsonData.position2}
-                image={jsonData.coordinator2_image}
+                name={
+                  jsonData.coordinator_Name2 ? jsonData.coordinator_Name2 : ""
+                }
+                position={jsonData.position2 ? jsonData.position2 : ""}
+                image={
+                  jsonData.coordinator2_image ? jsonData.coordinator2_image : ""
+                }
               />
             </div>
 

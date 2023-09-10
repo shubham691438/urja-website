@@ -958,7 +958,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .team-vs .score {
-    font-size: 2rem;
+    font-size: 1rem;
     left: 50%;
   }
 }
@@ -999,6 +999,8 @@ h5,
   -ms-transform: skew(-15deg);
   transform: skew(-15deg);
 }
+
+
 
 .latest-news {
   padding: 100px 0;

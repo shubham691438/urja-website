@@ -32,8 +32,10 @@ export const HeroSection = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 ml-auto">
-              <h1 className="text-white">URJA 2K24</h1>
-              <p>WELCOME TO URJA 2K24</p>
+              <h1 className="text-white" style={{ marginLeft: "10px" }}>
+                <AnimatedHeading heading="URJA-2K23" />{" "}
+              </h1>
+              <p>Unleash the Power of Urja: Ignite Your Passion for Sports</p>
               <div id="date-countdown"></div>
               <p>
                 <Link
