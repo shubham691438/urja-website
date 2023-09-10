@@ -109,7 +109,7 @@ const SportsGrid = () => {
                   <div className="icon">
                     <img src={Athlete} alt="Athletics"></img>
                   </div>
-                  <h4>Athlete</h4>
+                  <h4>Athletics</h4>
                 </div>
               </Link>
             </div>

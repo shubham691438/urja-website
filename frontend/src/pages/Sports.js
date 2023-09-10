@@ -16,7 +16,7 @@ const Sports = () => {
     <>
       <div className="site-section " style={{ backgroundColor: "#222831" }}>
         <div className="container" style={{ marginTop: "2em" }}>
-          <AnimatedHeading heading={jsonData.title?jsonData.title:""} />
+          <AnimatedHeading heading={jsonData.title ? jsonData.title : ""} />
 
           <div className="row mb-5 pt-5">
             <div
@@ -37,7 +37,7 @@ const Sports = () => {
                 {/* "You don’t win or lose the games because of the 11 you select.
                 You win or lose with that those 11 do on the field.” – Rahul
                 Dravid */}
-                {jsonData.quote?jsonData.quote:""}
+                {jsonData.quote ? jsonData.quote : ""}
               </h5>
               <p>
                 {/* Cricket is a super popular sport played with a bat and ball.
@@ -47,7 +47,7 @@ const Sports = () => {
                 There are different formats like Test matches and One Day
                 Internationals. It's a game full of excitement, strategy, and
                 amazing moments. */}
-                {jsonData.description?jsonData.description:""}
+                {jsonData.description ? jsonData.description : ""}
               </p>
             </div>
           </div>
@@ -79,11 +79,12 @@ const Sports = () => {
                       className="d-flex align-items-left justify-content-around justify-content-between w-100"
                       style={{ color: "white", flexDirection: "column" }}
                     >
-                      <ul>
-                        {jsonData.rules?jsonData.rules.map((rules) => (
-                          <li key={rules}>{` ${rules}`}</li>
-                        )):"Will be Updated Soon"
-                      }
+                      <ul style={{ listStyleType: "none" }}>
+                        {jsonData.rules
+                          ? jsonData.rules.map((rules) => (
+                              <li key={rules}>{` ${rules}`}</li>
+                            ))
+                          : "Will be Updated Soon"}
                       </ul>
 
                       {/* <ul>
@@ -123,14 +124,22 @@ const Sports = () => {
 
             <div className="row mt-3 justify-content-evenly">
               <SportsCoordinator
-                name={jsonData.coordinator_Name1?jsonData.coordinator_Name1:""}
-                position={jsonData.position1?jsonData.position1:""}
-                image={jsonData.coordinator1_image?jsonData.coordinator1_image:""}
+                name={
+                  jsonData.coordinator_Name1 ? jsonData.coordinator_Name1 : ""
+                }
+                position={jsonData.position1 ? jsonData.position1 : ""}
+                image={
+                  jsonData.coordinator1_image ? jsonData.coordinator1_image : ""
+                }
               />
               <SportsCoordinator
-                name={jsonData.coordinator_Name2?jsonData.coordinator_Name2:""}
-                position={jsonData.position2?jsonData.position2:""}
-                image={jsonData.coordinator2_image?jsonData.coordinator2_image:""}
+                name={
+                  jsonData.coordinator_Name2 ? jsonData.coordinator_Name2 : ""
+                }
+                position={jsonData.position2 ? jsonData.position2 : ""}
+                image={
+                  jsonData.coordinator2_image ? jsonData.coordinator2_image : ""
+                }
               />
             </div>
 
