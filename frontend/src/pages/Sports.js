@@ -6,11 +6,31 @@ import { useParams } from "react-router-dom";
 import data from "../sports.json";
 import BoysSampleImg from "../assets/images/BoysSample.jpeg";
 import GirlsSampleImg from "../assets/images/girlsSample.jpeg";
+import ResultCard from "../components/ResultCard";
 // **** In data.json image Url needs to be updated for the sports coordinator one sample will be done **** //
 
 const Sports = () => {
   const { key } = useParams();
+  console.log();
   const jsonData = data[key];
+
+  const [data, setData] = useState([{}]);
+  async function getData() {
+    let d = await fetch("http://localhost:5000/matches/get-match-score", {
+      method: "post",
+      body: JSON.stringify({ sport: key }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    d = await d.json();
+    console.log(d.data);
+    setData(d.data);
+  }
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <>
@@ -186,10 +206,22 @@ const Sports = () => {
                   paddingTop: "4%",
                 }}
               >
-                <img src={jsonData.boysMatchSchedule?jsonData.boysMatchSchedule:"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"} alt="" srcset="" />
+                {/* <img
+                  src={
+                    jsonData.boysMatchSchedule
+                      ? jsonData.boysMatchSchedule
+                      : "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+                  }
+                  alt=""
+                  srcset=""
+                /> */}
+                <ResultCard
+                  team1Name={item.team1}
+                  team2Name={item.team2}
+                ></ResultCard>
               </div>
             </div>
-            <div>
+            {/* <div>
               <div>
                 <h4
                   style={{
@@ -214,9 +246,17 @@ const Sports = () => {
                   paddingTop: "4%",
                 }}
               >
-                <img src={jsonData.girlsMatchSchedule?jsonData.girlsMatchSchedule:"https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"} alt="" srcset="" />
+                <img
+                  src={
+                    jsonData.girlsMatchSchedule
+                      ? jsonData.girlsMatchSchedule
+                      : "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+                  }
+                  alt=""
+                  srcset=""
+                />
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
       </div>
