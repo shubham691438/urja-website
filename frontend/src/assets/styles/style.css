@@ -951,14 +951,14 @@ h5,
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   z-index: 2;
   letter-spacing: 0.2em;
 }
 @media (max-width: 991.98px) {
   .team-vs .score {
-    font-size: 2rem;
+    font-size: 1rem;
     left: 50%;
   }
 }
@@ -999,6 +999,8 @@ h5,
   -ms-transform: skew(-15deg);
   transform: skew(-15deg);
 }
+
+
 
 .latest-news {
   padding: 100px 0;
