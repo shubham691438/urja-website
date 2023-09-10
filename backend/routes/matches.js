@@ -1,9 +1,14 @@
 const express = require("express");
-const { addMatchInfo, getMatchesBySports } = require("../LatestMatches");
+const {
+  addMatchInfo,
+  getMatchesBySports,
+  latestMatches,
+} = require("../LatestMatches");
 
 const router = express.Router();
 
-router.get("/get-match-score", getMatchesBySports);
+router.post("/get-match-score", getMatchesBySports);
 router.post("/add-match-score", addMatchInfo);
+router.get("/latestMatches", latestMatches);
 
 module.exports = router;

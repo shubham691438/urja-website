@@ -28,11 +28,33 @@ exports.addMatchInfo = async (req, res) => {
 };
 
 exports.getMatchesBySports = async (req, res) => {
-  const { sport } = req.params;
+  const { sport } = req.body;
+  console.log(sport);
 
   const ans = await Results.find({ sport });
   res.status(200).json({
     data: ans,
     success: true,
+  });
+};
+
+exports.latestMatches = async (req, res) => {
+  //   const d = await Results.insertMany([
+  //     {
+  //       sport: "sport",
+  //       gender: "m",
+  //       matchTitle: "gf",
+  //       team1: "t1",
+  //       team2: "t2",
+  //       score: "s1",
+  //       result1: "r1",
+  //       result2: "r2",
+  //     },
+  //   ]);
+  const ans = await Results.find({});
+  const data = ans.slice(-5);
+  console.log(data);
+  res.status(200).send({
+    data,
   });
 };

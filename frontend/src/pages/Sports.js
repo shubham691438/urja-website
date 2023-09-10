@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import SportsCoordinator from "../components/SportsCoordinator";
 import AnimatedHeading from "../components/AnimatedHeading";
 // import { useEffect, useState } from "react";
@@ -17,24 +17,6 @@ const Sports = () => {
   const { key } = useParams();
   console.log();
   const jsonData = data[key];
-
-  const [data, setData] = useState([{}]);
-  async function getData() {
-    let d = await fetch("http://localhost:5000/matches/get-match-score", {
-      method: "post",
-      body: JSON.stringify({ sport: key }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    d = await d.json();
-    console.log(d.data);
-    setData(d.data);
-  }
-
-  useEffect(() => {
-    getData();
-  }, []);
 
   return (
     <>
@@ -211,7 +193,7 @@ const Sports = () => {
                   paddingTop: "4%",
                 }}
               >
-                {/* <img
+                <img
                   src={
                     jsonData.boysMatchSchedule
                       ? jsonData.boysMatchSchedule
@@ -219,14 +201,19 @@ const Sports = () => {
                   }
                   alt=""
                   srcset=""
-                /> */}
-                <ResultCard
-                  team1Name={item.team1}
-                  team2Name={item.team2}
-                ></ResultCard>
+                />
+                {/* {dd.map((item) => (
+                  <ResultCard
+                    team1Name={item.team1}
+                    team2Name={item.team2}
+                    matchTitle={item.matchTitle}
+                    score={item.score}
+                    result={item.result}
+                  ></ResultCard>
+                ))} */}
               </div>
             </div>
-            {/* <div>
+            <div>
               <div>
                 <h4
                   style={{
@@ -261,7 +248,7 @@ const Sports = () => {
                   srcset=""
                 />
               </div>
-            </div> */}
+            </div>
           </div>
         </section>
       </div>

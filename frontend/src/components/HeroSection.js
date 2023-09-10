@@ -6,8 +6,11 @@ import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
 import logo3 from "../assets/images/logo_3.png";
 import logo4 from "../assets/images/logo_4.png";
-import backgroundImage from "../assets/images/bg.jpg";
+import backgroundImage from "../assets/images/urja_home_img2.jpg";
+
 import { Link } from "react-router-dom";
+import AnimatedHeading from "./AnimatedHeading";
+import ResultCard from "./ResultCard";
 export const HeroSection = () => {
   const [data, setData] = useState([{}]);
 
@@ -59,15 +62,14 @@ export const HeroSection = () => {
           backgroundColor: "#222831",
         }}
       >
-        <Zoom>
-          <div className="container">
+        {/* <div className="container">
             <div className="row">
               {data.map((item) => (
                 <div className="col-lg-12" style={{ height: "250px" }}>
                   <div className="d-flex team-vs">
                     <div className="team-1 w-50">
                       <div className="team-details w-100 text-center">
-                        {/* <img src={logo1} alt="Image2" className="img-fluid" /> */}
+                        <img src={logo1} alt="Image2" className="img-fluid" /> 
                         <h3>TEAM A</h3>
                         <ul className="list-unstyled">
                           <li>{item.team1}</li>
@@ -76,7 +78,7 @@ export const HeroSection = () => {
                     </div>
                     <div className="team-2 w-50">
                       <div className="team-details w-100 text-center">
-                        {/* <img src={logo2} alt="Image1" className="img-fluid" /> */}
+                         <img src={logo2} alt="Image1" className="img-fluid" /> 
                         <h3>TEAM B</h3>
                         <ul className="list-unstyled">
                           <li>{item.team2}</li>
@@ -98,8 +100,18 @@ export const HeroSection = () => {
                 </div>
               ))}
             </div>
-          </div>
-        </Zoom>
+          </div> */}
+        {data.map((item) => (
+          <ResultCard
+            sport={item.sport}
+            gender={item.gender}
+            team1Name={item.team1}
+            team2Name={item.team2}
+            matchTitle={item.matchTitle}
+            score={item.score}
+            result={item.result}
+          ></ResultCard>
+        ))}
       </div>
     </>
   );
