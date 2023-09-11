@@ -43,7 +43,9 @@ const Sports = () => {
                 {/* "You don’t win or lose the games because of the 11 you select.
                 You win or lose with that those 11 do on the field.” – Rahul
                 Dravid */}
+
                 "{jsonData.quote ? jsonData.quote : ""}"
+
               </h5>
               <p>
                 {/* Cricket is a super popular sport played with a bat and ball.
@@ -85,7 +87,9 @@ const Sports = () => {
                       className="d-flex align-items-left justify-content-around justify-content-between w-100"
                       style={{ color: "white", flexDirection: "column" }}
                     >
+
                       <ul>
+
                         {jsonData.rules
                           ? jsonData.rules.map((rules) => (
                               <li key={rules}>{` ${rules}`}</li>
