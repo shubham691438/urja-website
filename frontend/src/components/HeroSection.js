@@ -1,5 +1,5 @@
 import React from "react";
-import { Zoom } from "react-reveal";
+// import { Zoom } from "react-reveal";
 import urja_home_img2 from "../assets/images/urja_home_img2.jpg";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
@@ -44,7 +44,7 @@ export const HeroSection = () => {
           backgroundColor: "#222831",
         }}
       >
-        <Zoom>
+        {/* <Zoom> */}
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -72,7 +72,7 @@ export const HeroSection = () => {
               </div>
             </div>
           </div>
-        </Zoom>
+        {/* </Zoom> */}
       </div>
     </>
   );
