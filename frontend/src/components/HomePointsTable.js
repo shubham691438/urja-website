@@ -1,7 +1,7 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 const HomePointsTable = () => {
+
   const [data, setData] = useState([{}]);
   //cdd
   let count = 0;
@@ -17,6 +17,7 @@ const HomePointsTable = () => {
   useEffect(() => {
     getData();
   }, []);
+
   return (
     <div className="col-lg-12">
       <div className="widget-next-match">
@@ -25,14 +26,12 @@ const HomePointsTable = () => {
             <tr>
               <th>Sr. No.</th>
               <th>Branch</th>
-              <th>Gold</th>
-              <th>Silver</th>
-              <th>Bronze</th>
+
               <th>POINTS</th>
             </tr>
           </thead>
           <tbody>
-            {/* <tr>
+            <tr>
               <td>1</td>
               <td>
                 <strong className="text-white">
@@ -104,17 +103,7 @@ const HomePointsTable = () => {
               </td>
 
               <td>140</td>
-            </tr> */}
-            {data.map((item) => (
-              <tr>
-                <td>{++count}</td>
-                <td>{item.branch}</td>
-                <td>{item.gold}</td>
-                <td>{item.silver}</td>
-                <td>{item.bronze}</td>
-                <td>{item.points}</td>
-              </tr>
-            ))}
+            </tr>
           </tbody>
         </table>
       </div>
