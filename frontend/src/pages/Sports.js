@@ -1,21 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import SportsCoordinator from "../components/SportsCoordinator";
 import AnimatedHeading from "../components/AnimatedHeading";
 // import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import data from "../sports.json";
-import BoysSampleImg from "../assets/images/BoysSample.jpeg";
-import GirlsSampleImg from "../assets/images/girlsSample.jpeg";
-import ResultCard from "../components/ResultCard";
 // **** In data.json image Url needs to be updated for the sports coordinator one sample will be done **** //
 
 const Sports = () => {
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const { key } = useParams();
-  console.log();
   const jsonData = data[key];
 
   return (
@@ -44,8 +41,7 @@ const Sports = () => {
                 You win or lose with that those 11 do on the field.” – Rahul
                 Dravid */}
 
-                "{jsonData.quote ? jsonData.quote : ""}"
-
+                "{jsonData.quote?jsonData.quote:""}"
               </h5>
               <p>
                 {/* Cricket is a super popular sport played with a bat and ball.
@@ -87,9 +83,7 @@ const Sports = () => {
                       className="d-flex align-items-left justify-content-around justify-content-between w-100"
                       style={{ color: "white", flexDirection: "column" }}
                     >
-
-                      <ul>
-
+                      <ul style={{ listStyleType: "none" }}>
                         {jsonData.rules
                           ? jsonData.rules.map((rules) => (
                               <li key={rules}>{` ${rules}`}</li>
@@ -206,15 +200,6 @@ const Sports = () => {
                   alt=""
                   srcset=""
                 />
-                {/* {dd.map((item) => (
-                  <ResultCard
-                    team1Name={item.team1}
-                    team2Name={item.team2}
-                    matchTitle={item.matchTitle}
-                    score={item.score}
-                    result={item.result}
-                  ></ResultCard>
-                ))} */}
               </div>
             </div>
             <div>
