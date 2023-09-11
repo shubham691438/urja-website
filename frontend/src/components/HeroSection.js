@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 // import { Zoom } from "react-reveal";
 import urja_home_img2 from "../assets/images/urja_home_img2.jpg";
 import logo1 from "../assets/images/logo_1.png";
