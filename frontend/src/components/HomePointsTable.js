@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const HomePointsTable = () => {
+
+  const [data, setData] = useState([{}]);
+  //cdd
+  let count = 0;
+  async function getData() {
+    console.log(process.env.REACT_APP_BACKEND_URL);
+    let d = await fetch(`http://localhost:5000/medals/get-medal-table`, {
+      method: "get",
+    });
+    d = await d.json();
+    console.log(d.medals);
+    setData(d.medals);
+  }
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div className="col-lg-12">
       <div className="widget-next-match">

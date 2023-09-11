@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 // import { Zoom } from "react-reveal";
 import urja_home_img2 from "../assets/images/urja_home_img2.jpg";
 import logo1 from "../assets/images/logo_1.png";
@@ -9,6 +9,25 @@ import backgroundImage from "../assets/images/urja_home_img2.jpg";
 import AnimatedHeading from "../components/AnimatedHeading"
 import { Link } from "react-router-dom"
 export const HeroSection = () => {
+
+  const [data, setData] = useState([{}]);
+
+  async function getData() {
+    //grefdsfdzvsdfxcvsfdvsdf
+    ///fwdssd
+    ///gfevscefeffd
+    let d = await fetch("http://localhost:5000/matches/latestMatches", {
+      method: "get",
+    });
+    d = await d.json();
+    console.log(d.data[0]);
+    setData(d.data);
+  }
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <>
       <div

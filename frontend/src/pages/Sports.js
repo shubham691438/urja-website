@@ -7,7 +7,7 @@ import data from "../sports.json";
 // **** In data.json image Url needs to be updated for the sports coordinator one sample will be done **** //
 
 const Sports = () => {
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

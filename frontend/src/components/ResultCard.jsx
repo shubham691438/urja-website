@@ -3,7 +3,10 @@ import React from 'react'
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
 
-const ResultCard = ({team1Name,team2Name,matchTitle,score,result}) => {
+
+const ResultCard = ({sport,gender,team1Name,team2Name,matchTitle,score,result}) => {
+  //csxsxz
+
   return (
     <div
     style={{
