@@ -7,6 +7,7 @@ import { useState,useEffect } from "react";
 import { useParams } from "react-router";
 
 const SportsResult = () => {
+  //vfdcxdfcx
   const {id}=useParams()
   console.log(id)
   const [sport,setSport]=useState(id)

@@ -16,6 +16,7 @@ export const HeroSection = () => {
 
   async function getData() {
     //grefdsfdzvsdfxcvsfdvsdf
+    ///fwdssd
     ///gfevscefeffd
     let d = await fetch("http://localhost:5000/matches/latestMatches", {
       method: "get",

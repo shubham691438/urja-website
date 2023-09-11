@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 const HomePointsTable = () => {
   const [data, setData] = useState([{}]);
+  //cdd
   let count = 0;
   async function getData() {
     console.log(process.env.REACT_APP_BACKEND_URL);
