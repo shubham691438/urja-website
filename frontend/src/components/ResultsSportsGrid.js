@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade as Slide } from "react-reveal";
+// import { Fade as Slide } from "react-reveal";
 import "../assets/styles/sportsGridStyle.css";
 import FootballImage from "../assets/images/football.png";
 import CricketImage from "../assets/images/cricketLogo.png";
@@ -18,7 +18,7 @@ const ResultsSportsGrid = () => {
         
 
         <div className="row mt-3">
-          <Slide>
+           {/*<Slide> */} 
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch">
               <Link to="/results/cricket" className="w-100 text-decoration-none">
                 <div className="icon-box px-5">
@@ -29,9 +29,9 @@ const ResultsSportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/* </Slide> */}
 
-          <Slide>
+          {/*<Slide> */}
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
               <Link
                 to="/results/football"
@@ -45,9 +45,9 @@ const ResultsSportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/* </Slide> */}
 
-          <Slide>
+          {/*<Slide> */}
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
               <Link
                 to="/results/badminton"
@@ -61,9 +61,9 @@ const ResultsSportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/* </Slide> */}
 
-          <Slide>
+          {/*<Slide> */}
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
               <Link
                 to="/results/basketball"
@@ -77,11 +77,11 @@ const ResultsSportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/* </Slide> */}
         </div>
 
         <div className="row mt-3">
-          <Slide>
+          {/*<Slide> */}
             <div
               className="col-xl-3 col-md-6 d-flex align-items-stretch"
               data-aos="zoom-in"
@@ -96,9 +96,9 @@ const ResultsSportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/* </Slide> */}
 
-          <Slide>
+          {/*<Slide> */}
             <div
               className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
               data-aos="zoom-in"
@@ -113,8 +113,8 @@ const ResultsSportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
-          <Slide>
+          {/* </Slide> */}
+          {/*<Slide> */}
             <div
               className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
               data-aos="zoom-in"
@@ -129,7 +129,7 @@ const ResultsSportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/* </Slide> */}
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Zoom } from "react-reveal";
+// import { Zoom } from "react-reveal";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
 
@@ -11,7 +11,7 @@ const ResultCard = ({team1Name,team2Name,matchTitle,score,result}) => {
     }}
   >
     
-    <Zoom>
+    {/* <Zoom> */}
     
       <div className="container " style={{paddingBottom:"50px",paddingTop:"70px"}}>
       
@@ -48,7 +48,7 @@ const ResultCard = ({team1Name,team2Name,matchTitle,score,result}) => {
           </div>
         </div>
       </div>
-    </Zoom>
+    {/* </Zoom> */}
   </div>
   )
 }
