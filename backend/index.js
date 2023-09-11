@@ -12,9 +12,9 @@ app.use(cors());
 app.use(express.json());
 db_connect();
 
-app.use("api/matches", matchRoute);
-app.use("api/medals", medalRoute);
-app.use("api/winners", winnerRoute);
+app.use("/api/matches", matchRoute);
+app.use("/api/medals", medalRoute);
+app.use("/api/winners", winnerRoute);
 
 app.listen(port, () => {
   console.log(`server started on port ${port}`);
