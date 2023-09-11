@@ -1,12 +1,19 @@
 import React from 'react'
 // import { Zoom } from "react-reveal";
-import logo1 from "../assets/images/logo_1.png";
-import logo2 from "../assets/images/logo_2.png";
+
+import GetBranchIcon from '../assets/functions/GetBranchIcon'
+
 
 
 const ResultCard = ({sport,gender,team1Name,team2Name,matchTitle,score,result}) => {
-  //csxsxz
 
+  // Get the image URL based on the passed key
+  const imageUrl1 = GetBranchIcon(team1Name);
+  const imageUrl2 = GetBranchIcon(team2Name);
+
+
+
+  
   return (
     <div
     style={{
@@ -14,10 +21,12 @@ const ResultCard = ({sport,gender,team1Name,team2Name,matchTitle,score,result}) 
     }}
   >
     
-    {/* <Zoom> */}
     
+    {/* <Zoom> */}
+      <div class="d-flex justify-content-center">
+      <h3><span class="badge badge-danger mb-3 ">Men Semi-final</span></h3>
+      </div>
       <div className="container " style={{paddingBottom:"50px",paddingTop:"70px"}}>
-      
         <div className="row">
         
           <div className="col-lg-12 ">
@@ -25,14 +34,12 @@ const ResultCard = ({sport,gender,team1Name,team2Name,matchTitle,score,result}) 
             <div className="d-flex team-vs result-card">
               
               <span className="score">
-                <p>{matchTitle?matchTitle:"match Title"}</p>
-                <p>{score?score:"score"}</p>
-                <p>{result?result:"result"}</p>
+                4 -1
               </span>
               <div className="team-1 w-50">
                 <div className="team-details w-100 text-center">
-                  <img src={logo1} alt="Image2" className="img-fluid" />
-                  <h3>{team1Name}</h3>
+                  <img src={imageUrl1 } alt="Image2" className="img-fluid" />
+                  <h3>{team1Name?team1Name:"Team A"}</h3>
                   {/* <ul className="list-unstyled">
                     <li>CSE</li>
                   </ul> */}
@@ -40,8 +47,8 @@ const ResultCard = ({sport,gender,team1Name,team2Name,matchTitle,score,result}) 
               </div>
               <div className="team-2 w-50">
                 <div className="team-details w-100 text-center">
-                  <img src={logo2} alt="Image1" className="img-fluid" />
-                  <h3>{team2Name}</h3>
+                  <img src={imageUrl2 } alt="Image1" className="img-fluid" />
+                  <h3>{team2Name?team2Name:"Team B"}</h3>
                   {/* <ul className="list-unstyled">
                     <li>CIVIL</li>
                   </ul> */}
