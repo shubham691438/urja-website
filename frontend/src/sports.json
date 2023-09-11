@@ -2,8 +2,8 @@
   "cricket": {
     "title": "CRICKET",
 
-    "quote": "Cricket is a gentleman's game, it is here where centuries are celebrated, and bowlers strive for the perfect delivery.",
-    "description": "Cricket is a bat-and-ball sport played between two teams, consisting of batting, bowling, and fielding. It is known for its rich tradition, strategy, and the pursuit of individual milestones like centuries while bowlers aim to deliver the perfect ball to dismiss the batsmen.",
+    "quote": "You don’t win or lose the games because of the 11 you select. You win or lose with that those 11 do on the field.        – Rahul Dravid",
+    "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field for the same purpose. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
 
     "rules": [
       "League Format:",
@@ -69,7 +69,7 @@
   "badminton": {
     "title": "BADMINTON",
     "quote": "Keep calm and Smash hard ",
-    "description": "Badminton is a fast-paced racquet sport played indoors or outdoors. It involves two or four players, and the objective is to score points by hitting a shuttlecock over the net and into the opponent's side of the court. The game demands quick reflexes, strategic shot placement, and superb athleticism, making it an exciting and graceful sport to watch and play.",
+    "description": "Badminton, which originated as a pastime in ancient India, has evolved into a competitive indoor sport. In frantic rallies, players use a feathered shuttlecock, which calls for quick reactions, accuracy, and strategy. Badminton continues to be a cherished recreational activity and a fiercely competitive international sport thanks to its accessibility and widespread appeal, enthralling fans with its fast-paced action and thrilling moments.",
 
     "rules": [
       "RULES FOR MEN’S TEAM EVENT:",
@@ -116,7 +116,7 @@
     "title": "BASKETBALL",
     "quote": "Basketball is a sport that combines athleticism and strategy, where players aim for nothing but net and teamwork reigns supreme.",
     "description": [
-      "Basketball is a fast-paced team sport played on a rectangular court. Two teams of five players each compete to score points by shooting the basketball through the opponent's hoop. The game is known for its high-flying dunks, precise three-point shots, and the importance of teamwork, making it one of the most popular and exciting sports in the world.",
+      "Basketball is a fast-paced team sport played on a rectangular court. Two teams of five players each compete to score points by getting the ball through the opponent's hoop. The game is divided into four quarters (NBA) or halves (youth/recreational), with overtime for tiebreakers. Field goals are worth 2 points (3 points from beyond the arc), while free throws are worth 1 point each. Possession is governed by a 24/30-second shot clock, and players must dribble while moving. Common violations include traveling and double dribbling. Fouls result in free throws for the opposing team. Enjoy the excitement of the game!",
       "EVENTS FOR BASKETBALL:         ",
       "1. Men’s team event          ",
       "2. Women’s team event"
@@ -160,8 +160,8 @@
   },
   "hockey": {
     "title": "HOCKEY",
-    "quote": "We need to have the strength and power of a football player, the stamina of a marathon runner, and the concentration of a brain surgeon.",
-    "description": "Field hockey is a team sport played on grass or artificial turf, where players use curved sticks to hit a ball into the opponent's goal. ",
+    "quote": "RUN, When You Can WALK, If You Have To CRAWL, You Must; Just NEVER GIVE UP",
+    "description": "Hockey is a team sport played on a rectangular pitch, where two teams of eleven players each aim to score goals by hitting a ball into the opposing team's net. The team with the most goals at the end of the  match wins and players must wear protective gear, to ensure safety. Specific rules may vary slightly depending on the level of play.",
     "rules": [
       "1. Use of Stick: Players must use the flat side of their field hockey sticks to control, pass, and shoot the ball. Using the rounded side is a foul.",
       "2. No Body Contact: Field hockey is a non-contact sport, so players are not allowed to use their bodies to obstruct or tackle opponents. Doing so results in a foul.",
@@ -286,7 +286,7 @@
   },
   "tennis": {
     "title": "TABLE  TENNIS",
-    "quote": "Table tennis is a sport of lightning-fast reflexes and precision, where the ball dances over the table, and players demonstrate unparalleled control and agility.",
+    "quote": "Table Tennis is like an atom. To the ignorant it is merely microscopic and insignificant in existance, but to the dedicated, it is intricate in design and the building block to everything we know.          - Matt Hetherington",
 
     "description": [
       "Table tennis, is a fast-paced indoor sport played with small paddles and a lightweight ball. Players compete across a rectangular table, aiming to score points by hitting the ball over the net and into the opponent's side. The sport demands quick thinking, incredible hand-eye coordination, and the ability to spin the ball with precision, making it a thrilling and skillful game enjoyed by people of all ages around the world.",
@@ -327,7 +327,7 @@
   "lawnTennis": {
     "title": "LAWN TENNIS",
     "quote": "Talk with your racquet, play with your heart.",
-    "description": "Game in which two opposing players (singles) or pairs of players (doubles) use tautly strung rackets to hit a ball of specified size, weight, and bounce over a net on a rectangular court.",
+    "description": "Lawn tennis, played on a rectangular court with racquets, involves scoring from 15 to 40, securing a game with a two-point lead. Sets require six games and a two-game lead, with tiebreakers at 6-6. Servers aim diagonally, with lets for minor interruptions. Breaking a deuce requires two consecutive points, and tiebreakers involve serving two points each. Tennis fuses strategy, skill, and athleticism, offering endless excitement.",
     "rules": ["Will be updated soon."],
     "coordinator_Name1": "Aayush Kumar Gupta",
     "position1": "Captain",
@@ -342,8 +342,8 @@
 
   "chess": {
     "title": "CHESS",
-    "quote": "Move in silence only speak when it's time to say Checkmate!",
-    "description": "Chess is a board game for two players, called White and Black, each controlling an army of chess pieces in their color, with the objective to checkmate the opponent's king.",
+    "quote": "The chessboard is the world, the pieces are the phenomena of the Universe, the rules of the game are what we call the laws of Nature and the player on the other side is hidden from us. -Thomas Huxley",
+    "description": "Chess is a timeless board game that has captivated minds for centuries. The objective is simple yet complex: to checkmate the opponent's king, putting it in a position where it cannot escape capture. Chess demands strategic thinking, foresight, and tactical prowess. Players must plan their moves carefully, anticipating their opponents' responses. Whether played casually with friends or at the highest levels of competition, chess continues to inspire and challenge minds around the world.",
     "rules": [
       "1. Both the teams would have 5 main players.",
       "2. The matches will be played in a limited time format.",
@@ -367,6 +367,29 @@
     "position2": "Girl's Captain",
     "coordinator1_image": "https://i.ibb.co/4NJp1mm/Prashant-Raj-chess-1-1-1.jpg",
     "coordinator2_image": "https://i.ibb.co/3h5VN4w/chess-2-Prerna-Pan-1-1.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+  },
+  "volleyBall": {
+    "title": "VOLLEYBALL",
+    "quote": "Once you get the taste of ruining somebody’s great hit, it stays with you. And it changes the game. A great defensive play is worth about five points in emotion.  – Caren Kemner",
+    "description": "Volleyball is a super fun sport played with a team and a net.  The goal is to keep the ball in the air and send it over the net to the other team. It requires teamwork, coordination, and quick reflexes. Whether you're playing on the beach or in a gym, volleyball is a great way to have a blast and stay active.",
+    "rules": [
+      "1. Both the teams would have 6 players.",
+      "2. The league stage would be a best of 3 contest.",
+      "3. The finals would be played for 5 sets.",
+      "4. Every set would be of 25 points except the deciding set which would be of 15 points.",
+      "5. No rotation would be needed.",
+      "6. All the standard rules such as net touch, line cross, over ball, double would be considered.",
+      "7. A team would need to change the server once the rally is broken."
+    ],
+    "coordinator_Name1": "Shubham Tiwari",
+    "position1": "Captain",
+    "coordinator_Name2": "Satish",
+
+    "position2": "Vice-Captain",
+    "coordinator1_image": "https://i.ibb.co/m6xXzH4/Volley-ball-1-1.jpg",
+    "coordinator2_image": "https://i.ibb.co/HqwM9nB/volleyball-2-1.jpg",
     "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   }
