@@ -1,21 +1,6 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 const HomePointsTable = () => {
-  const [data, setData] = useState([{}]);
-  let count = 0;
-  async function getData() {
-    console.log(process.env.REACT_APP_BACKEND_URL);
-    let d = await fetch(`http://localhost:5000/medals/get-medal-table`, {
-      method: "get",
-    });
-    d = await d.json();
-    console.log(d.medals);
-    setData(d.medals);
-  }
-  useEffect(() => {
-    getData();
-  }, []);
   return (
     <div className="col-lg-12">
       <div className="widget-next-match">
@@ -24,14 +9,12 @@ const HomePointsTable = () => {
             <tr>
               <th>Sr. No.</th>
               <th>Branch</th>
-              <th>Gold</th>
-              <th>Silver</th>
-              <th>Bronze</th>
+
               <th>POINTS</th>
             </tr>
           </thead>
           <tbody>
-            {/* <tr>
+            <tr>
               <td>1</td>
               <td>
                 <strong className="text-white">
@@ -103,17 +86,7 @@ const HomePointsTable = () => {
               </td>
 
               <td>140</td>
-            </tr> */}
-            {data.map((item) => (
-              <tr>
-                <td>{++count}</td>
-                <td>{item.branch}</td>
-                <td>{item.gold}</td>
-                <td>{item.silver}</td>
-                <td>{item.bronze}</td>
-                <td>{item.points}</td>
-              </tr>
-            ))}
+            </tr>
           </tbody>
         </table>
       </div>
