@@ -10,11 +10,12 @@ import AnimatedHeading from "../components/AnimatedHeading"
 import { Link } from "react-router-dom"
 export const HeroSection = () => {
 
+  const backendUrl = process.env.REACT_APP_BACKEND_URL
   const [data, setData] = useState([{}]);
 
   async function getData() {
     
-    let d = await fetch("/api/matches/latestMatches", {
+    let d = await fetch(backendUrl+"/api/matches/latestMatches", {
       method: "get",
     });
     d = await d.json();

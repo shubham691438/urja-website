@@ -8,6 +8,7 @@ import { useState,useEffect} from "react";
 import { useParams } from "react-router-dom";
 
 const SportsResult = () => {
+  const backendUrl = process.env.REACT_APP_BACKEND_URL
   //vfdcxdfcx
   const {id}=useParams()
   console.log(id)
@@ -17,7 +18,7 @@ const SportsResult = () => {
   async function getData() {
     
     console.log(sport)
-    let d = await fetch("/api/matches/get-match-score", {
+    let d = await fetch(backendUrl+"/api/matches/get-match-score", {
       method: "post",
       body: JSON.stringify({ sport}),
       headers: {

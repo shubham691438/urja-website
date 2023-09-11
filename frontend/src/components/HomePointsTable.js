@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 
 const HomePointsTable = () => {
 
+  const backendUrl = process.env.REACT_APP_BACKEND_URL
   const [data, setData] = useState([{}]);
   //cdd
   let count = 0;
   async function getData() {
-    console.log(process.env.REACT_APP_BACKEND_URL);
-    let d = await fetch(`/api/medals/get-medal-table`, {
+    
+    let d = await fetch(backendUrl+"/api/medals/get-medal-table", {
       method: "get",
     });
     d = await d.json();
