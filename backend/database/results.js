@@ -4,7 +4,7 @@ const schema = new mongoose.Schema(
   {
     sport: String,
     gender: String,
-    title: String,
+    matchTitle: String,
     team1: String,
     team2: String,
     score: String,
