@@ -17,7 +17,7 @@ const SportsResult = () => {
   async function getData() {
     
     console.log(sport)
-    let d = await fetch("http://localhost:5000/matches/get-match-score", {
+    let d = await fetch("/api/matches/get-match-score", {
       method: "post",
       body: JSON.stringify({ sport}),
       headers: {

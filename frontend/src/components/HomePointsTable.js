@@ -7,7 +7,7 @@ const HomePointsTable = () => {
   let count = 0;
   async function getData() {
     console.log(process.env.REACT_APP_BACKEND_URL);
-    let d = await fetch(`http://localhost:5000/medals/get-medal-table`, {
+    let d = await fetch(`/api/medals/get-medal-table`, {
       method: "get",
     });
     d = await d.json();
