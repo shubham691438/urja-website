@@ -2,18 +2,22 @@
   "cricket": {
     "title": "CRICKET",
 
+    "quote": "Cricket is a gentleman's game, it is here where centuries are celebrated, and bowlers strive for the perfect delivery.",
+    "description": "Cricket is a bat-and-ball sport played between two teams, consisting of batting, bowling, and fielding. It is known for its rich tradition, strategy, and the pursuit of individual milestones like centuries while bowlers aim to deliver the perfect ball to dismiss the batsmen.",
+
     "rules": [
       "League Format:",
       "1. Urja '24 cricket will be a tennis ball tournament.",
       "2. The Tournament will consist of group stage followed by semis and finals.",
       "3. The group stage consists of 2 groups from which 2 teams from each group will be qualified for semis.",
+      " ",
 
       "Point System:",
       "1. 2 Points will be awarded to the winning team.",
       "2. 0 Point will be awarded to the losing team.",
       "3. 1 Point will be awarded to both teams if the match could not take place due to unavoidable circumstances.",
       "4. In case of a tie in points, the team with a higher Net Run Rate will be placed higher.",
-
+      " ",
       "Rules And Format of Matches:",
       "1. Every match will have a maximum of 14 Overs.",
       "2. There will be field restrictions (powerplay) for the first 5 overs of each innings of the match where only 2 fielders will be allowed outside the inner circle.",
@@ -38,15 +42,15 @@
     "coordinator_Name2": "Divyanshu Kumar Singh",
 
     "position2": "Vice-Captain",
-    "coordinator1_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
-    "coordinator2_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "coordinator1_image": "https://i.ibb.co/SXGhFKD/asaw.jpg",
+    "coordinator2_image": "https://i.ibb.co/SXGhFKD/asaw.jpg",
     "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "football": {
     "title": "FOOTBALL",
     "quote": "Football teaches you to WIN or to look over your MISTAKES, you are never DEFEATED.",
-
+    "description": "Football is a team sport playedand involves two teams trying to score goals by getting the ball into the opposing team's net. The sport is celebrated for its skillful and precise passing, and the unity displayed by teams striving for victory",
     "rules": [
       "Rule Book will be provided to you. Point distribution is as follows",
       "1st : 10 Points",
@@ -57,43 +61,44 @@
     "position1": "Captain",
     "coordinator_Name2": "Abhinav",
     "position2": "Vice-Captain",
-    "coordinator1_image": "https://i.ibb.co/FBNxVH3/Football-1-Mohit-Ranjan-Singh-1.jpg",
-    "coordinator2_image": "https://i.ibb.co/qWQM83J/Football-2.jpg",
+    "coordinator1_image": "https://i.ibb.co/brGB25T/Football-1-Mohit-Ranjan-Singh-1-1-1.jpg",
+    "coordinator2_image": "https://i.ibb.co/drYCryp/Football-2-1-1.jpg",
     "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "badminton": {
     "title": "BADMINTON",
     "quote": "Keep calm and Smash hard ",
+    "description": "Badminton is a fast-paced racquet sport played indoors or outdoors. It involves two or four players, and the objective is to score points by hitting a shuttlecock over the net and into the opponent's side of the court. The game demands quick reflexes, strategic shot placement, and superb athleticism, making it an exciting and graceful sport to watch and play.",
 
     "rules": [
       "RULES FOR MEN’S TEAM EVENT:",
-      "Each team needs to have a minimum of 6 players with an upper bound of 7 players per team.",
-      "Every tie consists of 5 matches in a tie (explained below) and every match shall be best of 3 games of 15 points each (with deuce and advantage concept till 21-21. If the score reaches 21-21, the first person to score 22nd point wins that game). The sequence of a tie would be:",
+      "1. Each team needs to have a minimum of 6 players with an upper bound of 7 players per team.",
+      "2. Every tie consists of 5 matches in a tie (explained below) and every match shall be best of 3 games of 15 points each (with deuce and advantage concept till 21-21. If the score reaches 21-21, the first person to score 22nd point wins that game). The sequence of a tie would be:",
       "- 1st Singles",
       "- 2nd Singles",
       "- 1st Doubles",
       "- 3rd Singles",
       "- 2nd Doubles",
-      "Only one player is allowed to repeat, that is, he shall be allowed to play both singles as well as doubles match for the team.",
-      "Every match won will contribute +1 to the overall tie score of the team and every match lost will contribute +0 to the overall tie score of the team.",
-      "The team with more points at the end of the 5 matches wins the tie and will proceed to the next round.",
-      "Semi-finals and finals matches will consist of 3 games of 21 points each (with deuce and advantage concept till 30-30. If the score reaches 30-30, the first person to score 31st point wins that game).",
+      "3. Only one player is allowed to repeat, that is, he shall be allowed to play both singles as well as doubles match for the team.",
+      "4. Every match won will contribute +1 to the overall tie score of the team and every match lost will contribute +0 to the overall tie score of the team.",
+      "5. The team with more points at the end of the 5 matches wins the tie and will proceed to the next round.",
+      "6. Semi-finals and finals matches will consist of 3 games of 21 points each (with deuce and advantage concept till 30-30. If the score reaches 30-30, the first person to score 31st point wins that game).",
       "RULES FOR WOMEN’S TEAM EVENT:",
-      "Each team needs to have a minimum of 3 players with an upper bound of 5 players per team.",
-      "Every match shall be best of 3 games of 21 points each (with deuce and advantage concept till 30-30. If the score reaches 30-30, the first person to score the 31st point wins that game).",
-      "Only one player is allowed to repeat, that is, she shall be allowed to play both singles as well as doubles match for the team.",
-      "Every match won will contribute +1 to the overall score of the team and every match lost will contribute +0 to the overall score of the team.",
-      "The sequence of the matches will be:",
+      "1. Each team needs to have a minimum of 3 players with an upper bound of 5 players per team.",
+      "2. Every match shall be best of 3 games of 21 points each (with deuce and advantage concept till 30-30. If the score reaches 30-30, the first person to score the 31st point wins that game).",
+      "3. Only one player is allowed to repeat, that is, she shall be allowed to play both singles as well as doubles match for the team.",
+      "4. Every match won will contribute +1 to the overall score of the team and every match lost will contribute +0 to the overall score of the team.",
+      "5. The sequence of the matches will be:",
       "- 1st Singles",
       "- 1st Doubles",
       "- 2nd Singles",
-      "The team with more points at the end of the 3 matches wins. (i.e., if it wins 2 out of 3 matches).",
+      "6. The team with more points at the end of the 3 matches wins. (i.e., if it wins 2 out of 3 matches).",
       "RULES FOR THE TOURNAMENT",
-      "Each team has to report at least 20 minutes before the match timing, failing to do so will result in a walkover.",
-      "Decisions taken by the umpires and the sports head during the tournament/match will be final and won’t be changed under any circumstances.",
-      "A list of all the players of each team must be submitted before the match in the order of the match they will play. The team order given by the respective team captains will not be changed later on.",
-      " Point distribution is as follows",
+      "1. Each team has to report at least 20 minutes before the match timing, failing to do so will result in a walkover.",
+      "2. Decisions taken by the umpires and the sports head during the tournament/match will be final and won’t be changed under any circumstances.",
+      "3. A list of all the players of each team must be submitted before the match in the order of the match they will play. The team order given by the respective team captains will not be changed later on.",
+      "4.  Point distribution is as follows",
       "1st : 10 Points",
       "2nd : 7 Points",
       "3rd : 5 Point"
@@ -102,15 +107,16 @@
     "position1": "Boy's Captain",
     "coordinator_Name2": "Shravya",
     "position2": "Girl's Captain",
-    "coordinator1_image": "https://i.ibb.co/pzjRDn3/badminton-1.jpg",
-    "coordinator2_image": "https://i.ibb.co/CPbxrXf/badminton-2.jpg",
+    "coordinator1_image": "https://i.ibb.co/gzvKTZL/badminton-1-1-1-1.jpg",
+    "coordinator2_image": "https://i.ibb.co/8bnWDYd/badminton-2-1-1.jpg",
     "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "basketball": {
     "title": "BASKETBALL",
-
+    "quote": "Basketball is a sport that combines athleticism and strategy, where players aim for nothing but net and teamwork reigns supreme.",
     "description": [
+      "Basketball is a fast-paced team sport played on a rectangular court. Two teams of five players each compete to score points by shooting the basketball through the opponent's hoop. The game is known for its high-flying dunks, precise three-point shots, and the importance of teamwork, making it one of the most popular and exciting sports in the world.",
       "EVENTS FOR BASKETBALL:         ",
       "1. Men’s team event          ",
       "2. Women’s team event"
@@ -118,27 +124,27 @@
 
     "rules": [
       "RULES FOR MEN’S TEAM EVENT:",
-      "Each team begins with 5 players on the court.",
-      "Each game consists of four 8-minute quarters. 1 minute between each quarter and up to a 5 minutes half time.",
-      "5 personal fouls will result in a player fouling out of the game.",
-      "In case of Tie, Game can be extended up to 4 minutes.",
-      "Top two teams in each group will be qualified for semifinals.",
-      "Each quarter of Finals and Semifinals will be of 10 minutes.",
+      "1. Each team begins with 5 players on the court.",
+      "2. Each game consists of four 8-minute quarters. 1 minute between each quarter and up to a 5 minutes half time.",
+      "3. 5 personal fouls will result in a player fouling out of the game.",
+      "4. In case of Tie, Game can be extended up to 4 minutes.",
+      "5. Top two teams in each group will be qualified for semifinals.",
+      "6. Each quarter of Finals and Semifinals will be of 10 minutes.",
 
       "RULES FOR WOMEN’S TEAM EVENT:",
-      "Each team begins with 5 players on the court.",
-      "Each game consists of four 6-minute quarters. 1 minute between each quarter and up to a 5 minutes half time.",
-      "5 personal fouls will result in a player fouling out of the game.",
-      "In case of Tie, Game can be extended up to 3 minutes.",
-      "Top two teams will be qualified for Finals.",
+      "1. Each team begins with 5 players on the court.",
+      "2. Each game consists of four 6-minute quarters. 1 minute between each quarter and up to a 5 minutes half time.",
+      "3. 5 personal fouls will result in a player fouling out of the game.",
+      "4. In case of Tie, Game can be extended up to 3 minutes.",
+      "5. Top two teams will be qualified for Finals.",
 
       "RULES FOR THE TOURNAMENT:",
-      "Each team has to report at least 30 minutes before the match timing, failing to do so will result in a walkover.",
-      "No player is allowed to argue a foul with a referee. Decisions taken by the referee and the sports head during the tournament/match will be final and won’t be changed under any circumstances.",
-      "A list of all the players of each team must be submitted before the match in the order of the match they will play. The team order given by the respective team captains will not be changed later on.",
+      "1. Each team has to report at least 30 minutes before the match timing, failing to do so will result in a walkover.",
+      "2. No player is allowed to argue a foul with a referee. Decisions taken by the referee and the sports head during the tournament/match will be final and won’t be changed under any circumstances.",
+      "3. A list of all the players of each team must be submitted before the match in the order of the match they will play. The team order given by the respective team captains will not be changed later on.",
       "In case of rain, the Game will be rescheduled to available slots.",
 
-      "POINTS DISTRIBUTION",
+      "4. POINTS DISTRIBUTION",
       "1st - 10 Points",
       "2nd - 7 Points",
       "3rd - 5 Points"
@@ -147,8 +153,8 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator2",
     "position2": "Vice-Captain",
-    "coordinator1_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
-    "coordinator2_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "coordinator1_image": "https://i.ibb.co/SXGhFKD/asaw.jpg",
+    "coordinator2_image": "https://i.ibb.co/SXGhFKD/asaw.jpg",
     "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
@@ -167,13 +173,16 @@
     "position1": "Captain",
     "coordinator_Name2": "Mohit",
     "position2": "Vice-Captain",
-    "coordinator1_image": "https://i.ibb.co/nRcHmMV/Hockey-1.jpg",
-    "coordinator2_image": "https://i.ibb.co/h13XX4B/Hockey-2.jpg",
+    "coordinator1_image": "https://i.ibb.co/WkP8ZqM/Hockey-1-1-1-1.jpg",
+    "coordinator2_image": "https://i.ibb.co/xhCF0qF/Hockey-2-1-1.jpg",
     "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "athlete": {
-    "title": "ATHLETE",
+    "title": "ATHLETICS",
+
+    "quote": "Athletics events are the pinnacle of human physical achievement, where speed, strength, and endurance collide in a glorious display of athleticism.",
+    "description": "Athletics events, also known as track and field, encompass a wide range of sports that showcase individual and team talents in running, jumping, throwing, and combined events. These events include sprints, long-distance running, high jump, long jump, shot put, javelin throw, and more. Athletes compete to break records and push the limits of human potential, making them a source of inspiration.",
 
     "rules": [
       "TRACK EVENTS:",
@@ -270,15 +279,17 @@
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
     "position2": "Vice-Captain",
-    "coordinator1_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
-    "coordinator2_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "coordinator1_image": "https://i.ibb.co/SXGhFKD/asaw.jpg",
+    "coordinator2_image": "https://i.ibb.co/SXGhFKD/asaw.jpg",
     "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "tennis": {
     "title": "TABLE  TENNIS",
+    "quote": "Table tennis is a sport of lightning-fast reflexes and precision, where the ball dances over the table, and players demonstrate unparalleled control and agility.",
 
     "description": [
+      "Table tennis, is a fast-paced indoor sport played with small paddles and a lightweight ball. Players compete across a rectangular table, aiming to score points by hitting the ball over the net and into the opponent's side. The sport demands quick thinking, incredible hand-eye coordination, and the ability to spin the ball with precision, making it a thrilling and skillful game enjoyed by people of all ages around the world.",
       "EVENTS FOR TABLE TENNIS:           ",
       "1. Men’s team event          ",
       "2. Women’s team event"
@@ -286,29 +297,29 @@
 
     "rules": [
       "Men's Team Event Rules",
-      "Team Composition: Each team must consist of 3 boy players and 1 extra player.",
-      "Doubles Match: 1 double match. In the doubles match, each team selects 2 players to participate.",
-      "Singles Matches: There will be 4 singles matches in total. Each player can play a maximum of 2 matches.",
-      "Order of Play: The order of play for singles matches can be determined by each team before the tournament begins. These rules ensure a fair and balanced table tennis tournament. There will be 5 matches in total. 3 players per team and a limit of 2 matches per player.",
+      "1. Team Composition: Each team must consist of 3 boy players and 1 extra player.",
+      "2. Doubles Match: 1 double match. In the doubles match, each team selects 2 players to participate.",
+      "3. Singles Matches: There will be 4 singles matches in total. Each player can play a maximum of 2 matches.",
+      "4. Order of Play: The order of play for singles matches can be determined by each team before the tournament begins. These rules ensure a fair and balanced table tennis tournament. There will be 5 matches in total. 3 players per team and a limit of 2 matches per player.",
 
-      "Points Distribution (Men's Team Event): 1st - 10 Points, 2nd - 7 Points, 3rd - 5 Points.",
+      "5. Points Distribution (Men's Team Event): 1st - 10 Points, 2nd - 7 Points, 3rd - 5 Points.",
       " Each team has to report at least 20 minutes before the match timing, failing to do so will result in a walkover.",
 
       "Women's Team Event Rules",
-      "Team Composition: Each team must consist of 2 players and 1 extra player.",
-      "Doubles Match: 1 double match. In the doubles match, each team selects 2 players to participate.",
-      "Singles Matches: There will be 2 singles matches in total. Each player can play a maximum of 2 matches.",
-      "Order of Play: The order of play for singles matches can be determined by each team before the tournament begins. These rules ensure a fair and balanced table tennis tournament. There will be 3 matches in total. 2 or 3 players per team and a limit of 2 matches per player.",
+      "1. Team Composition: Each team must consist of 2 players and 1 extra player.",
+      "2. Doubles Match: 1 double match. In the doubles match, each team selects 2 players to participate.",
+      "3. Singles Matches: There will be 2 singles matches in total. Each player can play a maximum of 2 matches.",
+      "4. Order of Play: The order of play for singles matches can be determined by each team before the tournament begins. These rules ensure a fair and balanced table tennis tournament. There will be 3 matches in total. 2 or 3 players per team and a limit of 2 matches per player.",
 
-      "Points Distribution (Women's Team Event): 1st - 10 Points, 2nd - 7 Points, 3rd - 5 Points. ",
+      "5. Points Distribution (Women's Team Event): 1st - 10 Points, 2nd - 7 Points, 3rd - 5 Points. ",
       "Each team has to report at least 20 minutes before the match timing, failing to do so will result in a walkover."
     ],
-    "coordinator_Name1": "Coordinator1",
-    "position1": "Captain",
-    "coordinator_Name2": "Coordinator2",
-    "position2": "Vice-Captain",
-    "coordinator1_image": "https://i.ibb.co/s9J76th/TAble-tennis-1.jpg",
-    "coordinator2_image": "https://i.ibb.co/fqtGXkY/Table-Tennis-2.jpg",
+    "coordinator_Name1": "Akash Tomar",
+    "position1": "Boy's Team Captain",
+    "coordinator_Name2": "B Vinisha Sai Jyotsna Komali ",
+    "position2": "Girl's team Captain ",
+    "coordinator1_image": "https://i.ibb.co/PQMVD98/TAble-tennis-1-1-1.jpg",
+    "coordinator2_image": " https://i.ibb.co/xh23rHS/Table-Tennis-2-1-1.jpg",
     "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
@@ -317,14 +328,14 @@
     "title": "LAWN TENNIS",
     "quote": "Talk with your racquet, play with your heart.",
     "description": "Game in which two opposing players (singles) or pairs of players (doubles) use tautly strung rackets to hit a ball of specified size, weight, and bounce over a net on a rectangular court.",
-
+    "rules": ["Will be updated soon."],
     "coordinator_Name1": "Aayush Kumar Gupta",
     "position1": "Captain",
     "coordinator_Name2": "Coordinator",
 
     "position2": "Vice-Captain",
-    "coordinator1_image": "https://i.ibb.co/hmVvBRq/Lawn-Tennis.jpg",
-    "coordinator2_image": "https://i.ibb.co/PYfnpT1/asaw.jpg",
+    "coordinator1_image": "https://i.ibb.co/rcTCXYy/Lawn-Tennis-1-1.jpg",
+    "coordinator2_image": " https://i.ibb.co/SXGhFKD/asaw.jpg",
     "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
@@ -334,17 +345,17 @@
     "quote": "Move in silence only speak when it's time to say Checkmate!",
     "description": "Chess is a board game for two players, called White and Black, each controlling an army of chess pieces in their color, with the objective to checkmate the opponent's king.",
     "rules": [
-      "Both the teams would have 5 main players.",
-      "The matches will be played in a limited time format.",
-      "Each team will play 3 league matches.",
-      "The aim is to checkmate the king or make the opponent resign.",
-      "Points Offered:",
+      "1. Both the teams would have 5 main players.",
+      "2. The matches will be played in a limited time format.",
+      "3. Each team will play 3 league matches.",
+      "4. The aim is to checkmate the king or make the opponent resign.",
+      "5. Points Offered:",
       "- Win: 1 point",
       "- Draw: 1/2 point",
       "- Loss: 0 points",
-      "All the standard rules of stalemate, en passant, and threefold repetition will be followed.",
-      "All the official FIDE rules regarding points, legal & illegal moves, and in times of appeal will be followed.",
-      "Points Distribution:",
+      "6. All the standard rules of stalemate, en passant, and threefold repetition will be followed.",
+      "7. All the official FIDE rules regarding points, legal & illegal moves, and in times of appeal will be followed.",
+      "8. Points Distribution:",
       "1st - 10 Points",
       "2nd - 7 Points",
       "3rd - 5 Points"
@@ -354,8 +365,8 @@
     "coordinator_Name2": "Prerna Pan",
 
     "position2": "Girl's Captain",
-    "coordinator1_image": "https://i.ibb.co/rQVTr7L/Prashant-Raj-chess-1.jpg",
-    "coordinator2_image": "https://i.ibb.co/ZmmNBy8/chess-2-Prerna-Pan.jpg",
+    "coordinator1_image": "https://i.ibb.co/4NJp1mm/Prashant-Raj-chess-1-1-1.jpg",
+    "coordinator2_image": "https://i.ibb.co/3h5VN4w/chess-2-Prerna-Pan-1-1.jpg",
     "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   }

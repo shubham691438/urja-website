@@ -1,9 +1,9 @@
 import React from 'react'
-import { Zoom } from "react-reveal";
+// import { Zoom } from "react-reveal";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
 
-const ResultCard = ({sport,gender,team1Name,team2Name,matchTitle,score,result}) => {
+const ResultCard = ({team1Name,team2Name,matchTitle,score,result}) => {
   return (
     <div
     style={{
@@ -11,7 +11,7 @@ const ResultCard = ({sport,gender,team1Name,team2Name,matchTitle,score,result}) 
     }}
   >
     
-    <Zoom>
+    {/* <Zoom> */}
     
       <div className="container " style={{paddingBottom:"50px",paddingTop:"70px"}}>
       
@@ -22,7 +22,6 @@ const ResultCard = ({sport,gender,team1Name,team2Name,matchTitle,score,result}) 
             <div className="d-flex team-vs result-card">
               
               <span className="score">
-                <p>{`${sport} ${gender}`}</p>
                 <p>{matchTitle?matchTitle:"match Title"}</p>
                 <p>{score?score:"score"}</p>
                 <p>{result?result:"result"}</p>
@@ -49,7 +48,7 @@ const ResultCard = ({sport,gender,team1Name,team2Name,matchTitle,score,result}) 
           </div>
         </div>
       </div>
-    </Zoom>
+    {/* </Zoom> */}
   </div>
   )
 }

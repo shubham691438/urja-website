@@ -1,10 +1,11 @@
 import React from "react";
-import { Fade as Slide } from "react-reveal";
+// import { Fade as Slide } from "react-reveal";
 import "../assets/styles/sportsGridStyle.css";
 import FootballImage from "../assets/images/football.png";
 import CricketImage from "../assets/images/cricketLogo.png";
 import BadmintonImage from "../assets/images/badmintonLogo.png";
 import BasketballImage from "../assets/images/basketballLogo.png";
+import chessIcon from "../assets/images/chessIcon.png";
 import HockeyLogo from "../assets/images/hockeyLogo.png";
 import Athlete from "../assets/images/Athlete.png";
 import Tennis from "../assets/images/TennisPlayer.png";
@@ -18,7 +19,7 @@ const SportsGrid = () => {
         </div>
 
         <div className="row mt-3">
-          <Slide>
+          {/*<Slide> */}
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch">
               <Link to="/sports/cricket" className="w-100 text-decoration-none">
                 <div className="icon-box px-5">
@@ -29,9 +30,9 @@ const SportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/*</Slide> */}
 
-          <Slide>
+          {/*<Slide> */}
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
               <Link
                 to="/sports/football"
@@ -45,9 +46,9 @@ const SportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/*</Slide> */}
 
-          <Slide>
+          {/*<Slide> */}
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
               <Link
                 to="/sports/badminton"
@@ -61,9 +62,9 @@ const SportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/*</Slide> */}
 
-          <Slide>
+          {/*<Slide> */}
             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
               <Link
                 to="/sports/basketball"
@@ -77,11 +78,11 @@ const SportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/*</Slide> */}
         </div>
 
         <div className="row mt-3">
-          <Slide>
+          {/*<Slide> */}
             <div
               className="col-xl-3 col-md-6 d-flex align-items-stretch"
               data-aos="zoom-in"
@@ -96,9 +97,9 @@ const SportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/*</Slide> */}
 
-          <Slide>
+          {/*<Slide> */}
             <div
               className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
               data-aos="zoom-in"
@@ -109,13 +110,13 @@ const SportsGrid = () => {
                   <div className="icon">
                     <img src={Athlete} alt="Athletics"></img>
                   </div>
-                  <h4>Athlete</h4>
+                  <h4>Athletics</h4>
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/*</Slide> */}
 
-          <Slide>
+          {/*<Slide> */}
             <div
               className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
               data-aos="zoom-in"
@@ -130,9 +131,9 @@ const SportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/*</Slide> */}
 
-          <Slide>
+          {/*<Slide> */}
             <div
               className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
               data-aos="zoom-in"
@@ -150,11 +151,11 @@ const SportsGrid = () => {
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/*</Slide> */}
         </div>
 
         <div className="row mt-3">
-          <Slide>
+          {/*<Slide> */}
             <div
               className="col-xl-3 col-md-6 d-flex align-items-stretch"
               data-aos="zoom-in"
@@ -163,13 +164,13 @@ const SportsGrid = () => {
               <Link to="/sports/chess" className="w-100 text-decoration-none">
                 <div className="icon-box w-100 px-5">
                   <div className="icon">
-                    <img src={HockeyLogo} alt="Hockey"></img>
+                    <img src={chessIcon} alt="Chess"></img>
                   </div>
                   <h4>Chess</h4>
                 </div>
               </Link>
             </div>
-          </Slide>
+          {/*</Slide> */}
         </div>
       </div>
     </section>

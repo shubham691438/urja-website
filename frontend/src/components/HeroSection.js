@@ -1,17 +1,15 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import { Zoom } from "react-reveal";
+// import { Zoom } from "react-reveal";
 import urja_home_img2 from "../assets/images/urja_home_img2.jpg";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
 import logo3 from "../assets/images/logo_3.png";
 import logo4 from "../assets/images/logo_4.png";
 import backgroundImage from "../assets/images/urja_home_img2.jpg";
-
-import { Link } from "react-router-dom";
-import AnimatedHeading from "./AnimatedHeading";
-import ResultCard from "./ResultCard";
+import AnimatedHeading from "../components/AnimatedHeading"
+import { Link } from "react-router-dom"
 export const HeroSection = () => {
+
   const [data, setData] = useState([{}]);
 
   async function getData() {
@@ -28,26 +26,26 @@ export const HeroSection = () => {
   useEffect(() => {
     getData();
   }, []);
+
   return (
     <>
       <div
         className="hero overlay"
+
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 ml-auto">
-              <h1 className="text-white" style={{ marginLeft: "10px" }}>
-                <AnimatedHeading heading="URJA-2K23" />{" "}
-              </h1>
+              <h1 className="text-white" style={{marginLeft:"10px"}}><AnimatedHeading heading="URJA-2K23"/> </h1>
               <p>Unleash the Power of Urja: Ignite Your Passion for Sports</p>
               <div id="date-countdown"></div>
               <p>
-                <Link
-                  to="/matches"
+                <Link to="/matches"
                   className="btn btn-danger py-3 px-4 mr-3 "
                   backgroundColor="#ee1e46"
                 >
+
                   Matches
                 </Link>
                 {/* <a href="/" className="more light">
@@ -64,56 +62,35 @@ export const HeroSection = () => {
           backgroundColor: "#222831",
         }}
       >
-        {/* <div className="container">
+        {/* <Zoom> */}
+          <div className="container">
             <div className="row">
-              {data.map((item) => (
-                <div className="col-lg-12" style={{ height: "250px" }}>
-                  <div className="d-flex team-vs">
-                    <div className="team-1 w-50">
-                      <div className="team-details w-100 text-center">
-                        <img src={logo1} alt="Image2" className="img-fluid" /> 
-                        <h3>TEAM A</h3>
-                        <ul className="list-unstyled">
-                          <li>{item.team1}</li>
-                        </ul>
-                      </div>
+              <div className="col-lg-12">
+                <div className="d-flex team-vs">
+                  <span className="score">4-1</span>
+                  <div className="team-1 w-50">
+                    <div className="team-details w-100 text-center">
+                      <img src={logo1} alt="Image2" className="img-fluid" />
+                      <h3>TEAM A</h3>
+                      <ul className="list-unstyled">
+                        <li>CSE</li>
+                      </ul>
                     </div>
-                    <div className="team-2 w-50">
-                      <div className="team-details w-100 text-center">
-                         <img src={logo2} alt="Image1" className="img-fluid" /> 
-                        <h3>TEAM B</h3>
-                        <ul className="list-unstyled">
-                          <li>{item.team2}</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div>
-                      <span className="score" style={{ fontSize: "2rem" }}>
-                        {item.matchTitle}
-                      </span>
-                      <span className="score" style={{ fontSize: "2rem" }}>
-                        {item.score}
-                      </span>
-                      <span className="score" style={{ fontSize: "2rem" }}>
-                        {item.result}
-                      </span>
+                  </div>
+                  <div className="team-2 w-50">
+                    <div className="team-details w-100 text-center">
+                      <img src={logo2} alt="Image1" className="img-fluid" />
+                      <h3>TEAM B</h3>
+                      <ul className="list-unstyled">
+                        <li>CIVIL</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-              ))}
+              </div>
             </div>
-          </div> */}
-        {data.map((item) => (
-          <ResultCard
-            sport={item.sport}
-            gender={item.gender}
-            team1Name={item.team1}
-            team2Name={item.team2}
-            matchTitle={item.matchTitle}
-            score={item.score}
-            result={item.result}
-          ></ResultCard>
-        ))}
+          </div>
+        {/* </Zoom> */}
       </div>
     </>
   );
