@@ -11,14 +11,15 @@ import Athlete from "../assets/images/Athlete.png";
 import Tennis from "../assets/images/TennisPlayer.png";
 import VolleyballIcon from "../assets/images/VolleyballIcon.png";
 import { Link } from "react-router-dom";
+import AnimatedHeading from "../components/AnimatedHeading"
+
 const SportsGrid = () => {
   return (
     <section id="services" className="services section-bg mt-5">
       <div className="container " data-aos="fade-up">
-        <div className="section-title">
-          <h2>Sports</h2>
-        </div>
-
+      <div className="col-12 title-section">
+        <h2 ><AnimatedHeading heading="Sports"/></h2>
+      </div>
         <div className="row mt-3">
           {/*<Slide> */}
           <div className="col-xl-3 col-md-6 d-flex align-items-stretch">

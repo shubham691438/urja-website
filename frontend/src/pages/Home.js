@@ -17,24 +17,11 @@ const Home = () => {
 
         <section className="services section-bg mt-5">
           <div className="container " data-aos="fade-up">
-            <div
-              style={{
-                padding: "16px 20px",
-                color: "#fff",
-                backgroundColor: "#ee1e46",
-              }}
-            >
-              <h4
-                style={{
-                  margin: "0px",
-                  padding: "0px",
-                  fontWeight: "700",
-                  color: "#fff",
-                }}
-              >
-                Sports Secretary
-              </h4>
-            </div>
+           
+              <div className="col-12 title-section ">
+                <h1 className="heading" style={{fontSize:"30px"}}>Sports Secretary</h1>
+              </div>
+           
 
             <div className="row mt-3 justify-content-evenly">
               <SportsCoordinator name="Ravindra Raj" position="Sports Secretary" image={ravindraRajImg}/>
