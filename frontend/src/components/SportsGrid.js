@@ -5,6 +5,7 @@ import FootballImage from "../assets/images/football.png";
 import CricketImage from "../assets/images/cricketLogo.png";
 import BadmintonImage from "../assets/images/badmintonLogo.png";
 import BasketballImage from "../assets/images/basketballLogo.png";
+import chessIcon from "../assets/images/chessIcon.png";
 import HockeyLogo from "../assets/images/hockeyLogo.png";
 import Athlete from "../assets/images/Athlete.png";
 import Tennis from "../assets/images/TennisPlayer.png";
@@ -163,7 +164,7 @@ const SportsGrid = () => {
               <Link to="/sports/chess" className="w-100 text-decoration-none">
                 <div className="icon-box w-100 px-5">
                   <div className="icon">
-                    <img src={HockeyLogo} alt="Hockey"></img>
+                    <img src={chessIcon} alt="Chess"></img>
                   </div>
                   <h4>Chess</h4>
                 </div>
