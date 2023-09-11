@@ -3,8 +3,8 @@ import AnimatedHeading from "./AnimatedHeading"
 import ResultCard from "./ResultCard";
 import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
-import { useState,useEffect } from "react";
-import { useParams } from "react-router";
+import { useState,useEffect} from "react";
+import { useParams } from "react-router-dom";
 
 const SportsResult = () => {
   //vfdcxdfcx
@@ -33,21 +33,14 @@ const SportsResult = () => {
     getData();
   }, []);
   return (
-    <div className="site-section " style={{ backgroundColor: "#222831" ,minHeight:'100vh'}}>
+    <div className="site-section " style={{ backgroundColor: "#222831" }}>
         <div className="container" style={{ marginTop: "2em" }}>
-          <AnimatedHeading heading={`${sport}-results`}/>
+          <AnimatedHeading heading="CRICKET-RESULTS"/>
 
           <div className="row pt-5">
             <div className="col pt-5">
-                {/* <ResultCard team1Name="PIE" team2Name="ECE" team1Img={logo1} team2Img={logo2} />
-                <ResultCard team1Name="PIE" team2Name="ECE" team1Img={logo1} team2Img={logo2} />
-                <ResultCard team1Name="PIE" team2Name="ECE" team1Img={logo1} team2Img={logo2} />
-                <ResultCard team1Name="PIE" team2Name="ECE" team1Img={logo1} team2Img={logo2} />
-                <ResultCard team1Name="PIE" team2Name="ECE" team1Img={logo1} team2Img={logo2} />
-                <ResultCard team1Name="PIE" team2Name="ECE" team1Img={logo1} team2Img={logo2} />
-                <ResultCard team1Name="PIE" team2Name="ECE" team1Img={logo1} team2Img={logo2} /> */}
                 {data.map(item=>(
-                  <ResultCard sport={item.sport} gender={item.gender} team1Name={item.team1} team2Name={item.team2} matchTitle={item.matchTitle} score={item.score} result={item.result}></ResultCard>
+                  <ResultCard team1Name={item.team1} team2Name={item.team2} score={item.score} result={item.result} matchTitle={item.matchTitle} sport={item.sport} gender={item.gender}></ResultCard>
                 ))}
             </div>
           </div>  
