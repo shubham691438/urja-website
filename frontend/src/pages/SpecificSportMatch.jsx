@@ -34,7 +34,7 @@ const SportsResult = () => {
     d = await d.json();
     console.log(d)
     //console.log(d.pastMatches);
-    // setPastMatches(d.pastMatches);
+    setPastMatches(d.data);
   }
 
   useEffect(() => {

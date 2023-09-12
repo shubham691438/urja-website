@@ -9,6 +9,7 @@ const schema = new mongoose.Schema(
     team2: String,
     score: String,
     result: String,
+    matchTitle:String
   },
   { collection: "results" }
 );
