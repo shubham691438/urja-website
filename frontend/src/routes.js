@@ -1,10 +1,9 @@
 import Home from "./pages/Home";
-import Matches from "./pages/Matches";
 import Layout from "./components/Layout";
 import Sports from "./pages/Sports";
 import CoreTeam from "./pages/CoreTeam";
-import Results from "./pages/Results";
-import SportsResult from "./components/SportResult";
+import Matches from "./pages/Matches";
+import SpecificSportMatch from "./pages/SpecificSportMatch";
 const Routes = [
   {
     path: "/",
@@ -15,10 +14,6 @@ const Routes = [
         element: <Home />,
       },
       {
-        path: "/matches",
-        element: <Matches />,
-      },
-      {
         path: "/sports/:key",
         element: <Sports />,
       },
@@ -27,15 +22,15 @@ const Routes = [
         element: <CoreTeam />,
       },
       {
-        path: "/results",
+        path: "/matches",
         children: [
           {
             index: true,
-            element: <Results />,
+            element: <Matches/>,
           },
           {
-            path: "/results/:id",
-            element: <SportsResult />,
+            path: "/matches/:id",
+            element: <SpecificSportMatch/>,
           },
         ],
       },
