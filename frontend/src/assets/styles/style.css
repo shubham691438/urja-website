@@ -849,7 +849,7 @@ h5,
 .hero,
 .hero > .container > .row {
   height: 100vh;
-  min-height: 500px;
+  min-height: 300px;
 }
 .hero.overlay:before {
   content: "";
