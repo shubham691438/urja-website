@@ -10,13 +10,13 @@ import other2Image from '../images/branchImg/player9.png';
 import other3Image from '../images/branchImg/player11.png'
 
 const imageMap = new Map([
-    ['PIE+ECM', pieEcmImage],
-    ['ECE', eceImage],
-    ['CSE', cseImage],
-    ['EEE', eeeImage],
-    ['PG', pgImage],
-    ['ME', meImage],
-    ['CE', ceImage],
+    ['pie-ecm', pieEcmImage],
+    ['ece', eceImage],
+    ['cse', cseImage],
+    ['eee', eeeImage],
+    ['pg', pgImage],
+    ['me', meImage],
+    ['ce', ceImage],
     ['other1', other1Image],
     ['other2', other2Image],
   ]);
