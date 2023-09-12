@@ -7,13 +7,14 @@ const schema = new mongoose.Schema(
     matchTitle:String,
     team1: String,
     team2: String,
-    score: String,
-    result: String,
+    date: Date,
+    time: String,
+    location:String,
     
   },
-  { collection: "results" }
+  { collection: "upcommingMatch" }
 );
 
-const model = mongoose.model("results", schema);
+const model = mongoose.model("upcommingMatch", schema);
 
 module.exports = model;
