@@ -39,17 +39,11 @@ const Navbar = () => {
                   <li className="active">
                     <Link to="/">Home</Link>
                   </li>
+                  
                   <li>
                     <Link to="/matches">Matches</Link>
                   </li>
-                  <li>
-                    <Link to="/results">Results</Link>
-                  </li>
-                  {/* <li>
-                    <a href="/" className="nav-link">
-                      Blog
-                    </a>
-                  </li> */}
+                  
                   <li>
                     <Link to="/our-team">Our Team</Link>
                   </li>
