@@ -24,7 +24,7 @@ const ResultCard = ({sport,gender,team1Name,team2Name,matchTitle,score,result}) 
     
     {/* <Zoom> */}
       <div class="d-flex justify-content-center">
-      <h3><span class="badge badge-danger mb-3 ">Men Semi-final</span></h3>
+      <h3><span class="badge badge-danger mb-3 ">{gender+" "+matchTitle}</span></h3>
       </div>
       <div className="container " style={{paddingBottom:"50px",paddingTop:"70px"}}>
         <div className="row">

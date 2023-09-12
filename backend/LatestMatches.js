@@ -29,6 +29,7 @@ exports.addMatchInfo = async (req, res) => {
 
 exports.getMatchesBySports = async (req, res) => {
   const { sport } = req.params;
+  console.log(sport)
 
   const ans = await Results.find({ sport });
   res.status(200).json({
