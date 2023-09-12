@@ -74,29 +74,7 @@ export default function SimpleBottomNavigation() {
             textDecoration: "none",
           }}
         />
-        <BottomNavigationAction
-          component={Link}
-          to="/Results"
-          label="Results"
-          icon={
-            <LeaderboardIcon
-              style={{
-                color:
-                  value === 2 || location.pathname === "/Results"
-                    ? "white"
-                    : "#ee1e46",
-              }}
-            />
-          }
-          onMouseEnter={() => setValue(2)}
-          style={{
-            color:
-              value === 2 || location.pathname === "/Results"
-                ? "white"
-                : "#ee1e46",
-            textDecoration: "none",
-          }}
-        />
+        
         <BottomNavigationAction
           component={Link}
           to="/our-team"

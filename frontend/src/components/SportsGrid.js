@@ -118,7 +118,7 @@ const SportsGrid = () => {
             data-aos="zoom-in"
             data-aos-delay="300"
           >
-            <Link to="/sports/tennis" className="w-100 text-decoration-none">
+            <Link to="/sports/tableTennis" className="w-100 text-decoration-none">
               <div className="icon-box w-100">
                 <div className="icon">
                   <img src={Tennis} alt="Tennis"></img>
@@ -153,7 +153,7 @@ const SportsGrid = () => {
         <div className="row mt-3">
           {/*<Slide> */}
           <div
-            className="col-xl-3 col-md-6 d-flex align-items-stretch"
+            className="col-xl-3 col-md-6 mt-4 d-flex align-items-stretch"
             data-aos="zoom-in"
             data-aos-delay="100"
           >
@@ -170,7 +170,7 @@ const SportsGrid = () => {
 
           {/*<Slide> */}
           <div
-            className="col-xl-3 col-md-6 d-flex align-items-stretch"
+            className="col-xl-3 col-md-6 mt-4 d-flex align-items-stretch"
             data-aos="zoom-in"
             data-aos-delay="100"
           >
@@ -187,7 +187,8 @@ const SportsGrid = () => {
             </Link>
           </div>
           {/*</Slide> */}
-        </div>
+        </div>  
+        
       </div>
     </section>
   );

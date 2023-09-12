@@ -6,8 +6,10 @@ import CricketImage from "../assets/images/cricketLogo.png";
 import BadmintonImage from "../assets/images/badmintonLogo.png";
 import BasketballImage from "../assets/images/basketballLogo.png";
 import HockeyLogo from "../assets/images/hockeyLogo.png";
-import Athlete from "../assets/images/Athlete.png";
+import AthleticsIcon from "../assets/images/Athlete.png";
 import Tennis from "../assets/images/TennisPlayer.png";
+import chessIcon from "../assets/images/chessIcon.png";
+import VolleyballIcon from "../assets/images/VolleyballIcon.png";
 import { Link } from "react-router-dom";
 
 
@@ -107,9 +109,9 @@ const ResultsSportsGrid = () => {
               <Link to="/matches/athlete" className="w-100 text-decoration-none">
                 <div className="icon-box w-100">
                   <div className="icon">
-                    <img src={Athlete} alt="Athletics"></img>
+                    <img src={AthleticsIcon} alt="Athletics"></img>
                   </div>
-                  <h4>Athlete</h4>
+                  <h4>Athletics</h4>
                 </div>
               </Link>
             </div>
@@ -125,11 +127,64 @@ const ResultsSportsGrid = () => {
                   <div className="icon">
                     <img src={Tennis} alt="Tennis"></img>
                   </div>
-                  <h4>Tennis</h4>
+                  <h4>Table Tennis</h4>
                 </div>
               </Link>
             </div>
           {/* </Slide> */}
+          {/*<Slide> */}
+          <div
+              className="col-xl-3 col-md-6 d-flex align-items-stretch mt-3 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <Link to="/matches/tennis" className="w-100 text-decoration-none">
+                <div className="icon-box w-100">
+                  <div className="icon">
+                    <img src={Tennis} alt="Tennis"></img>
+                  </div>
+                  <h4>Lawn Tennis</h4>
+                </div>
+              </Link>
+            </div>
+          {/* </Slide> */}
+          <div className="row mt-3">
+            {/*<Slide> */}
+            <div
+                className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
+                <Link to="/matches/chess" className="w-100 text-decoration-none">
+                  <div className="icon-box w-100">
+                    <div className="icon">
+                      <img src={chessIcon} alt="chess"></img>
+                    </div>
+                    <h4>Chess</h4>
+                  </div>
+                </Link>
+              </div>
+            {/* </Slide> */}
+            {/*<Slide> */}
+            <div
+              className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <Link
+                to="/sports/volleyBall"
+                className="w-100 text-decoration-none"
+              >
+                <div className="icon-box w-100 px-5">
+                  <div className="icon">
+                    <img src={VolleyballIcon} alt="Chess"></img>
+                  </div>
+                  <h4>Volleyball</h4>
+                </div>
+              </Link>
+            </div>
+            {/*</Slide> */}
+          </div>    
         </div>
       </div>
     </section>
