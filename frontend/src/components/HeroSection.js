@@ -16,8 +16,8 @@ export const HeroSection = () => {
   
 
   // Get the image URL based on the passed key
-  const imageUrl1 =GetBranchIcon("PIE+ECM")
-  const imageUrl2 = GetBranchIcon("ME")
+  const imageUrl1 =GetBranchIcon("pie-ecm")
+  const imageUrl2 = GetBranchIcon("me")
 
 
 
