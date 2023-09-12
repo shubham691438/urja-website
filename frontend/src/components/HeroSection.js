@@ -9,6 +9,7 @@ import backgroundImage from "../assets/images/urja_home_img2.jpg";
 import AnimatedHeading from "../components/AnimatedHeading"
 import { Link } from "react-router-dom"
 import GetBranchIcon from "../assets/functions/GetBranchIcon";
+import GlowingText from "./GlowingText";
 
 export const HeroSection = () => {
 
@@ -48,21 +49,23 @@ export const HeroSection = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 ml-auto">
-              <h1 className="text-white" style={{marginLeft:"10px"}}><AnimatedHeading heading="URJA-2K23"/> </h1>
-              <p>Unleash the Power of Urja: Ignite Your Passion for Sports</p>
-              <div id="date-countdown"></div>
-              <p>
-                <Link to="/matches"
-                  className="btn btn-danger py-3 px-4 mr-3 "
-                  backgroundColor="#ee1e46"
-                >
+              <h1 className="text-white" ><AnimatedHeading heading="URJA-2K23"/> </h1>
+              <div className="d-flex flex-column align-items-center">
+                <GlowingText text={"Unleash the Power of Urja: Ignite Your Passion for Sports"}/>
+                <div id="date-countdown"></div>
+                <p>
+                  <Link to="/matches"
+                    className="btn btn-danger py-3 px-4 mr-3 "
+                    backgroundColor="#ee1e46"
+                  >
 
-                  Matches
-                </Link>
-                {/* <a href="/" className="more light">
-                  About
-                </a> */}
-              </p>
+                    Matches
+                  </Link>
+                  {/* <a href="/" className="more light">
+                    About
+                  </a> */}
+                </p>
+              </div>  
             </div>
           </div>
         </div>
@@ -80,7 +83,7 @@ export const HeroSection = () => {
             <div className="row">
             
             <div class="d-flex justify-content-center mb-5" style={{zIndex:999}}>
-              <h3><span class="badge badge-warning">Men FootBall Semi-final</span></h3>
+              <h3><span class="badge badge-danger">Men FootBall Semi-final</span></h3>
             </div>
               <div className="col-lg-12">
                 <div className="d-flex team-vs">
