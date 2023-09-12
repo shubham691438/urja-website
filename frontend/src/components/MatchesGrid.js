@@ -148,6 +148,7 @@ const ResultsSportsGrid = () => {
               </Link>
             </div>
           {/* </Slide> */}
+        </div>  
           <div className="row mt-3">
             {/*<Slide> */}
             <div
@@ -186,7 +187,7 @@ const ResultsSportsGrid = () => {
             {/*</Slide> */}
           </div>    
         </div>
-      </div>
+      
     </section>
   );
 };

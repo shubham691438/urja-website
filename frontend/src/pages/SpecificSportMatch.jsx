@@ -23,22 +23,18 @@ const SportsResult = () => {
   const {id}=useParams()
   
   const [sport,setSport]=useState(id)
-  const [data, setData] = useState([{}]);
+  const [pastMatches, setPastMatches] = useState([{}]);
   
   async function getData() {
     
     console.log(sport)
-    let d = await fetch(backendUrl+"/api/matches/get-match-score", {
-      method: "post",
-      body: JSON.stringify({ sport}),
-      headers: {
-        "Content-Type": "application/json",
-      },
+    let d = await fetch(backendUrl+"/api/matches/get-match-score/"+sport, {
+      method: "get",
     });
     d = await d.json();
-    //console.log(d)
-    //console.log(d.data);
-    setData(d.data);
+    console.log(d)
+    //console.log(d.pastMatches);
+    // setPastMatches(d.pastMatches);
   }
 
   useEffect(() => {
@@ -61,11 +57,11 @@ const SportsResult = () => {
               
 
               <div className="col-12 title-section">
-                <h2 className="heading">Past Match</h2>
+                <h2 className="heading">Past Matches</h2>
               </div>
                  
 
-              {data.map(item=>(
+              {pastMatches.map(item=>(
                 <ResultCard team1Name={item.team1} team2Name={item.team2} score={item.score} result={item.result} matchTitle={item.matchTitle} sport={item.sport} gender={item.gender}></ResultCard>
               ))}
 
