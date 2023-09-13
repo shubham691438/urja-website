@@ -1,5 +1,8 @@
 /* Base */
 body {
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0; 
   line-height: 1.7;
   color: gray;
   font-weight: 300;
