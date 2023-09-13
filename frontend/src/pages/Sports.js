@@ -4,6 +4,7 @@ import AnimatedHeading from "../components/AnimatedHeading";
 // import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import data from "../sports.json";
+import GlowingButton from "../components/GlowingButton";
 // **** In data.json image Url needs to be updated for the sports coordinator one sample will be done **** //
 
 const Sports = () => {
@@ -167,6 +168,7 @@ const Sports = () => {
               </h4>
             </div>
             <div>
+              <GlowingButton text={"Go to Matches page"} toLink={"/matches/"+key}/>
               <div>
                 <h4
                   style={{

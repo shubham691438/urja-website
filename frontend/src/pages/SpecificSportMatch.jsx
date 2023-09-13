@@ -24,8 +24,9 @@ const SportsResult = () => {
   
   const [sport,setSport]=useState(id)
   const [pastMatches, setPastMatches] = useState([{}]);
+  const [upcommingMatches, setUpcommingMatches] = useState([{}])
   
-  async function getData() {
+  async function getPastMatches() {
     
     console.log(sport)
     let d = await fetch(backendUrl+"/api/matches/get-match-score/"+sport, {
@@ -37,9 +38,25 @@ const SportsResult = () => {
     setPastMatches(d.data);
   }
 
+  
+
+  async function getUpcommingMatches() {
+    
+    let d = await fetch(backendUrl+"/api/matches/get-upcomming-matches/"+sport, {
+      method: "get",
+    });
+    d = await d.json();
+    console.log(d)
+    //console.log(d.pastMatches);
+    setUpcommingMatches(d.data);
+  }
+
   useEffect(() => {
-    getData();
+    getPastMatches();
+    getUpcommingMatches();
   }, []);
+
+
 
   return (
     <div className="site-section " style={{ backgroundColor: "#222831" }}>
@@ -52,8 +69,21 @@ const SportsResult = () => {
               <div className="col-12 title-section">
                 <h2 className="heading">Upcoming Matches</h2>
               </div>
-              <UpcommingMatchCard/>
-              <UpcommingMatchCard/>
+
+              {upcommingMatches.map((item, index) => (
+                <UpcommingMatchCard
+                  key={index}
+                  team1Name={item.team1}
+                  team2Name={item.team2}
+                  matchTitle={item.matchTitle}
+                  sport={item.sport}
+                  gender={item.gender}
+                  date={item.date}
+                  time={item.time}
+                  location={item.location}
+                />
+              ))}
+
               
 
               <div className="col-12 title-section">
@@ -61,8 +91,17 @@ const SportsResult = () => {
               </div>
                  
 
-              {pastMatches.map(item=>(
-                <ResultCard team1Name={item.team1} team2Name={item.team2} score={item.score} result={item.result} matchTitle={item.matchTitle} sport={item.sport} gender={item.gender}></ResultCard>
+              {pastMatches.map((item, index) => (
+                <ResultCard
+                  key={index}
+                  team1Name={item.team1}
+                  team2Name={item.team2}
+                  score={item.score}
+                  result={item.result}
+                  matchTitle={item.matchTitle}
+                  sport={item.sport}
+                  gender={item.gender}
+                />
               ))}
 
             </div>

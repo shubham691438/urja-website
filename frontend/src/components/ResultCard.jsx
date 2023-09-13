@@ -5,7 +5,7 @@ import GetBranchIcon from '../assets/functions/GetBranchIcon'
 
 const ResultCard = ({ sport, gender, team1Name, team2Name, matchTitle, score, result }) => {
 
-  console.log(matchTitle)
+  
   // Get the image URL based on the passed key
   const imageUrl1 = GetBranchIcon(team1Name);
   const imageUrl2 = GetBranchIcon(team2Name);
@@ -33,7 +33,7 @@ const ResultCard = ({ sport, gender, team1Name, team2Name, matchTitle, score, re
           <div className="col-lg-12 ">
             <div className="d-flex team-vs result-card">
               <span className="score">
-                4 - 1
+                {score || "4-1"}
               </span>
               <div className="team-1 w-50">
                 <div className="team-details w-100 text-center">
