@@ -106,7 +106,7 @@ const ResultsSportsGrid = () => {
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <Link to="/matches/athlete" className="w-100 text-decoration-none">
+              <Link to="/matches/athletic" className="w-100 text-decoration-none">
                 <div className="icon-box w-100">
                   <div className="icon">
                     <img src={AthleticsIcon} alt="Athletics"></img>
