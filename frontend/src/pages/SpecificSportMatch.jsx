@@ -2,10 +2,10 @@ import React from "react";
 import AnimatedHeading from "../components/AnimatedHeading"
 import ResultCard from "../components/ResultCard";
 
-import logo1 from "../assets/images/logo_1.png";
-import logo2 from "../assets/images/logo_2.png";
-import logo3 from "../assets/images/logo_3.png";
-import logo4 from "../assets/images/logo_4.png";
+// import logo1 from "../assets/images/logo_1.png";
+// import logo2 from "../assets/images/logo_2.png";
+// import logo3 from "../assets/images/logo_3.png";
+// import logo4 from "../assets/images/logo_4.png";
 
 import { useState,useEffect} from "react";
 import { useParams } from "react-router-dom";

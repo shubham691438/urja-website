@@ -74,7 +74,7 @@ export default function SimpleBottomNavigation() {
             textDecoration: "none",
           }}
         />
-        
+
         <BottomNavigationAction
           component={Link}
           to="/our-team"
@@ -93,6 +93,29 @@ export default function SimpleBottomNavigation() {
           style={{
             color:
               value === 3 || location.pathname === "/our-team"
+                ? "white"
+                : "#ee1e46",
+            textDecoration: "none",
+          }}
+        />
+        <BottomNavigationAction
+          component={Link}
+          to="/Score"
+          label="Scores"
+          onMouseEnter={() => setValue(3)}
+          icon={
+            <LeaderboardIcon
+              style={{
+                color:
+                  value === 3 || location.pathname === "/Score"
+                    ? "white"
+                    : "#ee1e46",
+              }}
+            />
+          }
+          style={{
+            color:
+              value === 3 || location.pathname === "/Score"
                 ? "white"
                 : "#ee1e46",
             textDecoration: "none",

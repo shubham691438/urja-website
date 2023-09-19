@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import Sports from "./pages/Sports";
 import CoreTeam from "./pages/CoreTeam";
 import Matches from "./pages/Matches";
+import Score from "./pages/score";
 import SpecificSportMatch from "./pages/SpecificSportMatch";
 const Routes = [
   {
@@ -26,13 +27,17 @@ const Routes = [
         children: [
           {
             index: true,
-            element: <Matches/>,
+            element: <Matches />,
           },
           {
             path: "/matches/:id",
-            element: <SpecificSportMatch/>,
+            element: <SpecificSportMatch />,
           },
         ],
+      },
+      {
+        path: "/Score",
+        element: <Score />,
       },
     ],
   },
