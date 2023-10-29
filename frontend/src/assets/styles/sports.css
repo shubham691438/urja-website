@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-
 
 .waviy {
   position: relative;
@@ -18,16 +16,22 @@
   animation-delay: calc(.1s * var(--i));
 }
 
-
 @media screen and (max-width: 768px) {
   .waviy {
     font-size: 40px; 
+    
   }
 }
 
 @media screen and (max-width: 576px) {
   .waviy {
     font-size: 30px; 
+    
+    
+  }
+  .waviy span{
+    animation: none;
+    animation-delay: none;
   }
 }
 
