@@ -20,9 +20,11 @@ const Sports = () => {
     <>
       <div className="site-section " style={{ backgroundColor: "#222831" }}>
         <div className="container" style={{ marginTop: "2em" }}>
-          <AnimatedHeading heading={jsonData.title ? jsonData.title : ""} />
 
-          <div className="row mb-5 pt-5">
+          <div className="mt-5 pt-5">
+            <AnimatedHeading heading={jsonData.title ? jsonData.title : ""} />
+          </div>
+          <div className="row mb-5">
             <div
               className="col-lg-12 d-flex flex-column justify-content-center"
               style={{
@@ -38,20 +40,9 @@ const Sports = () => {
                 }}
               >
                 {" "}
-                {/* "You don’t win or lose the games because of the 11 you select.
-                You win or lose with that those 11 do on the field.” – Rahul
-                Dravid */}
-
                 "{jsonData.quote?jsonData.quote:""}"
               </h5>
               <p>
-                {/* Cricket is a super popular sport played with a bat and ball.
-                This game is played by two teams of 11 players each. It's all
-                about scoring runs and getting the other team out. It is played
-                on a pitch in a well-maintained field for the same purpose.
-                There are different formats like Test matches and One Day
-                Internationals. It's a game full of excitement, strategy, and
-                amazing moments. */}
                 {jsonData.description ? jsonData.description : ""}
               </p>
             </div>
@@ -91,14 +82,6 @@ const Sports = () => {
                             ))
                           : "Will be Updated Soon"}
                       </ul>
-
-                      {/* <ul>
-                        <li>{jsonData.rules[0]}</li>
-                        <li>{jsonData.rules[1]}</li>
-                        <li>{jsonData.rules[2]}</li>
-                        <li>{jsonData.rules[3]}</li>
-                        <li>{jsonData.rules[4]}</li>
-                      </ul> */}
                     </div>
                   </div>
                 </div>

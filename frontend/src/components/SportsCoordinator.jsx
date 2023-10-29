@@ -5,8 +5,6 @@ function sportsCoordinator({name,position,image}) {
   return (
     <div
       className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-      data-aos="zoom-in"
-      data-aos-delay="200"
     >
       <div className=" icon-box2 team-member w-100 ">
         <div className="member-img">
@@ -16,7 +14,6 @@ function sportsCoordinator({name,position,image}) {
               width: "100%",
               height: "auto",
             }}
-            alt="Cricket"
           ></img>
         </div>
         <div className="member-info">

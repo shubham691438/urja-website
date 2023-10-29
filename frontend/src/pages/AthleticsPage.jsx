@@ -19,9 +19,12 @@ const AtheleticsPage = () => {
     <>
       <div className="site-section " style={{ backgroundColor: "#222831" }}>
         <div className="container" style={{ marginTop: "2em" }}>
-          <AnimatedHeading heading={jsonData.title ? jsonData.title : ""} />
 
-          <div className="row mb-5 pt-5">
+          <div className="mt-5 pt-5">
+            <AnimatedHeading heading={jsonData.title ? jsonData.title : ""} />
+          </div>
+
+          <div className="row mb-5">
             <div
               className="col-lg-12 d-flex flex-column justify-content-center"
               style={{
