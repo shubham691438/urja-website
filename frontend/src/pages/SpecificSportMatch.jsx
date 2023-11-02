@@ -33,8 +33,9 @@ const SportsResult = () => {
       method: "get",
     });
     d = await d.json();
-    console.log(d)
-    //console.log(d.pastMatches);
+    
+    
+    sortMatchesByDate(d.data);
     setPastMatches(d.data);
   }
 
@@ -46,20 +47,29 @@ const SportsResult = () => {
       method: "get",
     });
     d = await d.json();
-    console.log(d)
-    //console.log(d.pastMatches);
+    
+  
+    sortMatchesByDate(d.data);
     setUpcommingMatches(d.data);
   }
 
   useEffect(() => {
     getPastMatches();
-    getUpcommingMatches();
-  }, []);
+    getUpcommingMatches();    
+  }, [sport]);
 
+  
+  
+  // Function to sort an array of matches by date
+  const sortMatchesByDate = (matches) => {
+    return matches.sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt));
+  };
+
+  
 
 
   return (
-    <div className="site-section " style={{ backgroundColor: "#222831" }}>
+    <div className="site-section min-vh-100" style={{ backgroundColor: "#222831" }}>
         <div className="container" style={{ marginTop: "2em" }}>
           <AnimatedHeading heading={sport}/>
           
