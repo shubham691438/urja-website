@@ -6,6 +6,7 @@ import logo1 from "../assets/images/logo_1.png";
 import logo2 from "../assets/images/logo_2.png";
 import logo3 from "../assets/images/logo_3.png";
 import logo4 from "../assets/images/logo_4.png";
+import HashLoader from "react-spinners/HashLoader";
 
 import { useState,useEffect} from "react";
 import { useParams } from "react-router-dom";
@@ -13,9 +14,11 @@ import UpcommingMatchCard from "../components/UpcommingMatchCard";
 
 const SportsResult = () => {
 
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
 
   
   const backendUrl = process.env.REACT_APP_BACKEND_URL
@@ -25,32 +28,42 @@ const SportsResult = () => {
   const [sport,setSport]=useState(id)
   const [pastMatches, setPastMatches] = useState([{}]);
   const [upcommingMatches, setUpcommingMatches] = useState([{}])
+  const [loading,setLoading]=useState(true);
   
   async function getPastMatches() {
-    
-    console.log(sport)
-    let d = await fetch(backendUrl+"/api/matches/get-match-score/"+sport, {
-      method: "get",
-    });
-    d = await d.json();
-    
-    
-    sortMatchesByDate(d.data);
-    setPastMatches(d.data);
+    setLoading(true);
+  
+    try {
+      let d = await fetch(backendUrl + "/api/matches/get-match-score/" + sport, {
+        method: "get",
+      });
+      d = await d.json();
+      
+      sortMatchesByDate(d.data);
+      setPastMatches(d.data);
+    } catch (error) {
+      console.error("Error fetching past matches:", error);
+    } finally {
+      setLoading(false);
+    }
   }
-
   
-
   async function getUpcommingMatches() {
-    
-    let d = await fetch(backendUrl+"/api/matches/get-upcomming-matches/"+sport, {
-      method: "get",
-    });
-    d = await d.json();
-    
+    setLoading(true);
   
-    sortMatchesByDate(d.data);
-    setUpcommingMatches(d.data);
+    try {
+      let d = await fetch(backendUrl + "/api/matches/get-upcomming-matches/" + sport, {
+        method: "get",
+      });
+      d = await d.json();
+  
+      sortMatchesByDate(d.data);
+      setUpcommingMatches(d.data);
+    } catch (error) {
+      console.error("Error fetching upcoming matches:", error);
+    } finally {
+      setLoading(false);
+    }
   }
 
   useEffect(() => {
@@ -70,6 +83,26 @@ const SportsResult = () => {
 
   return (
     <div className="site-section min-vh-100" style={{ backgroundColor: "#222831" }}>
+      {
+        loading?(
+        <div  style={{
+          position: "fixed",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          zIndex: 9999, // Make sure it's on top of other content
+        }}>
+            <HashLoader
+              color="#36d7b7"
+              loading={loading}
+              // cssOverride={override}
+              size={150}
+              aria-label="Loading Spinner"
+              data-testid="loader"
+          />
+        </div>
+      ):(
+
         <div className="container" style={{ marginTop: "2em" }}>
           <AnimatedHeading heading={sport}/>
           
@@ -121,6 +154,10 @@ const SportsResult = () => {
           
           
         </div>
+        
+        )
+      }
+        
     </div>      
   );
 };
