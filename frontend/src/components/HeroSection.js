@@ -83,22 +83,22 @@ export const HeroSection = () => {
             <div className="row">
             
             <div class="d-flex justify-content-center mb-5" style={{zIndex:999}}>
-              <h3><span class="badge badge-danger">Men FootBall Semi-final</span></h3>
+              <h3><span class="badge badge-danger">Men Volleyball Final</span></h3>
             </div>
               <div className="col-lg-12">
                 <div className="d-flex team-vs">
-                  <span className="score">VS </span>
+                  <span className="score">4:30 PM</span>
                   <div className="team-1 w-50">
                     <div className="team-details w-100 text-center">
                       <img src={imageUrl1} alt="Image2" className="img-fluid" />
-                      <h3>PIE+ECM</h3>
+                      <h3>CE</h3>
                       
                     </div>
                   </div>
                   <div className="team-2 w-50">
                     <div className="team-details w-100 text-center">
                       <img src={imageUrl2} alt="Image1" className="img-fluid" />
-                      <h3>ME</h3>
+                      <h3>MME</h3>
                       
                     </div>
                   </div>
