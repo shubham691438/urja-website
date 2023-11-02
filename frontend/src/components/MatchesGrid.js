@@ -168,7 +168,7 @@ const ResultsSportsGrid = () => {
             data-aos-delay="100"
           >
             <Link
-              to="/sports/volleyBall"
+              to="/matches/volleyBall"
               className="w-100 text-decoration-none"
             >
               <div className="icon-box w-100 px-5">
