@@ -10,6 +10,10 @@ const schema = new mongoose.Schema(
     date: Date,
     time: String,
     location:String,
+    createdAt: {
+      type: Date,
+      default: Date.now
+    }
     
   },
   { collection: "upcommingMatch" }
