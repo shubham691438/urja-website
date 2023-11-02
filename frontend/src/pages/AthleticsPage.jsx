@@ -56,6 +56,7 @@ const AtheleticsPage = () => {
                     <thead>
                     <tr>
                         <th>Sport Name</th>
+                        <th>Finals</th>
                         <th>Gold</th>
                         <th>Silver</th>
                         <th>Bronze</th>
@@ -67,9 +68,10 @@ const AtheleticsPage = () => {
                             <td>
                                 {item.name}
                             </td>
-                            <td>{item.gold_point+" "}  ({item.gold_winner?item.gold_winner:" "})</td>
-                            <td>{item.silver_point+" "}  ({item.silver_winner?item.silver_winner:" "})</td>
-                            <td>{item.bronze_point+" "}  ({item.bronze_winner?item.bronze_winner:" "})</td>
+                            <td>{item.finals}</td>
+                            <td>{item.gold_point+" "}   {item.gold_winner?item.gold_winner:" "}</td>
+                            <td>{item.silver_point+" "}  {item.silver_winner?item.silver_winner:" "}</td>
+                            <td>{item.bronze_point+" "}  {item.bronze_winner?item.bronze_winner:" "}</td>
                         </tr>
                     ))}
                     </tbody>
@@ -114,13 +116,6 @@ const AtheleticsPage = () => {
                           : "Will be Updated Soon"}
                       </ul>
 
-                      {/* <ul>
-                        <li>{jsonData.rules[0]}</li>
-                        <li>{jsonData.rules[1]}</li>
-                        <li>{jsonData.rules[2]}</li>
-                        <li>{jsonData.rules[3]}</li>
-                        <li>{jsonData.rules[4]}</li>
-                      </ul> */}
                     </div>
                   </div>
                 </div>
@@ -168,100 +163,8 @@ const AtheleticsPage = () => {
                   jsonData.coordinator2_image ? jsonData.coordinator2_image : ""
                 }
               />
-            </div>
-
-            <div
-              style={{
-                marginTop: "50px",
-                padding: "16px 20px",
-                color: "#fff",
-                backgroundColor: "#ee1e46",
-              }}
-            >
-              <h4
-                style={{
-                  margin: "0px",
-                  padding: "0px",
-                  fontWeight: "700",
-                  color: "#fff",
-                }}
-              >
-                Schedule of Matches
-              </h4>
-            </div>
-            <div>
-              <GlowingButton text={"Go to Matches page"} toLink={"/matches/"+key}/>
-              <div>
-                <h4
-                  style={{
-                    margin: "0px",
-
-                    fontWeight: "700",
-                    color: "#fff",
-                    marginTop: "50px",
-                    padding: "16px 20px",
-                    backgroundColor: "#ee1e46",
-                    display: "inline-flex",
-                  }}
-                >
-                  BOYS
-                </h4>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  flexDirection: "column",
-                  paddingTop: "4%",
-                }}
-              >
-                <img
-                  src={
-                    jsonData.boysMatchSchedule
-                      ? jsonData.boysMatchSchedule
-                      : "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
-                  }
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div>
-            <div>
-              <div>
-                <h4
-                  style={{
-                    margin: "0px",
-
-                    fontWeight: "700",
-                    color: "#fff",
-                    marginTop: "50px",
-                    padding: "16px 20px",
-                    backgroundColor: "#ee1e46",
-                    display: "inline-flex",
-                  }}
-                >
-                  GIRLS
-                </h4>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  flexDirection: "column",
-                  paddingTop: "4%",
-                }}
-              >
-                <img
-                  src={
-                    jsonData.girlsMatchSchedule
-                      ? jsonData.girlsMatchSchedule
-                      : "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
-                  }
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div>
+            </div>           
+            
           </div>
         </section>
       </div>
