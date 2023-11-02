@@ -80,7 +80,8 @@ const SportsResult = () => {
                 <h2 className="heading">Upcoming Matches</h2>
               </div>
 
-              {upcommingMatches.map((item, index) => (
+              
+              {upcommingMatches.length>0 && upcommingMatches.map((item, index) => (
                 <UpcommingMatchCard
                   key={index}
                   team1Name={item.team1}
@@ -101,7 +102,7 @@ const SportsResult = () => {
               </div>
                  
 
-              {pastMatches.map((item, index) => (
+              {pastMatches.length>0 && pastMatches.map((item, index) => (
                 <ResultCard
                   key={index}
                   team1Name={item.team1}

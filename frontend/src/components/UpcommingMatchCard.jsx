@@ -55,7 +55,7 @@ const UpcommingMatchCard = ({ sport, gender, team1Name, team2Name, matchTitle, d
             <div className="text-center widget-vs-contents mb-4">
             <h4>{(capitalizedGender||"" )+ " " + (capitalizedMatchTitle||"")}</h4>
             <p className="mb-5">
-                <span className="d-block">{formattedDate||" "}</span>
+                <span className="d-block">{formattedDate||"5 Nov"}</span>
                 <span className="d-block">{time ||" "}</span>
                 <strong className="text-primary">{location ||" "}</strong>
             </p>
