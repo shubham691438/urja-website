@@ -208,7 +208,7 @@ const athleticsData = [
     bronze_winner: "CE",
   },
   {
-    name: "4*1000 Relay Boys",
+    name: "4*100 Relay Boys",
     gold_point: 7,
     silver_point: 5,
     bronze_point: 3,
@@ -217,7 +217,7 @@ const athleticsData = [
     bronze_winner: "CE",
   },
   {
-    name: "4*1000 Relay Girls",
+    name: "4*100 Relay Girls",
     gold_point: 7,
     silver_point: 5,
     bronze_point: 3,
