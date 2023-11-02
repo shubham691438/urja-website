@@ -117,7 +117,7 @@ const ResultsSportsGrid = () => {
             data-aos="zoom-in"
             data-aos-delay="300"
           >
-            <Link to="/matches/tennis" className="w-100 text-decoration-none">
+            <Link to="/matches/tableTennis" className="w-100 text-decoration-none">
               <div className="icon-box w-100">
                 <div className="icon">
                   <img src={Tennis} alt="Tennis"></img>
@@ -133,7 +133,7 @@ const ResultsSportsGrid = () => {
             data-aos="zoom-in"
             data-aos-delay="300"
           >
-            <Link to="/matches/tennis" className="w-100 text-decoration-none">
+            <Link to="/matches/lawnTennis" className="w-100 text-decoration-none">
               <div className="icon-box w-100">
                 <div className="icon">
                   <img src={Tennis} alt="Tennis"></img>
