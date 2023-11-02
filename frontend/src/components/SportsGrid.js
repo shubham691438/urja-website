@@ -10,16 +10,19 @@ import HockeyLogo from "../assets/images/hockeyLogo.png";
 import Athlete from "../assets/images/Athlete.png";
 import Tennis from "../assets/images/TennisPlayer.png";
 import VolleyballIcon from "../assets/images/VolleyballIcon.png";
+import YogaLogo from "../assets/images/YogaLogo.png";
 import { Link } from "react-router-dom";
-import AnimatedHeading from "../components/AnimatedHeading"
+import AnimatedHeading from "../components/AnimatedHeading";
 
 const SportsGrid = () => {
   return (
     <section id="services" className="services section-bg mt-5">
       <div className="container " data-aos="fade-up">
-      <div className="col-12 title-section">
-        <h2 ><AnimatedHeading heading="Sports"/></h2>
-      </div>
+        <div className="col-12 title-section">
+          <h2>
+            <AnimatedHeading heading="Sports" />
+          </h2>
+        </div>
         <div className="row mt-3">
           {/*<Slide> */}
           <div className="col-xl-3 col-md-6 d-flex align-items-stretch">
@@ -118,7 +121,10 @@ const SportsGrid = () => {
             data-aos="zoom-in"
             data-aos-delay="300"
           >
-            <Link to="/sports/tableTennis" className="w-100 text-decoration-none">
+            <Link
+              to="/sports/tableTennis"
+              className="w-100 text-decoration-none"
+            >
               <div className="icon-box w-100">
                 <div className="icon">
                   <img src={Tennis} alt="Tennis"></img>
@@ -167,7 +173,6 @@ const SportsGrid = () => {
             </Link>
           </div>
           {/*</Slide> */}
-
           {/*<Slide> */}
           <div
             className="col-xl-3 col-md-6 mt-4 d-flex align-items-stretch"
@@ -180,15 +185,30 @@ const SportsGrid = () => {
             >
               <div className="icon-box w-100 px-5">
                 <div className="icon">
-                  <img src={VolleyballIcon} alt="Chess"></img>
+                  <img src={VolleyballIcon} alt="Volleyball"></img>
                 </div>
                 <h4>Volleyball</h4>
               </div>
             </Link>
           </div>
           {/*</Slide> */}
-        </div>  
-        
+          {/*<Slide> */}
+          <div
+            className="col-xl-3 col-md-6 mt-4 d-flex align-items-stretch"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <Link to="/sports/yoga" className="w-100 text-decoration-none">
+              <div className="icon-box w-100 px-5">
+                <div className="icon">
+                  <img src={YogaLogo} alt="Yoga"></img>
+                </div>
+                <h4>Yoga</h4>
+              </div>
+            </Link>
+          </div>
+          {/*</Slide> */}
+        </div>
       </div>
     </section>
   );

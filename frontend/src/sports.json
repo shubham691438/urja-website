@@ -44,7 +44,7 @@
     "position2": "Vice-Captain",
     "coordinator1_image": "https://i.ibb.co/SXGhFKD/asaw.jpg",
     "coordinator2_image": "https://i.ibb.co/SXGhFKD/asaw.jpg",
-    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "boysMatchSchedule": "https://i.ibb.co/rkbygQc/Cricket-B-2.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "football": {
@@ -109,8 +109,8 @@
     "position2": "Girl's Captain",
     "coordinator1_image": "https://i.ibb.co/gzvKTZL/badminton-1-1-1-1.jpg",
     "coordinator2_image": "https://i.ibb.co/8bnWDYd/badminton-2-1-1.jpg",
-    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
-    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+    "boysMatchSchedule": "https://i.ibb.co/PgwPx69/Badminton-B-1.png",
+    "girlsMatchSchedule": "https://i.ibb.co/HVjZGNz/Badminton-G-1.png"
   },
   "basketball": {
     "title": "BASKETBALL",
@@ -175,7 +175,7 @@
     "position2": "Vice-Captain",
     "coordinator1_image": "https://i.ibb.co/WkP8ZqM/Hockey-1-1-1-1.jpg",
     "coordinator2_image": "https://i.ibb.co/xhCF0qF/Hockey-2-1-1.jpg",
-    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
+    "boysMatchSchedule": "https://i.ibb.co/b5yQ0bs/Hockey-B-1.png",
     "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   },
   "athletic": {
@@ -253,8 +253,8 @@
     "position2": "Vice-Captain",
     "coordinator1_image": "https://i.ibb.co/rcTCXYy/Lawn-Tennis-1-1.jpg",
     "coordinator2_image": " https://i.ibb.co/SXGhFKD/asaw.jpg",
-    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
-    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+    "boysMatchSchedule": "https://i.ibb.co/qRyQjz5/Lawn-Tennis-B-1.png",
+    "girlsMatchSchedule": "https://i.ibb.co/vY4b4bs/Lawn-Tennis-G-1.png"
   },
 
   "chess": {
@@ -284,8 +284,8 @@
     "position2": "Girl's Captain",
     "coordinator1_image": "https://i.ibb.co/4NJp1mm/Prashant-Raj-chess-1-1-1.jpg",
     "coordinator2_image": "https://i.ibb.co/3h5VN4w/chess-2-Prerna-Pan-1-1.jpg",
-    "boysMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png",
-    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
+    "boysMatchSchedule": "https://i.ibb.co/XDmwBpc/Chess-B-1.png",
+    "girlsMatchSchedule": "https://i.ibb.co/xszpsBg/Chess-G-1.png"
   },
   "volleyBall": {
     "title": "VOLLEYBALL",
@@ -309,5 +309,58 @@
     "coordinator2_image": "https://i.ibb.co/HqwM9nB/volleyball-2-1.jpg",
     "boysMatchSchedule": "https://i.ibb.co/zb48Wg9/volleyball-schedule.jpg",
     "girlsMatchSchedule": "https://i.ibb.co/QkmKJ1S/volleyball-schedule-girls.jpg"
+  },
+
+  "yoga": {
+    "title": "YOGA",
+    "quote": "YOGA is the journey of the self, through the self, to the self - The Bhagavad Gita",
+
+    "description": "In a groundbreaking announcement, this year NIT Jamshedpur has proudly introduced yoga as an official sport at Urja '24, its prestigious sports fest. Urja, known for its exhilarating showcase of athletic prowess, has always celebrated a diverse range of sports. From cricket to football, athletics to badminton, the festival has been a melting pot of sporting talent. However, this year, the inclusion of yoga boldly as a sport is set to transform the event into a holistic celebration of physical and mental well-being.",
+
+    "rules": [
+      "Students participating in Urja '24 will now have the opportunity to showcase their yoga skills and compete in various categories. Students should have to perform Surya Namaskar, 4 Compulsory asanas, and one optional asana. The categories of the competition along with the list of asanas are mentioned below:",
+      "Categories:",
+      "(I) Surya Namaskar - 20 points",
+      "(II) Compulsory Asanas:",
+      "1. Paschimottanasana/Paadahastasana - 10 points",
+      "2. Purna Dhanurasana /chakrasana - 10 points",
+      "3. Sarvangasana - 10 points",
+      "4. Karna Pidasana - 10 points",
+      "(III) Optional asana: It can be any one asana from the below-mentioned list - 20 points",
+      "List of optional asanas for boys:",
+      "1. Mayurasana",
+      "2. Padmabakasana (Urdhava Kukkutasana)",
+      "3. Hanumanasana",
+      "4. Tittiabhasana",
+      "5. Purna Chakrasana",
+      "6. Setubandha Sarvangasana",
+      "7. Vrischikasana",
+      "8. Purna Shalbhasana",
+      "List of optional asanas for girls:",
+      "1. Vatayanasana",
+      "2. Purna Bhujangasana",
+      "3. Purna Matsyendrasana",
+      "4. Ekapada Shirasana.",
+      "5. Ardha Baddha Padmottanasana",
+      "6. Vibaktha Paschimottanasana",
+      "7. Natarajasana",
+      "8. Ekapada Rajkapotasana",
+      "Each branch's collective score will be determined based on the performance of its team of five, which can be all boys, all girls, or a mix of both.",
+      "The branch with the highest total score among its teams will receive 10 points, the second-highest will receive 7 points, and the third-highest will receive 5 points.",
+      "Marking Criteria:",
+      "1st Place Branch Team: 10 points",
+      "2nd Place Branch Team: 7 points",
+      "3rd Place Branch Team: 5 points"
+    ],
+
+    "coordinator_Name1": "Co-ordinator 1",
+    "position1": "Captain",
+    "coordinator_Name2": "Co-ordinator 2",
+
+    "position2": "Vice-Captain",
+    "coordinator1_image": "https://i.ibb.co/SXGhFKD/asaw.jpgg",
+    "coordinator2_image": "https://i.ibb.co/SXGhFKD/asaw.jpg",
+    "boysMatchSchedule": "https://i.ibb.co/M1rLch0/Yoga2-1.png",
+    "girlsMatchSchedule": "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
   }
 }
