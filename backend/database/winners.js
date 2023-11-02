@@ -6,6 +6,10 @@ const schema = new mongoose.Schema(
     sport: String,
     gender: String,
     position: Number,
+    createdAt: {
+      type: Date,
+      default: Date.now
+    }
   },
   { collection: "winners" }
 );

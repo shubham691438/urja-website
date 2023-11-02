@@ -9,7 +9,10 @@ const schema = new mongoose.Schema(
     team2: String,
     score: String,
     result: String,
-    
+    createdAt: {
+      type: Date,
+      default: Date.now
+    }
   },
   { collection: "results" }
 );
