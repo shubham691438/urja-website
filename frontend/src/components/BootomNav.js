@@ -4,7 +4,6 @@ import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import LeaderboardIcon from "@mui/icons-material/Leaderboard";
 import HomeIcon from "@mui/icons-material/Home";
-import ScoreboardIcon from "@mui/icons-material/Scoreboard";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { Link, useLocation } from "react-router-dom";
 
@@ -105,7 +104,7 @@ export default function SimpleBottomNavigation() {
           label="Points Table"
           onMouseEnter={() => setValue(4)}
           icon={
-            <ScoreboardIcon
+            <LeaderboardIcon
               style={{
                 color:
                   value === 4 || location.pathname === "/points"
