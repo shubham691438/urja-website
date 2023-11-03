@@ -3,7 +3,7 @@ import Trophy from '@mui/icons-material/EmojiEvents';
 import { Button, Link } from "@mui/material";
 
 const HomePointsTable = () => {
-
+  
   const [points, setPoints] = useState([]);
 
   useEffect(() => {
