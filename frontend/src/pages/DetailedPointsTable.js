@@ -49,7 +49,7 @@ function Points() {
         <div className="col-lg-12">
           <div className="widget-next-match">
             <div className="table-responsive">
-                <table className="table custom-table">
+                <table className="table table-bordered table-hover custom-table">
                   <thead>
                     <tr>
                       <th>Sport</th>
