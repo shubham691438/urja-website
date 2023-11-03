@@ -30,8 +30,14 @@ exports.updateMedalInfo = async (req, res) => {
 exports.getMedalInfo = async (req, res) => {
   try {
     const medals = await Medals.find();
+
+    if (!medals) {
+      return res.status(404).json({ message: 'No medals found', success: false });
+    }
+
     res.status(200).json({ medals, success: true });
   } catch (err) {
-    res.status(500).json({ message: err.message });
+    console.error('Error:', err);
+    res.status(500).json({ message: 'Internal server error', success: false });
   }
 };
