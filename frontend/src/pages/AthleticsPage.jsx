@@ -55,8 +55,8 @@ const AtheleticsPage = () => {
                 <table className="table custom-table">
                     <thead>
                     <tr>
-                        <th>Sport Name</th>
-                        <th>Finals</th>
+                        <th style={{minWidth:'150px'}}>Sport Name</th>
+                        <th style={{minWidth:'150px'}}>Finals</th>
                         <th>Gold</th>
                         <th>Silver</th>
                         <th>Bronze</th>

@@ -11,7 +11,7 @@ const Layout = () => {
     // Simulate a 1-second loading time
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 1500);
 
     // Clean up the timer on component unmount
     return () => clearTimeout(timer);
