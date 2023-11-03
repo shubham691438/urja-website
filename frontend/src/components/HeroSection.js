@@ -19,25 +19,6 @@ export const HeroSection = () => {
   const imageUrl1 =GetBranchIcon("pie-ecm")
   const imageUrl2 = GetBranchIcon("me")
 
-
-
-  const backendUrl = process.env.REACT_APP_BACKEND_URL
-  const [data, setData] = useState([{}]);
-
-  async function getData() {
-    
-    let d = await fetch(backendUrl+"/api/matches/latestMatches", {
-      method: "get",
-    });
-    d = await d.json();
-    console.log(d.data[0]);
-    setData(d.data);
-  }
-
-  useEffect(() => {
-    getData();
-  }, []);
-
   return (
     <>
       <div
@@ -56,7 +37,6 @@ export const HeroSection = () => {
                 <p>
                   <Link to="/matches"
                     className="btn btn-danger py-3 px-4 mr-3 "
-                    backgroundColor="#ee1e46"
                   >
 
                     Matches
@@ -82,8 +62,8 @@ export const HeroSection = () => {
           
             <div className="row">
             
-            <div class="d-flex justify-content-center mb-5" style={{zIndex:999}}>
-              <h3><span class="badge badge-danger">Men Volleyball Final</span></h3>
+            <div className="d-flex justify-content-center mb-5" style={{zIndex:999}}>
+              <h3><span className="badge badge-danger">Men Volleyball Final</span></h3>
             </div>
               <div className="col-lg-12">
                 <div className="d-flex team-vs">

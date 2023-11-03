@@ -17,7 +17,7 @@ const HomePointsTable = () => {
 
   useEffect(() => {
     getData();
-  }, [data]);
+  }, []);
 
   return (
     <div className="col-lg-12">
