@@ -13,7 +13,21 @@ function PointsTable() {
     fontFamily: "'Alfa Slab One', cursive",
     color: "white",
   };
-
+  const matchData = [
+    {
+      game: "100m BOYS",
+      scores: {
+        cse: 0,
+        ece: 0,
+        ee: 0,
+        me: 0,
+        ce: 0,
+        mme: 0,
+        pie: 0,
+        pg: 0,
+      },
+    },
+  ];
   return (
     <div
       className="col-lg-12"
@@ -61,7 +75,9 @@ function PointsTable() {
               </TableCell>
             </TableRow>
           </TableHead>
-          <PointsRow game={"100m BOYS"} />
+          {matchData.map((match, index) => {
+            return <PointsRow key={index} {...match} />;
+          })}
         </Table>
       </TableContainer>
     </div>
