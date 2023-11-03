@@ -3,8 +3,6 @@ import Trophy from '@mui/icons-material/EmojiEvents';
 import { Button, Link } from "@mui/material";
 
 const HomePointsTable = () => {
-  const [data, setData] = useState([]);
-  const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
   const [points, setPoints] = useState([]);
 
