@@ -1,8 +1,9 @@
 import React from "react";
 import logo from "../assets/images/logo.png";
-import { Link } from "react-router-dom";
-
+import { Link, useLocation } from "react-router-dom";
 const Navbar = () => {
+  const location = useLocation();
+  // const [current, setCurrent] = useState(location.pathname);
   return (
     <>
       {/* <div className="site-mobile-menu site-navbar-target">
@@ -35,18 +36,30 @@ const Navbar = () => {
                 role="navigation"
               >
                 <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                  <li className="active">
+                  <li className={location.pathname === "/" ? "active" : null}>
                     <Link to="/">Home</Link>
                   </li>
 
-                  <li>
+                  <li
+                    className={
+                      location.pathname === "/matches" ? "active" : null
+                    }
+                  >
                     <Link to="/matches">Matches</Link>
                   </li>
 
-                  <li>
+                  <li
+                    className={
+                      location.pathname === "/our-team" ? "active" : null
+                    }
+                  >
                     <Link to="/our-team">Our Team</Link>
                   </li>
-                  <li>
+                  <li
+                    className={
+                      location.pathname === "/points" ? "active" : null
+                    }
+                  >
                     <Link to="/points">Detailed Points Table</Link>
                   </li>
                 </ul>
