@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
   return (
     <>
@@ -14,7 +13,7 @@ const Navbar = () => {
         </div>
         <div className="site-mobile-menu-body"></div>
       </div> */}
-   
+
       <header className="site-navbar py-4" role="banner">
         <div className="container">
           <div className="d-flex align-items-center">
@@ -39,13 +38,16 @@ const Navbar = () => {
                   <li className="active">
                     <Link to="/">Home</Link>
                   </li>
-                  
+
                   <li>
                     <Link to="/matches">Matches</Link>
                   </li>
-                  
+
                   <li>
                     <Link to="/our-team">Our Team</Link>
+                  </li>
+                  <li>
+                    <Link to="/points">Points</Link>
                   </li>
                 </ul>
               </nav>
