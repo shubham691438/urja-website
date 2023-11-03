@@ -5,6 +5,7 @@ import SportsCoordinator from '../components/SportsCoordinator'
 import { HeroSection } from '../components/HeroSection'
 import anubhavImg from '../assets/images/anubhavImg.jpg'
 import ravindraRajImg from '../assets/images/ravindraRajImg.jpeg'
+import GlowingButton from '../components/GlowingButton'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <div className="site-section bg-dark">
       <div className="container">
         <HomePointsTable/>
+        <GlowingButton text="Click for detailed points table" toLink='/points'/>
         <SportsGrid/>
 
         <section className="services section-bg mt-5">
