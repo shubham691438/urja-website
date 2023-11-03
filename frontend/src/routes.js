@@ -5,7 +5,7 @@ import CoreTeam from "./pages/CoreTeam";
 import Matches from "./pages/Matches";
 import SpecificSportMatch from "./pages/SpecificSportMatch";
 import AthleticsPage from "./pages/AthleticsPage";
-import Points from "./pages/Points" ;  
+import DetailedPointsTable from "./pages/DetailedPointsTable" ;  
 const Routes = [
   {
     path: "/",
@@ -29,7 +29,7 @@ const Routes = [
       },
       {
         path: "/points",
-        element: <Points />,
+        element: <DetailedPointsTable />,
       },
       {
         path: "/matches",

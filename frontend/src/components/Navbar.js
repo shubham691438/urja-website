@@ -47,7 +47,7 @@ const Navbar = () => {
                     <Link to="/our-team">Our Team</Link>
                   </li>
                   <li>
-                    <Link to="/points">Points</Link>
+                    <Link to="/points">Detailed Points Table</Link>
                   </li>
                 </ul>
               </nav>
