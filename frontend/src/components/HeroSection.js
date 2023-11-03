@@ -1,10 +1,10 @@
-import React,{useState,useEffect} from "react";
+import React from "react";
 // import { Zoom } from "react-reveal";
-import urja_home_img2 from "../assets/images/urja_home_img2.jpg";
-import logo1 from "../assets/images/logo_1.png";
-import logo2 from "../assets/images/logo_2.png";
-import logo3 from "../assets/images/logo_3.png";
-import logo4 from "../assets/images/logo_4.png";
+// import urja_home_img2 from "../assets/images/urja_home_img2.jpg";
+// import logo1 from "../assets/images/logo_1.png";
+// import logo2 from "../assets/images/logo_2.png";
+// import logo3 from "../assets/images/logo_3.png";
+// import logo4 from "../assets/images/logo_4.png";
 import backgroundImage from "../assets/images/urja_home_img2.jpg";
 import AnimatedHeading from "../components/AnimatedHeading"
 import { Link } from "react-router-dom"
