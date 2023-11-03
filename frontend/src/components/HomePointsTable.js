@@ -29,9 +29,9 @@ const HomePointsTable = () => {
                 <th>Sr. No.</th>
                 <th >Branch</th>
                 <th>POINTS</th>
-                <th>Gold</th>
+                {/* <th>Gold</th>
                 <th>Silver</th>
-                <th>Bronze</th>
+                <th>Bronze</th> */}
               </tr>
             </thead>
             <tbody>
@@ -55,9 +55,9 @@ const HomePointsTable = () => {
                     </strong>
                   </td>
                   <td style={{backgroundColor:"#36454F"}}>{item.points}</td>
-                  <td>{item.gold}</td>
+                  {/* <td>{item.gold}</td>
                   <td>{item.silver}</td>
-                  <td>{item.bronze}</td>
+                  <td>{item.bronze}</td> */}
                 </tr>
               ))}
             </tbody>
