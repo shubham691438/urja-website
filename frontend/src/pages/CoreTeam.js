@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Cards from '../components/Cards';
 import backgroundImage from "../assets/images/bg.jpg";
 import amol from "../assets/images/Amol_sourav.jpeg"
@@ -22,7 +22,10 @@ import anurag from "../assets/images/anurag.jpeg"
 import logo from "../assets/images/logo.png";
 import AnimatedHeading from "../components/AnimatedHeading";
 function CoreTeam() {
-
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
 
     <div >
