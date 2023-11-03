@@ -4,6 +4,7 @@ import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import LeaderboardIcon from "@mui/icons-material/Leaderboard";
 import HomeIcon from "@mui/icons-material/Home";
+import ScoreboardIcon from "@mui/icons-material/Scoreboard";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { Link, useLocation } from "react-router-dom";
 
@@ -74,7 +75,7 @@ export default function SimpleBottomNavigation() {
             textDecoration: "none",
           }}
         />
-        
+
         <BottomNavigationAction
           component={Link}
           to="/our-team"
@@ -93,6 +94,29 @@ export default function SimpleBottomNavigation() {
           style={{
             color:
               value === 3 || location.pathname === "/our-team"
+                ? "white"
+                : "#ee1e46",
+            textDecoration: "none",
+          }}
+        />
+        <BottomNavigationAction
+          component={Link}
+          to="/points"
+          label="Points Table"
+          onMouseEnter={() => setValue(4)}
+          icon={
+            <ScoreboardIcon
+              style={{
+                color:
+                  value === 4 || location.pathname === "/points"
+                    ? "white"
+                    : "#ee1e46",
+              }}
+            />
+          }
+          style={{
+            color:
+              value === 4 || location.pathname === "/points"
                 ? "white"
                 : "#ee1e46",
             textDecoration: "none",
