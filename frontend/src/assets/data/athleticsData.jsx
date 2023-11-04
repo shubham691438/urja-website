@@ -328,7 +328,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals: " 3rd Nov, 10:00",
+    finals: " 3rd Nov, 10:00am",
   },
 ];
 
