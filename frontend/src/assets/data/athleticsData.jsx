@@ -7,7 +7,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "4th Nov, 2:00 pm",
   },
   {
     name: "100m Girls",
@@ -17,7 +17,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "4rd Nov, 2:20 pm ",
   },
   {
     name: "200m Boys",
@@ -27,7 +27,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: " 3rd Nov, 11:30 am",
   },
   {
     name: "200m Girls",
@@ -37,7 +37,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "3rd Nov, 11:45 am ",
   },
   {
     name: "400m Boys",
@@ -47,7 +47,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: " 5th Nov, 9:30 am",
   },
   {
     name: "400m Girls",
@@ -57,7 +57,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "5th Nov, 10:00 am ",
   },
 
   {
@@ -68,7 +68,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:"2nd Nov,3 pm",
+    finals: "2nd Nov, 3:00 pm",
   },
   {
     name: "800m Girls",
@@ -78,7 +78,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:"2nd Nov,3:15 pm",
+    finals: "2nd Nov, 3:15 pm",
   },
   {
     name: "1500m Boys",
@@ -88,7 +88,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "3rd Nov, 3:00 pm ",
   },
   {
     name: "1500m Girls",
@@ -98,7 +98,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "4th Nov, 6:45 am ",
   },
   {
     name: "3000m Boys",
@@ -108,7 +108,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "4th Nov, 6:15 am ",
   },
   {
     name: "3000m Girls",
@@ -118,7 +118,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: " ",
   },
   {
     name: "Long Jump Boys",
@@ -128,7 +128,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "3rd Nov, 2:00 pm ",
   },
   {
     name: "Long Jump Girls",
@@ -138,7 +138,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "3rd Nov, 2:30 pm ",
   },
   {
     name: "Triple Jump Boys",
@@ -148,7 +148,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "  5th Nov, 8:30 am ",
   },
   {
     name: "Triple Jump Girls",
@@ -158,7 +158,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "  5th Nov, 9:00 am ",
   },
   {
     name: "High Jump Boys",
@@ -168,7 +168,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "4th Nov, 9:30 am ",
   },
   {
     name: "Shotput Boys",
@@ -178,7 +178,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: " 4th Nov, 8:10 am",
   },
   {
     name: "Shotput Girls",
@@ -188,7 +188,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "4th Nov, 8:40 am ",
   },
   {
     name: "Javelin Boys",
@@ -198,7 +198,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "3rd Nov, 12:00 pm ",
   },
   {
     name: "Javelin Girls",
@@ -208,7 +208,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "3rd Nov, 12:30 pm ",
   },
   {
     name: "Discus Boys",
@@ -218,7 +218,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:"2nd Nov, 3:30 pm",
+    finals: "2nd Nov, 3:30 pm",
   },
   {
     name: "Discus Girls",
@@ -228,7 +228,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:"2nd Nov, 3:55 pm",
+    finals: "2nd Nov, 3:55 pm",
   },
   {
     name: "4*100 Relay Boys",
@@ -238,7 +238,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: " 5th Nov, 2:00 pm ",
   },
   {
     name: "4*100 Relay Girls",
@@ -248,7 +248,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: " 5th Nov, 2:30 pm ",
   },
   {
     name: "4*400 Relay Boys",
@@ -258,7 +258,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "4th Nov, 3:30 pm ",
   },
   {
     name: "Medley Race",
@@ -268,7 +268,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: " 5th Nov, 3:20 pm  ",
   },
   {
     name: "Mixed Race",
@@ -278,7 +278,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "  5th Nov, 3:00 pm ",
   },
   {
     name: "Tug Of War Boys",
@@ -288,7 +288,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "4rd Nov, 4:00 pm ",
   },
   {
     name: "Tug of War Girls",
@@ -298,7 +298,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: "4rd Nov, 4:00 pm ",
   },
   {
     name: "Cross Country Boys",
@@ -308,7 +308,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: " 5th Nov, 6:15 am ",
   },
   {
     name: "Cross Country Girls",
@@ -318,7 +318,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: " 5th Nov, 6:15 am ",
   },
   {
     name: "Parade",
@@ -328,7 +328,7 @@ const athleticsData = [
     gold_winner: "",
     silver_winner: "",
     bronze_winner: "",
-    finals:" ",
+    finals: " 3rd Nov, 10:00",
   },
 ];
 
